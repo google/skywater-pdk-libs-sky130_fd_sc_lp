@@ -1,0 +1,29 @@
+D	SLEEP_B	NOTIFIER	KAPWR	VGND	VPWR	:	Qtn	:	Qtn+1	Comments
+*	0	?	1	0	1	:	?	:	-	
+?	(?0)	?	1	0	1	:	?	:	-	
+?	(1x)	?	1	0	1	:	?	:	-	
+0	(0x)	?	1	0	1	:	0	:	0	
+1	(0x)	?	1	0	1	:	1	:	1	
+0	(x1)	?	1	0	1	:	?	:	0	
+1	(x1)	?	1	0	1	:	?	:	1	
+(?0)	1	?	1	0	1	:	?	:	0	
+(?1)	1	?	1	0	1	:	?	:	1	
+0	(01)	?	1	0	1	:	?	:	0	
+1	(01)	?	1	0	1	:	?	:	1	
+(?1)	x	?	1	0	1	:	1	:	1	Reducing pessimism.
+(?0)	x	?	1	0	1	:	0	:	0	
+IfDef(functional)	
+?	?	*	1	0	1	:	?	:	-	any change on notifier
+Else	
+?	?	*	1	0	1	:	?	:	x	any change on notifier
+EndIfDef(functional)	
+?	1	?	1	0	(1?)	:	?	:	x	any change on vpwr when not in sleep mode
+?	x	?	1	0	(1?)	:	?	:	x	any change on vpwr when not in sleep mode
+?	?	?	(1?)	?	1	:	?	:	x	any change on kapwr
+?	?	?	?	(0?)	1	:	?	:	x	any change on vgnd
+0	1	?	1	0	(?1)	:	?	:	0	
+1	1	?	1	0	(?1)	:	?	:	1	
+0	1	?	(?1)	0	1	:	?	:	0	
+1	1	?	(?1)	0	1	:	?	:	1	
+0	1	?	1	(?0)	1	:	?	:	0	
+1	1	?	1	(?0)	1	:	?	:	1	

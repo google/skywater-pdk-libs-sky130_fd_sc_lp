@@ -1,0 +1,14 @@
+sky130_fd_sc_lp__a31o_lp	A1:I A2:I A3:I B1:I VGND:I VNB:I VPB:I VPWR:I X:O
+Name	Formula	nd	ng	ns	nb	mname	m	w	l	mult	sa	sb	sd	topography	area	perim
+MMPA0	MOSFET	pndA	A1	VPWR	VPB	phighvt	1	1	0.25	1	0.265	0.265	0.28	normal	0.063	1.14
+MMPA1	MOSFET	pndA	A2	VPWR	VPB	phighvt	1	1	0.25	1	0.265	0.265	0.28	normal	0.063	1.14
+MMPA2	MOSFET	pndA	A3	VPWR	VPB	phighvt	1	1	0.25	1	0.265	0.265	0.28	normal	0.063	1.14
+MMPB0	MOSFET	y	B1	pndA	VPB	phighvt	1	1	0.25	1	0.265	0.265	0.28	normal	0.063	1.14
+MMIPX	MOSFET	X	y	VPWR	VPB	phighvt	1	1	0.25	1	0.265	0.265	0.28	normal	0.063	1.14
+MMNA1	MOSFET	net82	A2	net62	VNB	nshort	1	0.42	0.15	1	0.265	0.265	0.28	normal	0.063	1.14
+MMNB0	MOSFET	y	B1	net58	VNB	nshort	1	0.42	0.15	1	0.265	0.265	0.28	normal	0.063	1.14
+MMINX	MOSFET	X	y	net73	VNB	nshort	1	0.42	0.15	1	0.265	0.265	0.28	normal	0.063	1.14
+MI8	MOSFET	y	A1	net82	VNB	nshort	1	0.42	0.15	1	0.265	0.265	0.28	normal	0.063	1.14
+MI11	MOSFET	net73	y	VGND	VNB	nshort	1	0.42	0.15	1	0.265	0.265	0.28	normal	0.063	1.14
+MI9	MOSFET	net62	A3	VGND	VNB	nshort	1	0.42	0.15	1	0.265	0.265	0.28	normal	0.063	1.14
+MI7	MOSFET	net58	B1	VGND	VNB	nshort	1	0.42	0.15	1	0.265	0.265	0.28	normal	0.063	1.14

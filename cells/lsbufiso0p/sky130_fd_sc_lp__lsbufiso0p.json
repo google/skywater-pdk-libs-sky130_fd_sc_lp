@@ -1,0 +1,200 @@
+{
+  "creator": "Yosys 0.9+2406 (git sha1 46ed0db2, clang 7.0.1-8 -fPIC -Os)",
+  "modules": {
+    "sky130_fd_sc_lp__lsbufiso0p": {
+      "attributes": {
+        "top": 1,
+        "src": "./cells/lsbufiso0p/sky130_fd_sc_lp__lsbufiso0p.functional.v:36.1-58.10"
+      },
+      "ports": {
+        "X": {
+          "direction": "output",
+          "bits": [ 2 ]
+        },
+        "SLEEP": {
+          "direction": "input",
+          "bits": [ 3 ]
+        },
+        "A": {
+          "direction": "input",
+          "bits": [ 4 ]
+        }
+      },
+      "cells": {
+        "$and$./cells/lsbufiso0p/sky130_fd_sc_lp__lsbufiso0p.functional.v:55$2": {
+          "hide_name": 1,
+          "type": "$and",
+          "parameters": {
+            "A_SIGNED": 0,
+            "A_WIDTH": 1,
+            "B_SIGNED": 0,
+            "B_WIDTH": 1,
+            "Y_WIDTH": 1
+          },
+          "attributes": {
+            "src": "./cells/lsbufiso0p/sky130_fd_sc_lp__lsbufiso0p.functional.v:55.40-55.91"
+          },
+          "port_directions": {
+            "A": "input",
+            "B": "input",
+            "Y": "output"
+          },
+          "connections": {
+            "A": [ 5 ],
+            "B": [ 4 ],
+            "Y": [ 6 ]
+          }
+        },
+        "$not$./cells/lsbufiso0p/sky130_fd_sc_lp__lsbufiso0p.functional.v:0$1": {
+          "hide_name": 1,
+          "type": "$not",
+          "parameters": {
+            "A_SIGNED": 0,
+            "A_WIDTH": 1,
+            "Y_WIDTH": 1
+          },
+          "attributes": {
+            "src": "./cells/lsbufiso0p/sky130_fd_sc_lp__lsbufiso0p.functional.v:0.0-0.0"
+          },
+          "port_directions": {
+            "A": "input",
+            "Y": "output"
+          },
+          "connections": {
+            "A": [ 3 ],
+            "Y": [ 5 ]
+          }
+        },
+        "pwrgood_pp0": {
+          "hide_name": 0,
+          "type": "udp_pwrgood_pp$PG",
+          "parameters": {
+          },
+          "attributes": {
+            "module_not_derived": 1,
+            "src": "./cells/lsbufiso0p/sky130_fd_sc_lp__lsbufiso0p.functional.v:56.40-56.91"
+          },
+          "port_directions": {
+            "UDP_IN": "input",
+            "UDP_OUT": "output",
+            "VGND": "input",
+            "VPWR": "input"
+          },
+          "connections": {
+            "UDP_IN": [ 6 ],
+            "UDP_OUT": [ 2 ],
+            "VGND": [ 7 ],
+            "VPWR": [ 8 ]
+          }
+        }
+      },
+      "netnames": {
+        "A": {
+          "hide_name": 0,
+          "bits": [ 4 ],
+          "attributes": {
+            "src": "./cells/lsbufiso0p/sky130_fd_sc_lp__lsbufiso0p.functional.v:45.12-45.13"
+          }
+        },
+        "SLEEP": {
+          "hide_name": 0,
+          "bits": [ 3 ],
+          "attributes": {
+            "src": "./cells/lsbufiso0p/sky130_fd_sc_lp__lsbufiso0p.functional.v:44.12-44.17"
+          }
+        },
+        "X": {
+          "hide_name": 0,
+          "bits": [ 2 ],
+          "attributes": {
+            "src": "./cells/lsbufiso0p/sky130_fd_sc_lp__lsbufiso0p.functional.v:43.12-43.13"
+          }
+        },
+        "and0_out_X": {
+          "hide_name": 0,
+          "bits": [ 6 ],
+          "attributes": {
+            "src": "./cells/lsbufiso0p/sky130_fd_sc_lp__lsbufiso0p.functional.v:49.10-49.20"
+          }
+        },
+        "destpwr": {
+          "hide_name": 0,
+          "bits": [ 8 ],
+          "attributes": {
+            "src": "./cells/lsbufiso0p/sky130_fd_sc_lp__lsbufiso0p.functional.v:50.10-50.17"
+          }
+        },
+        "sleepb": {
+          "hide_name": 0,
+          "bits": [ 5 ],
+          "attributes": {
+            "src": "./cells/lsbufiso0p/sky130_fd_sc_lp__lsbufiso0p.functional.v:48.10-48.16"
+          }
+        },
+        "vgnd": {
+          "hide_name": 0,
+          "bits": [ 7 ],
+          "attributes": {
+            "src": "./cells/lsbufiso0p/sky130_fd_sc_lp__lsbufiso0p.functional.v:51.10-51.14"
+          }
+        }
+      }
+    },
+    "sky130_fd_sc_lp__udp_pwrgood_pp$PG": {
+      "attributes": {
+        "blackbox": 1,
+        "src": "./cells/lsbufiso0p/../../models/udp_pwrgood_pp_pg/./sky130_fd_sc_lp__udp_pwrgood_pp_pg.blackbox.v:36.1-47.10"
+      },
+      "ports": {
+        "UDP_OUT": {
+          "direction": "output",
+          "bits": [ 2 ]
+        },
+        "UDP_IN": {
+          "direction": "input",
+          "bits": [ 3 ]
+        },
+        "VPWR": {
+          "direction": "input",
+          "bits": [ 4 ]
+        },
+        "VGND": {
+          "direction": "input",
+          "bits": [ 5 ]
+        }
+      },
+      "cells": {
+      },
+      "netnames": {
+        "UDP_IN": {
+          "hide_name": 0,
+          "bits": [ 3 ],
+          "attributes": {
+            "src": "./cells/lsbufiso0p/../../models/udp_pwrgood_pp_pg/./sky130_fd_sc_lp__udp_pwrgood_pp_pg.blackbox.v:44.12-44.18"
+          }
+        },
+        "UDP_OUT": {
+          "hide_name": 0,
+          "bits": [ 2 ],
+          "attributes": {
+            "src": "./cells/lsbufiso0p/../../models/udp_pwrgood_pp_pg/./sky130_fd_sc_lp__udp_pwrgood_pp_pg.blackbox.v:43.12-43.19"
+          }
+        },
+        "VGND": {
+          "hide_name": 0,
+          "bits": [ 5 ],
+          "attributes": {
+            "src": "./cells/lsbufiso0p/../../models/udp_pwrgood_pp_pg/./sky130_fd_sc_lp__udp_pwrgood_pp_pg.blackbox.v:46.12-46.16"
+          }
+        },
+        "VPWR": {
+          "hide_name": 0,
+          "bits": [ 4 ],
+          "attributes": {
+            "src": "./cells/lsbufiso0p/../../models/udp_pwrgood_pp_pg/./sky130_fd_sc_lp__udp_pwrgood_pp_pg.blackbox.v:45.12-45.16"
+          }
+        }
+      }
+    }
+  }
+}

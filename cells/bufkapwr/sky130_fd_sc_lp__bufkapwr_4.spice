@@ -1,0 +1,25 @@
+* NGSPICE file created from sky130_fd_sc_lp__bufkapwr_4.ext - technology: sky130A
+
+.subckt sky130_fd_sc_lp__bufkapwr_4 A KAPWR VGND VNB VPB VPWR X
+M1000 KAPWR a_27_47# X VPB phighvt w=1.26e+06u l=150000u
++  ad=1.1466e+12p pd=9.38e+06u as=7.056e+11p ps=6.16e+06u
+M1001 X a_27_47# VGND VNB nshort w=420000u l=150000u
++  ad=2.352e+11p pd=2.8e+06u as=3.801e+11p ps=4.33e+06u
+M1002 X a_27_47# VGND VNB nshort w=420000u l=150000u
++  ad=0p pd=0u as=0p ps=0u
+M1003 KAPWR a_27_47# X VPB phighvt w=1.26e+06u l=150000u
++  ad=0p pd=0u as=0p ps=0u
+M1004 VGND A a_27_47# VNB nshort w=420000u l=150000u
++  ad=0p pd=0u as=1.113e+11p ps=1.37e+06u
+M1005 VGND a_27_47# X VNB nshort w=420000u l=150000u
++  ad=0p pd=0u as=0p ps=0u
+M1006 X a_27_47# KAPWR VPB phighvt w=1.26e+06u l=150000u
++  ad=0p pd=0u as=0p ps=0u
+M1007 VGND a_27_47# X VNB nshort w=420000u l=150000u
++  ad=0p pd=0u as=0p ps=0u
+M1008 X a_27_47# KAPWR VPB phighvt w=1.26e+06u l=150000u
++  ad=0p pd=0u as=0p ps=0u
+M1009 KAPWR A a_27_47# VPB phighvt w=1.26e+06u l=150000u
++  ad=0p pd=0u as=3.339e+11p ps=3.05e+06u
+.ends
+

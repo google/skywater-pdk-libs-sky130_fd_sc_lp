@@ -1,0 +1,45 @@
+* NGSPICE file created from sky130_fd_sc_lp__invkapwr_8.ext - technology: sky130A
+
+.subckt sky130_fd_sc_lp__invkapwr_8 A KAPWR VGND VNB VPB VPWR Y
+M1000 Y A KAPWR VPB phighvt w=1.26e+06u l=150000u
++  ad=2.1168e+12p pd=1.848e+07u as=2.4318e+12p ps=2.15e+07u
+M1001 VGND A Y VNB nshort w=420000u l=150000u
++  ad=5.754e+11p pd=6.94e+06u as=4.704e+11p ps=5.6e+06u
+M1002 VGND A Y VNB nshort w=420000u l=150000u
++  ad=0p pd=0u as=0p ps=0u
+M1003 KAPWR A Y VPB phighvt w=1.26e+06u l=150000u
++  ad=0p pd=0u as=0p ps=0u
+M1004 Y A VGND VNB nshort w=420000u l=150000u
++  ad=0p pd=0u as=0p ps=0u
+M1005 Y A KAPWR VPB phighvt w=1.26e+06u l=150000u
++  ad=0p pd=0u as=0p ps=0u
+M1006 Y A VGND VNB nshort w=420000u l=150000u
++  ad=0p pd=0u as=0p ps=0u
+M1007 KAPWR A Y VPB phighvt w=1.26e+06u l=150000u
++  ad=0p pd=0u as=0p ps=0u
+M1008 KAPWR A Y VPB phighvt w=1.26e+06u l=150000u
++  ad=0p pd=0u as=0p ps=0u
+M1009 Y A VGND VNB nshort w=420000u l=150000u
++  ad=0p pd=0u as=0p ps=0u
+M1010 Y A KAPWR VPB phighvt w=1.26e+06u l=150000u
++  ad=0p pd=0u as=0p ps=0u
+M1011 VGND A Y VNB nshort w=420000u l=150000u
++  ad=0p pd=0u as=0p ps=0u
+M1012 Y A KAPWR VPB phighvt w=1.26e+06u l=150000u
++  ad=0p pd=0u as=0p ps=0u
+M1013 VGND A Y VNB nshort w=420000u l=150000u
++  ad=0p pd=0u as=0p ps=0u
+M1014 KAPWR A Y VPB phighvt w=1.26e+06u l=150000u
++  ad=0p pd=0u as=0p ps=0u
+M1015 KAPWR A Y VPB phighvt w=1.26e+06u l=150000u
++  ad=0p pd=0u as=0p ps=0u
+M1016 KAPWR A Y VPB phighvt w=1.26e+06u l=150000u
++  ad=0p pd=0u as=0p ps=0u
+M1017 Y A KAPWR VPB phighvt w=1.26e+06u l=150000u
++  ad=0p pd=0u as=0p ps=0u
+M1018 Y A VGND VNB nshort w=420000u l=150000u
++  ad=0p pd=0u as=0p ps=0u
+M1019 Y A KAPWR VPB phighvt w=1.26e+06u l=150000u
++  ad=0p pd=0u as=0p ps=0u
+.ends
+

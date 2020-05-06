@@ -1,0 +1,27 @@
+D	CLK	SLEEP_B	NOTIFIER	KAPWR	VGND	VPWR	:	Qt	:	Qt+1	Comments
+1	r	1	?	1	0	1	:	?	:	1	clocked data
+0	r	1	?	1	0	1	:	?	:	0	
+1	(x1)	1	?	1	0	1	:	1	:	1	reducing pessimism
+0	(x1)	1	?	1	0	1	:	0	:	0	
+1	(0x)	1	?	1	0	1	:	1	:	1	
+0	(0x)	1	?	1	0	1	:	0	:	0	
+0	x	1	?	1	0	1	:	0	:	0	Hold when CLK=X and D=Q
+1	x	1	?	1	0	1	:	1	:	1	Hold when CLK=X and D=Q
+?	(?0)	1	?	1	0	1	:	?	:	-	
+*	b	1	?	1	0	1	:	?	:	-	ignore edges on data
+*	?	0	?	1	0	?	:	?	:	-	ignore edges on data
+?	?	0	?	1	0	*	:	?	:	-	Retain state during sleep
+?	*	0	?	1	0	?	:	?	:	-	Retain state during sleep
+?	0	f	?	1	0	1	:	?	:	-	Retain state during sleep
+?	0	r	?	1	0	1	:	?	:	-	Retain state during sleep
+?	1	*	?	1	0	1	:	?	:	x	SLEEPB cannot change unless CLK is low
+?	x	*	?	1	0	1	:	?	:	x	SLEEPB cannot change unless CLK is low
+?	?	*	?	1	0	x	:	?	:	x	SLEEPB cannot change unless VPWR is high
+?	?	*	?	1	0	0	:	?	:	x	SLEEPB cannot change unless VPWR is high
+IfDef(functional)	
+?	?	1	*	1	0	1	:	?	:	-	any change on notifier
+Else	
+?	?	1	*	1	0	1	:	?	:	x	any change on notifier
+EndIfDef(functional)	
+?	?	?	?	*	?	1	:	?	:	x	unknown if kapwr changes
+?	?	?	?	?	*	1	:	?	:	x	unknown if vgnd changes

@@ -1,0 +1,17 @@
+* NGSPICE file created from sky130_fd_sc_lp__bushold0_1.ext - technology: sky130A
+
+.subckt sky130_fd_sc_lp__bushold0_1 RESET VGND VNB VPB VPWR X
+M1000 X RESET VGND VNB nshort w=420000u l=150000u
++  ad=1.176e+11p pd=1.4e+06u as=2.289e+11p ps=2.77e+06u
+M1001 X a_27_535# a_258_535# VPB phighvt w=420000u l=500000u
++  ad=1.113e+11p pd=1.37e+06u as=8.82e+10p ps=1.26e+06u
+M1002 a_258_535# RESET VPWR VPB phighvt w=420000u l=150000u
++  ad=0p pd=0u as=1.365e+11p ps=1.49e+06u
+M1003 VPWR X a_27_535# VPB phighvt w=420000u l=150000u
++  ad=0p pd=0u as=2.226e+11p ps=1.9e+06u
+M1004 VGND a_27_535# X VNB nshort w=420000u l=500000u
++  ad=0p pd=0u as=0p ps=0u
+M1005 VGND X a_27_535# VNB nshort w=420000u l=150000u
++  ad=0p pd=0u as=1.113e+11p ps=1.37e+06u
+.ends
+

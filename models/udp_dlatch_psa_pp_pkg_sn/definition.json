@@ -1,0 +1,65 @@
+{
+ "description": "Positive level sensitive D-type -latch with active low",
+ "file_prefix": "sky130_fd_sc_lp__udp_dlatch_psa_pp_pkg_sn",
+ "library": "sky130_fd_sc_lp",
+ "name": "udp_dlatch$PSa_pp$PKG$sN",
+ "parameters": [],
+ "ports": [
+  [
+   "signal",
+   "Q",
+   "output",
+   ""
+  ],
+  [
+   "signal",
+   "D",
+   "input",
+   ""
+  ],
+  [
+   "signal",
+   "GATE",
+   "input",
+   ""
+  ],
+  [
+   "signal",
+   "SET_ASYNC",
+   "input",
+   ""
+  ],
+  [
+   "signal",
+   "SLEEP_B",
+   "input",
+   ""
+  ],
+  [
+   "signal",
+   "NOTIFIER_REG",
+   "input",
+   ""
+  ],
+  [
+   "signal",
+   "KAPWR",
+   "input",
+   ""
+  ],
+  [
+   "power",
+   "VGND",
+   "input",
+   "supply0"
+  ],
+  [
+   "power",
+   "VPWR",
+   "input",
+   "supply1"
+  ]
+ ],
+ "type": "primitive",
+ "verilog_name": "sky130_fd_sc_lp__udp_dlatch$PSa_pp$PKG$sN"
+}

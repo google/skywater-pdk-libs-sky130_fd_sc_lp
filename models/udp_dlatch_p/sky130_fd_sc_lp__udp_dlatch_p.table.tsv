@@ -1,0 +1,6 @@
+D	GATE	:	Qt	:	Qt+1	Comments
+?	0	:	?	:	-	clock disabled
+0	1	:	?	:	0	clock enabled
+1	1	:	?	:	1	transparent data
+1	x	:	1	:	1	Reducing pessimism.
+0	x	:	0	:	0	

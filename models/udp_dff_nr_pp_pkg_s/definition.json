@@ -1,0 +1,59 @@
+{
+ "description": "Negative edge triggered D flip-flop with active high",
+ "file_prefix": "sky130_fd_sc_lp__udp_dff_nr_pp_pkg_s",
+ "library": "sky130_fd_sc_lp",
+ "name": "udp_dff$NR_pp$PKG$s",
+ "parameters": [],
+ "ports": [
+  [
+   "signal",
+   "Q",
+   "output",
+   ""
+  ],
+  [
+   "signal",
+   "D",
+   "input",
+   ""
+  ],
+  [
+   "signal",
+   "CLK_N",
+   "input",
+   ""
+  ],
+  [
+   "signal",
+   "RESET",
+   "input",
+   ""
+  ],
+  [
+   "signal",
+   "SLEEP_B",
+   "input",
+   ""
+  ],
+  [
+   "signal",
+   "KAPWR",
+   "input",
+   ""
+  ],
+  [
+   "power",
+   "VGND",
+   "input",
+   "supply0"
+  ],
+  [
+   "power",
+   "VPWR",
+   "input",
+   "supply1"
+  ]
+ ],
+ "type": "primitive",
+ "verilog_name": "sky130_fd_sc_lp__udp_dff$NR_pp$PKG$s"
+}

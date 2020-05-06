@@ -1,0 +1,13 @@
+* NGSPICE file created from sky130_fd_sc_lp__sleep_pargate_plv_28.ext - technology: sky130A
+
+.subckt sky130_fd_sc_lp__sleep_pargate_plv_28 VIRTPWR VPWR SLEEP VPB
+M1000 VIRTPWR SLEEP VPWR VPB phighvt w=7e+06u l=150000u
++  ad=5.95e+12p pd=4.37e+07u as=3.92e+12p ps=2.912e+07u
+M1001 VPWR SLEEP VIRTPWR VPB phighvt w=7e+06u l=150000u
++  ad=0p pd=0u as=0p ps=0u
+M1002 VIRTPWR SLEEP VPWR VPB phighvt w=7e+06u l=150000u
++  ad=0p pd=0u as=0p ps=0u
+M1003 VPWR SLEEP VIRTPWR VPB phighvt w=7e+06u l=150000u
++  ad=0p pd=0u as=0p ps=0u
+.ends
+

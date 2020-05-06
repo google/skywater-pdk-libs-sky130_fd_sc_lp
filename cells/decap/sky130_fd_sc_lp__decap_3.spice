@@ -1,0 +1,9 @@
+* NGSPICE file created from sky130_fd_sc_lp__decap_3.ext - technology: sky130A
+
+.subckt sky130_fd_sc_lp__decap_3 VGND VNB VPB VPWR
+M1000 VPWR VGND VPWR VPB phighvt w=1e+06u l=500000u
++  ad=5.6e+11p pd=5.12e+06u as=0p ps=0u
+M1001 VGND VPWR VGND VNB nshort w=550000u l=500000u
++  ad=3.025e+11p pd=3.3e+06u as=0p ps=0u
+.ends
+

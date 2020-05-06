@@ -1,0 +1,47 @@
+{
+ "description": "Bus signal holder (back-to-back inverter) with noninverting reset (gates internal node weak driver).",
+ "file_prefix": "sky130_fd_sc_lp__bushold0",
+ "library": "sky130_fd_sc_lp",
+ "name": "bushold0",
+ "parameters": [],
+ "ports": [
+  [
+   "signal",
+   "X",
+   "inout",
+   ""
+  ],
+  [
+   "signal",
+   "RESET",
+   "input",
+   ""
+  ],
+  [
+   "power",
+   "VPWR",
+   "input",
+   "supply1"
+  ],
+  [
+   "power",
+   "VGND",
+   "input",
+   "supply0"
+  ],
+  [
+   "power",
+   "VPB",
+   "input",
+   "supply1"
+  ],
+  [
+   "power",
+   "VNB",
+   "input",
+   "supply0"
+  ]
+ ],
+ "type": "cell",
+ "verilog_name": "sky130_fd_sc_lp__bushold0"
+}

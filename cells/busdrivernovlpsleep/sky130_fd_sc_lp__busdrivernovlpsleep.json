@@ -1,0 +1,61 @@
+{
+  "creator": "Yosys 0.9+2406 (git sha1 46ed0db2, clang 7.0.1-8 -fPIC -Os)",
+  "modules": {
+    "sky130_fd_sc_lp__busdrivernovlpsleep": {
+      "attributes": {
+        "top": 1,
+        "src": "./cells/busdrivernovlpsleep/sky130_fd_sc_lp__busdrivernovlpsleep.functional.v:34.1-50.10"
+      },
+      "ports": {
+        "Z": {
+          "direction": "output",
+          "bits": [ 2 ]
+        },
+        "A": {
+          "direction": "input",
+          "bits": [ 3 ]
+        },
+        "TE_B": {
+          "direction": "input",
+          "bits": [ 4 ]
+        },
+        "SLEEP": {
+          "direction": "input",
+          "bits": [ 5 ]
+        }
+      },
+      "cells": {
+      },
+      "netnames": {
+        "A": {
+          "hide_name": 0,
+          "bits": [ 3 ],
+          "attributes": {
+            "src": "./cells/busdrivernovlpsleep/sky130_fd_sc_lp__busdrivernovlpsleep.functional.v:43.12-43.13"
+          }
+        },
+        "SLEEP": {
+          "hide_name": 0,
+          "bits": [ 5 ],
+          "attributes": {
+            "src": "./cells/busdrivernovlpsleep/sky130_fd_sc_lp__busdrivernovlpsleep.functional.v:45.12-45.17"
+          }
+        },
+        "TE_B": {
+          "hide_name": 0,
+          "bits": [ 4 ],
+          "attributes": {
+            "src": "./cells/busdrivernovlpsleep/sky130_fd_sc_lp__busdrivernovlpsleep.functional.v:44.12-44.16"
+          }
+        },
+        "Z": {
+          "hide_name": 0,
+          "bits": [ 2 ],
+          "attributes": {
+            "src": "./cells/busdrivernovlpsleep/sky130_fd_sc_lp__busdrivernovlpsleep.functional.v:42.12-42.13"
+          }
+        }
+      }
+    }
+  }
+}

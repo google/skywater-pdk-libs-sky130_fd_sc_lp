@@ -1,0 +1,71 @@
+{
+ "description": "????.",
+ "file_prefix": "sky130_fd_sc_lp__srdlstp",
+ "library": "sky130_fd_sc_lp",
+ "name": "srdlstp",
+ "parameters": [],
+ "ports": [
+  [
+   "signal",
+   "Q",
+   "output",
+   ""
+  ],
+  [
+   "signal",
+   "SET_B",
+   "input",
+   ""
+  ],
+  [
+   "signal",
+   "D",
+   "input",
+   ""
+  ],
+  [
+   "signal",
+   "GATE",
+   "input",
+   ""
+  ],
+  [
+   "signal",
+   "SLEEP_B",
+   "input",
+   ""
+  ],
+  [
+   "power",
+   "KAPWR",
+   "input",
+   "supply1"
+  ],
+  [
+   "power",
+   "VPWR",
+   "input",
+   "supply1"
+  ],
+  [
+   "power",
+   "VGND",
+   "input",
+   "supply0"
+  ],
+  [
+   "power",
+   "VPB",
+   "input",
+   "supply1"
+  ],
+  [
+   "power",
+   "VNB",
+   "input",
+   "supply0"
+  ]
+ ],
+ "type": "cell",
+ "verilog_name": "sky130_fd_sc_lp__srdlstp"
+}

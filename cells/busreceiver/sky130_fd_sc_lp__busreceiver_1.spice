@@ -1,0 +1,13 @@
+* NGSPICE file created from sky130_fd_sc_lp__busreceiver_1.ext - technology: sky130A
+
+.subckt sky130_fd_sc_lp__busreceiver_1 A VGND VNB VPB VPWR X
+M1000 a_70_237# A VPWR VPB phighvt w=640000u l=150000u
++  ad=1.696e+11p pd=1.81e+06u as=3.819e+11p ps=3.2e+06u
+M1001 VGND a_70_237# X VNB nshort w=840000u l=150000u
++  ad=2.541e+11p pd=2.36e+06u as=2.226e+11p ps=2.21e+06u
+M1002 a_70_237# A VGND VNB nshort w=420000u l=150000u
++  ad=1.113e+11p pd=1.37e+06u as=0p ps=0u
+M1003 VPWR a_70_237# X VPB phighvt w=1.26e+06u l=150000u
++  ad=0p pd=0u as=3.339e+11p ps=3.05e+06u
+.ends
+

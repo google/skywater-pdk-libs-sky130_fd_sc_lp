@@ -1,0 +1,83 @@
+{
+ "description": "Scan flop with sleep mode, inverted reset, non-inverted clock, single output.",
+ "file_prefix": "sky130_fd_sc_lp__srsdfrtp",
+ "library": "sky130_fd_sc_lp",
+ "name": "srsdfrtp",
+ "parameters": [],
+ "ports": [
+  [
+   "signal",
+   "Q",
+   "output",
+   ""
+  ],
+  [
+   "signal",
+   "CLK",
+   "input",
+   ""
+  ],
+  [
+   "signal",
+   "D",
+   "input",
+   ""
+  ],
+  [
+   "signal",
+   "SCD",
+   "input",
+   ""
+  ],
+  [
+   "signal",
+   "SCE",
+   "input",
+   ""
+  ],
+  [
+   "signal",
+   "RESET_B",
+   "input",
+   ""
+  ],
+  [
+   "signal",
+   "SLEEP_B",
+   "input",
+   ""
+  ],
+  [
+   "power",
+   "KAPWR",
+   "input",
+   "supply1"
+  ],
+  [
+   "power",
+   "VPWR",
+   "input",
+   "supply1"
+  ],
+  [
+   "power",
+   "VGND",
+   "input",
+   "supply0"
+  ],
+  [
+   "power",
+   "VPB",
+   "input",
+   "supply1"
+  ],
+  [
+   "power",
+   "VNB",
+   "input",
+   "supply0"
+  ]
+ ],
+ "type": "cell",
+ "verilog_name": "sky130_fd_sc_lp__srsdfrtp"
+}

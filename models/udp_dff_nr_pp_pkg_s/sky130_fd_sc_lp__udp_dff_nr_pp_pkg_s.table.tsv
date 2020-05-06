@@ -1,0 +1,30 @@
+D	CLK_N	RESET	SLEEP_B	KAPWR	VGND	VPWR	:	Qt	:	Qt+1	Comments
+?	?	?	0	1	0	?	:	?	:	-	Retain state during sleep
+?	0	0	*	1	0	1	:	?	:	-	Retain state during sleep
+?	0	1	*	1	0	1	:	?	:	-	Retain state during sleep
+?	0	x	*	1	0	1	:	?	:	x	SLEEPB cannot change if clear is unknown
+?	1	?	*	1	0	1	:	?	:	x	SLEEPB cannot change unless CLK is low
+?	x	?	*	1	0	1	:	?	:	x	SLEEPB cannot change unless CLK is low
+?	?	?	*	1	0	x	:	?	:	x	SLEEPB cannot change unless VPWR is high
+?	?	?	*	1	0	0	:	?	:	x	SLEEPB cannot change unless VPWR is high
+1	f	0	1	1	0	1	:	?	:	1	clocked data
+0	f	0	1	1	0	1	:	?	:	0	
+0	f	x	1	1	0	1	:	?	:	0	pessimism
+0	?	x	1	1	0	1	:	0	:	0	pessimism
+1	1	x	1	1	0	1	:	0	:	0	pessimism
+1	x	(?x)	1	1	0	1	:	0	:	0	pessimism
+1	0	(?x)	1	1	0	1	:	0	:	0	pessimism
+x	1	x	1	1	0	1	:	0	:	0	pessimism
+x	x	(?x)	1	1	0	1	:	0	:	0	pessimism
+x	0	(?x)	1	1	0	1	:	0	:	0	pessimism
+1	(x0)	0	1	1	0	1	:	1	:	1	reducing pessimism
+0	(x0)	0	1	1	0	1	:	0	:	0	
+1	(1x)	0	1	1	0	1	:	1	:	1	
+0	(1x)	0	1	1	0	1	:	0	:	0	
+?	?	1	1	1	0	1	:	?	:	0	asynchronous clear
+?	(?1)	?	1	1	0	1	:	?	:	-	ignore riseing clock
+?	(0x)	?	1	1	0	1	:	?	:	-	ignore riseing clock
+*	?	?	1	1	0	1	:	?	:	-	ignore the edges on data
+?	?	(?0)	1	1	0	1	:	?	:	-	ignore the edges on clear
+?	?	?	?	*	?	1	:	?	:	x	any change on kapwr
+?	?	?	?	?	*	1	:	?	:	x	any change on vgnd

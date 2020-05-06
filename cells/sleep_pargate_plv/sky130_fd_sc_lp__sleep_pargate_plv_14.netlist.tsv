@@ -1,0 +1,4 @@
+sky130_fd_sc_lp__sleep_pargate_plv_14	VIRTPWR:? VPWR:? SLEEP:? VPB:?
+Name	Formula	nd	ng	ns	nb	mname	w	l	ad	pd	as	ps
+M1000	MOSFET	VIRTPWR	SLEEP	VPWR	VPB	phighvt	7e+06u	150000u	3.71e+12p	2.906e+07u	1.96e+12p	1.456e+07u
+M1001	MOSFET	VPWR	SLEEP	VIRTPWR	VPB	phighvt	7e+06u	150000u	0p	0u	0p	0u

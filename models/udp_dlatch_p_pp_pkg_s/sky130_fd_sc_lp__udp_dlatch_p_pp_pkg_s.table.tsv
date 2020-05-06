@@ -1,0 +1,21 @@
+D	GATE	SLEEP_B	KAPWR	VGND	VPWR	:	Qtn	:	Qtn+1	Comments
+?	?	0	1	0	?	:	?	:	-	Retain state during sleep
+?	0	*	1	0	1	:	?	:	-	Retain state during sleep
+?	1	*	1	0	1	:	?	:	x	SLEEPB cannot change unless GATE is low
+?	x	*	1	0	1	:	?	:	x	SLEEPB cannot change unless GATE is low
+?	?	*	1	0	x	:	?	:	x	SLEEPB cannot change unless VPWR is high
+?	?	*	1	0	0	:	?	:	x	SLEEPB cannot change unless VPWR is high
+*	0	1	1	0	1	:	?	:	-	
+?	n	1	1	0	1	:	?	:	-	
+0	(0x)	1	1	0	1	:	0	:	0	
+1	(0x)	1	1	0	1	:	1	:	1	
+0	(x1)	1	1	0	1	:	?	:	0	
+1	(x1)	1	1	0	1	:	?	:	1	
+(?0)	1	1	1	0	1	:	?	:	0	
+(?1)	1	1	1	0	1	:	?	:	1	
+0	(01)	1	1	0	1	:	?	:	0	
+1	(01)	1	1	0	1	:	?	:	1	
+(?1)	x	1	1	0	1	:	1	:	1	Reducing pessimism.
+(?0)	x	1	1	0	1	:	0	:	0	
+?	?	?	*	?	1	:	?	:	x	unknown if kapwr changes
+?	?	?	?	*	1	:	?	:	x	unknown if vgnd changes

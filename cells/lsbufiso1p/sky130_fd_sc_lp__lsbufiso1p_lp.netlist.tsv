@@ -1,0 +1,26 @@
+sky130_fd_sc_lp__lsbufiso1p_lp	A:I DESTPWR:I DESTVPB:I SLEEP:I VGND:I VPB:I VPWR:I X:O
+Name	Formula	nd	ng	ns	nb	mname	m	w	l	mult	sa	sb	sd	topography	area	perim
+MI2	MOSFET	cross2	cross1	sndP1a	DESTVPB	phighvt	1	1.0	0.15	1	0.265	0.265	0.28	normal	0.063	1.14
+MI3	MOSFET	cross1	cross2	sndP2a	DESTVPB	phighvt	1	1.0	0.15	1	0.265	0.265	0.28	normal	0.063	1.14
+MI18	MOSFET	sndP1a	cross1	net93	DESTVPB	phighvt	1	1.0	0.15	1	0.265	0.265	0.28	normal	0.063	1.14
+MI20	MOSFET	Ab	A	net89	VPB	phighvt	1	1.0	0.15	1	0.265	0.265	0.28	normal	0.063	1.14
+MI7	MOSFET	net89	A	VPWR	VPB	phighvt	1	1.0	0.15	1	0.265	0.265	0.28	normal	0.063	1.14
+MI15	MOSFET	net82	cross2	DESTPWR	DESTVPB	phighvt	1	1.0	0.15	1	0.265	0.265	0.28	normal	0.063	1.14
+MI34	MOSFET	sleepb	SLEEP	net77	DESTVPB	phighvt	1	1.0	0.15	1	0.265	0.265	0.28	normal	0.063	1.14
+MI33	MOSFET	net77	SLEEP	DESTPWR	DESTVPB	phighvt	1	1.0	0.15	1	0.265	0.265	0.28	normal	0.063	1.14
+MI19	MOSFET	sndP2a	cross2	net93	DESTVPB	phighvt	1	1.0	0.15	1	0.265	0.265	0.28	normal	0.063	1.14
+MI39	MOSFET	net61	sleepb	DESTPWR	DESTVPB	phighvt	1	1.0	0.15	1	0.265	0.265	0.28	normal	0.063	1.14
+MI38	MOSFET	X	sleepb	net61	DESTVPB	phighvt	1	1.0	0.15	1	0.265	0.265	0.28	normal	0.063	1.14
+MI29	MOSFET	net93	SLEEP	DESTPWR	DESTVPB	phighvt	1	1.0	0.15	1	0.265	0.265	0.28	normal	0.063	1.14
+MI24	MOSFET	X	cross2	net82	DESTVPB	phighvt	1	1.0	0.15	1	0.265	0.265	0.28	normal	0.063	1.14
+MI5	MOSFET	cross1	Ab	net114	VGND	nshort	1	0.84	0.15	1	0.265	0.265	0.28	normal	0.063	1.14
+MI4	MOSFET	cross2	A	net118	VGND	nshort	1	0.84	0.15	1	0.265	0.265	0.28	normal	0.063	1.14
+MI8	MOSFET	net138	A	VGND	VGND	nshort	1	0.42	0.15	1	0.265	0.265	0.28	normal	0.063	1.14
+MI16	MOSFET	net134	sleepb	VGND	VGND	nshort	1	0.84	0.15	1	0.265	0.265	0.28	normal	0.063	1.14
+MI36	MOSFET	net130	SLEEP	VGND	VGND	nshort	1	0.42	0.15	1	0.265	0.265	0.28	normal	0.063	1.14
+MI35	MOSFET	sleepb	SLEEP	net130	VGND	nshort	1	0.42	0.15	1	0.265	0.265	0.28	normal	0.063	1.14
+MI23	MOSFET	Ab	A	net138	VGND	nshort	1	0.42	0.15	1	0.265	0.265	0.28	normal	0.063	1.14
+MI21	MOSFET	net118	A	net117	VGND	nshort	1	0.84	0.15	1	0.265	0.265	0.28	normal	0.063	1.14
+MI22	MOSFET	net114	Ab	net117	VGND	nshort	1	0.84	0.15	1	0.265	0.265	0.28	normal	0.063	1.14
+MI25	MOSFET	X	cross2	net134	VGND	nshort	1	0.84	0.15	1	0.265	0.265	0.28	normal	0.063	1.14
+MI27	MOSFET	net117	sleepb	VGND	VGND	nshort	1	0.84	0.15	1	0.265	0.265	0.28	normal	0.063	1.14

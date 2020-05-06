@@ -1,0 +1,12 @@
+sky130_fd_sc_lp__inputiso0n_lp	A:I SLEEP_B:I VGND:I VNB:I VPB:I VPWR:I X:O
+Name	Formula	nd	ng	ns	nb	mname	m	w	l	mult	sa	sb	sd	topography	area	perim
+MI14	MOSFET	X	net52	net36	VNB	nshort	1	0.42	0.15	1	0.265	0.265	0.28	normal	0.063	1.14
+MMN0	MOSFET	net52	A	sndA	VNB	nshort	1	0.42	0.15	1	0.265	0.265	0.28	normal	0.063	1.14
+MI13	MOSFET	sndA	SLEEP_B	VGND	VNB	nshort	1	0.42	0.15	1	0.265	0.265	0.28	normal	0.063	1.14
+MI20	MOSFET	net36	net52	VGND	VNB	nshort	1	0.42	0.15	1	0.265	0.265	0.28	normal	0.063	1.14
+MMP1	MOSFET	net55	SLEEP_B	VPWR	VPB	phighvt	1	0.42	0.15	1	0.265	0.265	0.28	normal	0.063	1.14
+MI12	MOSFET	net59	net52	VPWR	VPB	phighvt	1	1.26	0.15	1	0.265	0.265	0.28	normal	0.063	1.14
+MI11	MOSFET	net51	A	VPWR	VPB	phighvt	1	0.42	0.15	1	0.265	0.265	0.28	normal	0.063	1.14
+MI19	MOSFET	X	net52	net59	VPB	phighvt	1	1.26	0.15	1	0.265	0.265	0.28	normal	0.063	1.14
+MI18	MOSFET	net52	SLEEP_B	net55	VPB	phighvt	1	0.42	0.15	1	0.265	0.265	0.28	normal	0.063	1.14
+MI17	MOSFET	net52	A	net51	VPB	phighvt	1	0.42	0.15	1	0.265	0.265	0.28	normal	0.063	1.14

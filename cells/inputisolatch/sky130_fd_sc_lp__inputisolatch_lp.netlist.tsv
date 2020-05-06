@@ -1,0 +1,22 @@
+sky130_fd_sc_lp__inputisolatch_lp	D:I SLEEP_B:I VGND:I VNB:I VPB:I VPWR:I Q:O
+Name	Formula	nd	ng	ns	nb	mname	m	w	l	mult	sa	sb	sd	topography	area	perim
+MI673	MOSFET	net81	net46	net80	VNB	nshort	1	0.42	0.15	1	0.265	0.265	0.28	normal	0.063	1.14
+MI677	MOSFET	Q	s0	net49	VNB	nshort	1	0.42	0.15	1	0.265	0.265	0.28	normal	0.063	1.14
+MI636	MOSFET	sleepneg	sleeppos	VGND	VNB	nshort	1	0.42	0.15	1	0.265	0.265	0.28	normal	0.063	1.14
+MI674	MOSFET	net46	s0	net68	VNB	nshort	1	0.42	0.15	1	0.265	0.265	0.28	normal	0.063	1.14
+MI19	MOSFET	s0	sleepneg	net61	VNB	nshort	1	0.42	0.15	1	0.265	0.265	0.28	normal	0.063	1.14
+MI20	MOSFET	net61	D	VGND	VNB	nshort	1	0.42	0.15	1	0.265	0.265	0.28	normal	0.063	1.14
+MI656	MOSFET	net68	s0	VGND	VNB	nshort	1	0.42	0.15	1	0.265	0.265	0.28	normal	0.063	1.14
+MI655	MOSFET	s0	sleeppos	net81	VNB	nshort	1	0.42	0.15	1	0.265	0.265	0.28	normal	0.063	1.14
+MI652	MOSFET	net49	s0	VGND	VNB	nshort	1	0.42	0.15	1	0.265	0.265	0.28	normal	0.063	1.14
+MI654	MOSFET	net80	net46	VGND	VNB	nshort	1	0.42	0.15	1	0.265	0.265	0.28	normal	0.063	1.14
+MI671	MOSFET	net41	SLEEP_B	VGND	VNB	nshort	1	0.42	0.15	1	0.265	0.265	0.28	normal	0.063	1.14
+MI670	MOSFET	sleeppos	SLEEP_B	net41	VNB	nshort	1	0.42	0.15	1	0.265	0.265	0.28	normal	0.063	1.14
+MI643	MOSFET	sleeppos	SLEEP_B	VPWR	VPB	phighvt	1	0.64	0.15	1	0.265	0.265	0.28	normal	0.063	1.14
+MI635	MOSFET	sleepneg	sleeppos	VPWR	VPB	phighvt	1	1.0	0.25	1	0.265	0.265	0.28	normal	0.063	1.14
+MI662	MOSFET	net105	net46	VPWR	VPB	phighvt	1	1.0	0.25	1	0.265	0.265	0.28	normal	0.063	1.14
+MI664	MOSFET	s0	sleepneg	net105	VPB	phighvt	1	1.0	0.25	1	0.265	0.265	0.28	normal	0.063	1.14
+MI658	MOSFET	net46	s0	VPWR	VPB	phighvt	1	1.0	0.25	1	0.265	0.265	0.28	normal	0.063	1.14
+MI663	MOSFET	Q	s0	VPWR	VPB	phighvt	1	1.0	0.25	1	0.265	0.265	0.28	normal	0.063	1.14
+MI17	MOSFET	s0	sleeppos	net88	VPB	phighvt	1	0.42	0.15	1	0.265	0.265	0.28	normal	0.063	1.14
+MI18	MOSFET	net88	D	VPWR	VPB	phighvt	1	0.42	0.15	1	0.265	0.265	0.28	normal	0.063	1.14

@@ -1,0 +1,21 @@
+* NGSPICE file created from sky130_fd_sc_lp__inv_4.ext - technology: sky130A
+
+.subckt sky130_fd_sc_lp__inv_4 A VGND VNB VPB VPWR Y
+M1000 Y A VGND VNB nshort w=840000u l=150000u
++  ad=4.704e+11p pd=4.48e+06u as=6.804e+11p ps=6.66e+06u
+M1001 VGND A Y VNB nshort w=840000u l=150000u
++  ad=0p pd=0u as=0p ps=0u
+M1002 VGND A Y VNB nshort w=840000u l=150000u
++  ad=0p pd=0u as=0p ps=0u
+M1003 VPWR A Y VPB phighvt w=1.26e+06u l=150000u
++  ad=1.0206e+12p pd=9.18e+06u as=7.056e+11p ps=6.16e+06u
+M1004 VPWR A Y VPB phighvt w=1.26e+06u l=150000u
++  ad=0p pd=0u as=0p ps=0u
+M1005 Y A VGND VNB nshort w=840000u l=150000u
++  ad=0p pd=0u as=0p ps=0u
+M1006 Y A VPWR VPB phighvt w=1.26e+06u l=150000u
++  ad=0p pd=0u as=0p ps=0u
+M1007 Y A VPWR VPB phighvt w=1.26e+06u l=150000u
++  ad=0p pd=0u as=0p ps=0u
+.ends
+

@@ -1,0 +1,45 @@
+* NGSPICE file created from sky130_fd_sc_lp__or4bb_4.ext - technology: sky130A
+
+.subckt sky130_fd_sc_lp__or4bb_4 A B C_N D_N VGND VNB VPB VPWR X
+M1000 VPWR a_270_53# X VPB phighvt w=1.26e+06u l=150000u
++  ad=1.4532e+12p pd=1.27e+07u as=7.056e+11p ps=6.16e+06u
+M1001 a_270_53# A VGND VNB nshort w=840000u l=150000u
++  ad=5.208e+11p pd=4.6e+06u as=1.8624e+12p ps=1.354e+07u
+M1002 a_270_53# a_528_27# a_450_367# VPB phighvt w=1.26e+06u l=150000u
++  ad=3.339e+11p pd=3.05e+06u as=4.914e+11p ps=3.3e+06u
+M1003 VGND a_270_53# X VNB nshort w=840000u l=150000u
++  ad=0p pd=0u as=4.704e+11p ps=4.48e+06u
+M1004 a_270_367# A VPWR VPB phighvt w=1.26e+06u l=150000u
++  ad=3.78e+11p pd=3.12e+06u as=0p ps=0u
+M1005 X a_270_53# VPWR VPB phighvt w=1.26e+06u l=150000u
++  ad=0p pd=0u as=0p ps=0u
+M1006 VGND a_270_53# X VNB nshort w=840000u l=150000u
++  ad=0p pd=0u as=0p ps=0u
+M1007 a_270_53# a_79_137# VGND VNB nshort w=840000u l=150000u
++  ad=0p pd=0u as=0p ps=0u
+M1008 a_528_27# D_N VPWR VPB phighvt w=420000u l=150000u
++  ad=1.113e+11p pd=1.37e+06u as=0p ps=0u
+M1009 a_360_367# B a_270_367# VPB phighvt w=1.26e+06u l=150000u
++  ad=3.78e+11p pd=3.12e+06u as=0p ps=0u
+M1010 X a_270_53# VPWR VPB phighvt w=1.26e+06u l=150000u
++  ad=0p pd=0u as=0p ps=0u
+M1011 VGND C_N a_79_137# VNB nshort w=420000u l=150000u
++  ad=0p pd=0u as=1.113e+11p ps=1.37e+06u
+M1012 a_528_27# D_N VGND VNB nshort w=420000u l=150000u
++  ad=1.113e+11p pd=1.37e+06u as=0p ps=0u
+M1013 a_450_367# a_79_137# a_360_367# VPB phighvt w=1.26e+06u l=150000u
++  ad=0p pd=0u as=0p ps=0u
+M1014 VPWR C_N a_79_137# VPB phighvt w=420000u l=150000u
++  ad=0p pd=0u as=1.113e+11p ps=1.37e+06u
+M1015 VGND B a_270_53# VNB nshort w=840000u l=150000u
++  ad=0p pd=0u as=0p ps=0u
+M1016 X a_270_53# VGND VNB nshort w=840000u l=150000u
++  ad=0p pd=0u as=0p ps=0u
+M1017 X a_270_53# VGND VNB nshort w=840000u l=150000u
++  ad=0p pd=0u as=0p ps=0u
+M1018 VGND a_528_27# a_270_53# VNB nshort w=840000u l=150000u
++  ad=0p pd=0u as=0p ps=0u
+M1019 VPWR a_270_53# X VPB phighvt w=1.26e+06u l=150000u
++  ad=0p pd=0u as=0p ps=0u
+.ends
+

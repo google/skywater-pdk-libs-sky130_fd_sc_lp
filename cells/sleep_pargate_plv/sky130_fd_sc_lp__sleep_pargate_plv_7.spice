@@ -1,0 +1,7 @@
+* NGSPICE file created from sky130_fd_sc_lp__sleep_pargate_plv_7.ext - technology: sky130A
+
+.subckt sky130_fd_sc_lp__sleep_pargate_plv_7 VIRTPWR VPWR SLEEP VPB
+M1000 VIRTPWR SLEEP VPWR VPB phighvt w=7e+06u l=150000u
++  ad=1.855e+12p pd=1.453e+07u as=1.855e+12p ps=1.453e+07u
+.ends
+

@@ -1,0 +1,8 @@
+sky130_fd_sc_lp__bushold0_1	RESET:I VGND:I VNB:I VPB:I VPWR:I X:B
+Name	Formula	nd	ng	ns	nb	mname	m	w	l	mult	sa	sb	sd	topography	area	perim
+MMIN1	MOSFET	Ab	X	VGND	VNB	nshort	1	0.42	0.15	1	0.265	0.265	0.28	normal	0.063	1.14
+MMIN2	MOSFET	X	Ab	VGND	VNB	nshort	1	0.42	0.5	1	0.265	0.265	0.28	normal	0.063	1.14
+MI9	MOSFET	X	RESET	VGND	VNB	nshort	1	0.42	0.15	1	0.265	0.265	0.28	normal	0.063	1.14
+MMIP1	MOSFET	Ab	X	VPWR	VPB	phighvt	1	0.42	0.15	1	0.265	0.265	0.28	normal	0.063	1.14
+MMIP2	MOSFET	X	Ab	net038	VPB	phighvt	1	0.42	0.5	1	0.265	0.265	0.28	normal	0.063	1.14
+MI8	MOSFET	net038	RESET	VPWR	VPB	phighvt	1	0.42	0.15	1	0.265	0.265	0.28	normal	0.063	1.14

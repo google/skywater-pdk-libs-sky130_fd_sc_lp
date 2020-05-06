@@ -1,0 +1,79 @@
+* Copyright 2020 The SkyWater PDK Authors
+*
+* Licensed under the Apache License, Version 2.0 (the "License");
+* you may not use this file except in compliance with the License.
+* You may obtain a copy of the License at
+*
+*     https://www.apache.org/licenses/LICENSE-2.0
+*
+* Unless required by applicable law or agreed to in writing, software
+* distributed under the License is distributed on an "AS IS" BASIS,
+* WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
+* See the License for the specific language governing permissions and
+* limitations under the License.
+*
+* SPDX-License-Identifier: Apache-2.0
+
+.SUBCKT sky130_fd_sc_lp__busdrivernovlpsleep_20 A SLEEP TE_B KAPWR VGND VNB VPB VPWR Z
+*.PININFO A:I SLEEP:I TE_B:I KAPWR:I VGND:I VNB:I VPB:I VPWR:I Z:O
+MI33 TE TE_B VNB nshort m=2 w=0.84 l=0.15 mult=1 sa=0.265 sb=0.265
++ sd=0.28 topography=normal area=0.063 perim=1.14
+MI31 TE SLEEP VNB nshort m=2 w=0.84 l=0.15 mult=1 sa=0.265 sb=0.265
++ sd=0.28 topography=normal area=0.063 perim=1.14
+MI28 SLEEPB SLEEP VNB nshort m=1 w=0.42 l=0.15 mult=1 sa=0.265
++ sb=0.265 sd=0.28 topography=normal area=0.063 perim=1.14
+MMN1 Z net145 VNB nshort m=14 w=0.64 l=0.15 mult=1 sa=0.265 sb=0.265
++ sd=0.28 topography=normal area=0.063 perim=1.14
+MI26 net145 TEB_INT VNB nshort m=2 w=0.84 l=0.15 mult=1 sa=0.265
++ sb=0.265 sd=0.28 topography=normal area=0.063 perim=1.14
+MI25 net145 A VNB nshort m=2 w=0.84 l=0.15 mult=1 sa=0.265 sb=0.265
++ sd=0.28 topography=normal area=0.063 perim=1.14
+MI24 net93 A VNB nshort m=2 w=0.84 l=0.15 mult=1 sa=0.265 sb=0.265
++ sd=0.28 topography=normal area=0.063 perim=1.14
+MI23 net89 net90 VNB nshort m=2 w=0.84 l=0.15 mult=1 sa=0.265 sb=0.265
++ sd=0.28 topography=normal area=0.063 perim=1.14
+MI22 net90 TEB_INT VNB nshort m=1 w=0.42 l=0.15 mult=1 sa=0.265
++ sb=0.265 sd=0.28 topography=normal area=0.063 perim=1.14
+MI21 net90 net145 VNB nshort m=1 w=0.42 l=0.15 mult=1 sa=0.265
++ sb=0.265 sd=0.28 topography=normal area=0.063 perim=1.14
+MI13 net146 net89 VNB nshort m=1 w=0.42 l=0.15 mult=1 sa=0.265
++ sb=0.265 sd=0.28 topography=normal area=0.063 perim=1.14
+MI14 net73 TE VNB nshort m=1 w=0.42 l=0.15 mult=1 sa=0.265 sb=0.265
++ sd=0.28 topography=normal area=0.063 perim=1.14
+MI37 TEB_INT TE VNB nshort m=1 w=0.42 l=0.15 mult=1 sa=0.265 sb=0.265
++ sd=0.28 topography=normal area=0.063 perim=1.14
+MI29 net108 SLEEP VNB nshort m=1 w=0.42 l=0.15 mult=1 sa=0.265
++ sb=0.265 sd=0.28 topography=normal area=0.063 perim=1.14
+MI36 TEB_INT TE VPB phighvt m=1 w=0.64 l=0.15 mult=1 sa=0.265 sb=0.265
++ sd=0.28 topography=normal area=0.063 perim=1.14
+MI32 TE TE_B VPB phighvt m=1 w=0.64 l=0.15 mult=1 sa=0.265 sb=0.265
++ sd=0.28 topography=normal area=0.063 perim=1.14
+MI30 net116 SLEEP VPB phighvt m=1 w=0.64 l=0.15 mult=1 sa=0.265
++ sb=0.265 sd=0.28 topography=normal area=0.063 perim=1.14
+MMP0 Z net89 VPB phighvt m=20 w=1.26 l=0.15 mult=1 sa=0.265 sb=0.265
++ sd=0.28 topography=normal area=0.063 perim=1.14
+MI27 SLEEPB SLEEP VPB phighvt m=1 w=1.0 l=0.25 mult=1 sa=0.265
++ sb=0.265 sd=0.28 topography=normal area=0.063 perim=1.14
+MI11 net146 net89 VPB phighvt m=1 w=0.84 l=0.15 mult=1 sa=0.265
++ sb=0.265 sd=0.28 topography=normal area=0.063 perim=1.14
+MI20 net90 net145 VPB phighvt m=1 w=0.84 l=0.15 mult=1 sa=0.265
++ sb=0.265 sd=0.28 topography=normal area=0.063 perim=1.14
+MI39 net148 SLEEP VPB phighvt m=2 w=1.26 l=0.15 mult=1 sa=0.265
++ sb=0.265 sd=0.28 topography=normal area=0.063 perim=1.14
+MI19 net153 TEB_INT VPB phighvt m=1 w=0.84 l=0.15 mult=1 sa=0.265
++ sb=0.265 sd=0.28 topography=normal area=0.063 perim=1.14
+MI10 net89 A VPB phighvt m=2 w=1.26 l=0.15 mult=1 sa=0.265 sb=0.265
++ sd=0.28 topography=normal area=0.063 perim=1.14
+MI18 net145 net146 VPB phighvt m=2 w=1.26 l=0.15 mult=1 sa=0.265
++ sb=0.265 sd=0.28 topography=normal area=0.063 perim=1.14
+MI17 net144 A VPB phighvt m=2 w=1.26 l=0.15 mult=1 sa=0.265 sb=0.265
++ sd=0.28 topography=normal area=0.063 perim=1.14
+MI12 net146 TE VPB phighvt m=1 w=0.84 l=0.15 mult=1 sa=0.265 sb=0.265
++ sd=0.28 topography=normal area=0.063 perim=1.14
+MI9 net89 TE VPB phighvt m=2 w=1.26 l=0.15 mult=1 sa=0.265 sb=0.265
++ sd=0.28 topography=normal area=0.063 perim=1.14
+MI38 net146 SLEEPB VPB phighvt m=2 w=1.26 l=0.15 mult=1 sa=0.265
++ sb=0.265 sd=0.28 topography=normal area=0.063 perim=1.14
+MI40 net136 SLEEP VPB phighvt m=1 w=0.84 l=0.15 mult=1 sa=0.265
++ sb=0.265 sd=0.28 topography=normal area=0.063 perim=1.14
+.ENDS sky130_fd_sc_lp__busdrivernovlpsleep_20

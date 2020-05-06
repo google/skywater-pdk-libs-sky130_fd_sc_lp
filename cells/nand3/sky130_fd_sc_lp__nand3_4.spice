@@ -1,0 +1,53 @@
+* NGSPICE file created from sky130_fd_sc_lp__nand3_4.ext - technology: sky130A
+
+.subckt sky130_fd_sc_lp__nand3_4 A B C VGND VNB VPB VPWR Y
+M1000 Y A VPWR VPB phighvt w=1.26e+06u l=150000u
++  ad=2.1168e+12p pd=1.848e+07u as=2.4696e+12p ps=2.156e+07u
+M1001 VGND C a_460_57# VNB nshort w=840000u l=150000u
++  ad=4.704e+11p pd=4.48e+06u as=9.66e+11p ps=9.02e+06u
+M1002 a_460_57# B a_33_57# VNB nshort w=840000u l=150000u
++  ad=0p pd=0u as=1.1676e+12p ps=1.118e+07u
+M1003 Y C VPWR VPB phighvt w=1.26e+06u l=150000u
++  ad=0p pd=0u as=0p ps=0u
+M1004 Y B VPWR VPB phighvt w=1.26e+06u l=150000u
++  ad=0p pd=0u as=0p ps=0u
+M1005 a_460_57# C VGND VNB nshort w=840000u l=150000u
++  ad=0p pd=0u as=0p ps=0u
+M1006 Y A a_33_57# VNB nshort w=840000u l=150000u
++  ad=4.704e+11p pd=4.48e+06u as=0p ps=0u
+M1007 a_460_57# C VGND VNB nshort w=840000u l=150000u
++  ad=0p pd=0u as=0p ps=0u
+M1008 VPWR C Y VPB phighvt w=1.26e+06u l=150000u
++  ad=0p pd=0u as=0p ps=0u
+M1009 VPWR A Y VPB phighvt w=1.26e+06u l=150000u
++  ad=0p pd=0u as=0p ps=0u
+M1010 a_33_57# B a_460_57# VNB nshort w=840000u l=150000u
++  ad=0p pd=0u as=0p ps=0u
+M1011 VPWR B Y VPB phighvt w=1.26e+06u l=150000u
++  ad=0p pd=0u as=0p ps=0u
+M1012 Y B VPWR VPB phighvt w=1.26e+06u l=150000u
++  ad=0p pd=0u as=0p ps=0u
+M1013 a_33_57# B a_460_57# VNB nshort w=840000u l=150000u
++  ad=0p pd=0u as=0p ps=0u
+M1014 a_33_57# A Y VNB nshort w=840000u l=150000u
++  ad=0p pd=0u as=0p ps=0u
+M1015 VGND C a_460_57# VNB nshort w=840000u l=150000u
++  ad=0p pd=0u as=0p ps=0u
+M1016 VPWR A Y VPB phighvt w=1.26e+06u l=150000u
++  ad=0p pd=0u as=0p ps=0u
+M1017 VPWR C Y VPB phighvt w=1.26e+06u l=150000u
++  ad=0p pd=0u as=0p ps=0u
+M1018 Y A a_33_57# VNB nshort w=840000u l=150000u
++  ad=0p pd=0u as=0p ps=0u
+M1019 a_33_57# A Y VNB nshort w=840000u l=150000u
++  ad=0p pd=0u as=0p ps=0u
+M1020 a_460_57# B a_33_57# VNB nshort w=840000u l=150000u
++  ad=0p pd=0u as=0p ps=0u
+M1021 Y C VPWR VPB phighvt w=1.26e+06u l=150000u
++  ad=0p pd=0u as=0p ps=0u
+M1022 VPWR B Y VPB phighvt w=1.26e+06u l=150000u
++  ad=0p pd=0u as=0p ps=0u
+M1023 Y A VPWR VPB phighvt w=1.26e+06u l=150000u
++  ad=0p pd=0u as=0p ps=0u
+.ends
+

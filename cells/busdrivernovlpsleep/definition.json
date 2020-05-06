@@ -1,0 +1,65 @@
+{
+ "description": "Bus driver, enable gates pulldown only, non-inverted sleep input (on kapwr rail).",
+ "file_prefix": "sky130_fd_sc_lp__busdrivernovlpsleep",
+ "library": "sky130_fd_sc_lp",
+ "name": "busdrivernovlpsleep",
+ "parameters": [],
+ "ports": [
+  [
+   "signal",
+   "Z",
+   "output",
+   ""
+  ],
+  [
+   "signal",
+   "A",
+   "input",
+   ""
+  ],
+  [
+   "signal",
+   "TE_B",
+   "input",
+   ""
+  ],
+  [
+   "signal",
+   "SLEEP",
+   "input",
+   ""
+  ],
+  [
+   "power",
+   "VPWR",
+   "input",
+   "supply1"
+  ],
+  [
+   "power",
+   "VGND",
+   "input",
+   "supply0"
+  ],
+  [
+   "power",
+   "KAPWR",
+   "input",
+   "supply1"
+  ],
+  [
+   "power",
+   "VPB",
+   "input",
+   "supply1"
+  ],
+  [
+   "power",
+   "VNB",
+   "input",
+   "supply0"
+  ]
+ ],
+ "type": "cell",
+ "verilog_name": "sky130_fd_sc_lp__busdrivernovlpsleep"
+}

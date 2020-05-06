@@ -1,0 +1,41 @@
+{
+ "description": "????.",
+ "file_prefix": "sky130_fd_sc_lp__sleep_pargate_plv",
+ "library": "sky130_fd_sc_lp",
+ "name": "sleep_pargate_plv",
+ "parameters": [],
+ "ports": [
+  [
+   "signal",
+   "VIRTPWR",
+   "output",
+   ""
+  ],
+  [
+   "signal",
+   "SLEEP",
+   "input",
+   ""
+  ],
+  [
+   "power",
+   "VPWR",
+   "input",
+   "supply1"
+  ],
+  [
+   "power",
+   "VPB",
+   "input",
+   "supply1"
+  ],
+  [
+   "power",
+   "VNB",
+   "input",
+   "supply0"
+  ]
+ ],
+ "type": "cell",
+ "verilog_name": "sky130_fd_sc_lp__sleep_pargate_plv"
+}

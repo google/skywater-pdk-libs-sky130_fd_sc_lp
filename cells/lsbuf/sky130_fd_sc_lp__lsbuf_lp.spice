@@ -1,0 +1,37 @@
+* NGSPICE file created from sky130_fd_sc_lp__lsbuf_lp.ext - technology: sky130A
+
+.subckt sky130_fd_sc_lp__lsbuf_lp A DESTPWR DESTVPB VGND VPB VPWR X
+M1000 a_712_718# a_193_718# VGND VGND nshort w=840000u l=150000u
++  ad=1.764e+11p pd=2.1e+06u as=5.859e+11p ps=5.86e+06u
+M1001 a_278_47# A a_206_47# VPB phighvt w=1e+06u l=150000u
++  ad=2.65e+11p pd=2.53e+06u as=2.1e+11p ps=2.42e+06u
+M1002 a_246_987# a_278_47# a_434_718# VGND nshort w=840000u l=150000u
++  ad=2.394e+11p pd=2.25e+06u as=1.764e+11p ps=2.1e+06u
+M1003 X a_193_718# a_712_1085# DESTVPB phighvt w=1e+06u l=150000u
++  ad=2.65e+11p pd=2.53e+06u as=2.1e+11p ps=2.42e+06u
+M1004 a_712_1085# a_193_718# DESTPWR DESTVPB phighvt w=1e+06u l=150000u
++  ad=0p pd=0u as=5.65e+11p ps=5.13e+06u
+M1005 VGND A a_276_718# VGND nshort w=840000u l=150000u
++  ad=0p pd=0u as=1.764e+11p ps=2.1e+06u
+M1006 a_434_1085# a_193_718# DESTPWR DESTVPB phighvt w=1e+06u l=150000u
++  ad=2.1e+11p pd=2.42e+06u as=0p ps=0u
+M1007 a_434_718# a_278_47# VGND VGND nshort w=840000u l=150000u
++  ad=0p pd=0u as=0p ps=0u
+M1008 a_278_47# A a_206_446# VGND nshort w=420000u l=150000u
++  ad=1.113e+11p pd=1.37e+06u as=8.82e+10p ps=1.26e+06u
+M1009 a_206_47# A VPWR VPB phighvt w=1e+06u l=150000u
++  ad=0p pd=0u as=2.65e+11p ps=2.53e+06u
+M1010 a_276_718# A a_193_718# VGND nshort w=840000u l=150000u
++  ad=0p pd=0u as=2.226e+11p ps=2.21e+06u
+M1011 a_206_446# A VGND VGND nshort w=420000u l=150000u
++  ad=0p pd=0u as=0p ps=0u
+M1012 a_246_987# a_193_718# a_434_1085# DESTVPB phighvt w=1e+06u l=150000u
++  ad=2.85e+11p pd=2.57e+06u as=0p ps=0u
+M1013 X a_193_718# a_712_718# VGND nshort w=840000u l=150000u
++  ad=2.226e+11p pd=2.21e+06u as=0p ps=0u
+M1014 a_276_1085# a_246_987# a_193_718# DESTVPB phighvt w=1e+06u l=150000u
++  ad=2.1e+11p pd=2.42e+06u as=2.65e+11p ps=2.53e+06u
+M1015 DESTPWR a_246_987# a_276_1085# DESTVPB phighvt w=1e+06u l=150000u
++  ad=0p pd=0u as=0p ps=0u
+.ends
+
