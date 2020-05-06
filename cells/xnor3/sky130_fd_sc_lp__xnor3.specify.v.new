@@ -17,6 +17,7 @@
 */
 
 specify
+// arcs copied from scs8lp_xnor3_1
 if ((!B&!C)) (A +=> X) = (0:0:0,0:0:0);
 if ((!B&C)) (A -=> X) = (0:0:0,0:0:0);
 if ((B&!C)) (A -=> X) = (0:0:0,0:0:0);

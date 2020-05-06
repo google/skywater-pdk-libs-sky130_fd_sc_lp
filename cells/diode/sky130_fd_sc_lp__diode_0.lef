@@ -27,6 +27,7 @@ MACRO sky130_fd_sc_lp__diode_0
   SITE unit ;
   PIN DIODE
     ANTENNADIFFAREA  0.434700 ;
+    ANTENNAGATEAREA  0.000000 ;
     DIRECTION INOUT ;
     PORT
       LAYER li1 ;
