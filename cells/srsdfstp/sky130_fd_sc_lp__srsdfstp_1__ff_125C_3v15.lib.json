@@ -5367,7 +5367,10 @@
   "pin SLEEP_B": {
     "capacitance": 0.006561,
     "clock": "false",
-    "comp_attribute power_gating_pin": "power_pin_1\", \"1",
+    "comp_attribute power_gating_pin": [
+      "power_pin_1",
+      "1"
+    ],
     "direction": "input",
     "max_transition": 1.0,
     "related_ground_pin": "VGND",
