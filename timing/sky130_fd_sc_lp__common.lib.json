@@ -1,12 +1,12 @@
 {
   "bus_naming_style": "%s[%d]",
-  "comp_attribute capacitive_load_unit": [
+  "comp_attribute,capacitive_load_unit": [
     1,
     "pf"
   ],
-  "comp_attribute library_features": "report_delay_calculation",
-  "comp_attribute technology": "cmos",
-  "comp_attribute voltage_map": {
+  "comp_attribute,library_features": "report_delay_calculation",
+  "comp_attribute,technology": "cmos",
+  "comp_attribute,voltage_map": {
     "VGND": 0.0,
     "VNB": 0.0
   },
@@ -24,7 +24,7 @@
   "input_threshold_pct_fall": 50.0,
   "input_threshold_pct_rise": 50.0,
   "leakage_power_unit": "1nW",
-  "lu_table_template delay_template13x10": {
+  "lu_table_template,delay_template13x10": {
     "index_1": [
       1,
       2,
@@ -55,7 +55,7 @@
     "variable_1": "input_net_transition",
     "variable_2": "total_output_net_capacitance"
   },
-  "lu_table_template delay_template13x11": {
+  "lu_table_template,delay_template13x11": {
     "index_1": [
       1,
       2,
@@ -87,7 +87,7 @@
     "variable_1": "input_net_transition",
     "variable_2": "total_output_net_capacitance"
   },
-  "lu_table_template delay_template13x12": {
+  "lu_table_template,delay_template13x12": {
     "index_1": [
       1,
       2,
@@ -120,7 +120,7 @@
     "variable_1": "input_net_transition",
     "variable_2": "total_output_net_capacitance"
   },
-  "lu_table_template delay_template13x13": {
+  "lu_table_template,delay_template13x13": {
     "index_1": [
       1,
       2,
@@ -154,7 +154,7 @@
     "variable_1": "input_net_transition",
     "variable_2": "total_output_net_capacitance"
   },
-  "lu_table_template delay_template13x14": {
+  "lu_table_template,delay_template13x14": {
     "index_1": [
       1,
       2,
@@ -189,7 +189,7 @@
     "variable_1": "input_net_transition",
     "variable_2": "total_output_net_capacitance"
   },
-  "lu_table_template delay_template13x15": {
+  "lu_table_template,delay_template13x15": {
     "index_1": [
       1,
       2,
@@ -225,7 +225,7 @@
     "variable_1": "input_net_transition",
     "variable_2": "total_output_net_capacitance"
   },
-  "lu_table_template delay_template13x16": {
+  "lu_table_template,delay_template13x16": {
     "index_1": [
       1,
       2,
@@ -262,7 +262,7 @@
     "variable_1": "input_net_transition",
     "variable_2": "total_output_net_capacitance"
   },
-  "lu_table_template delay_template13x17": {
+  "lu_table_template,delay_template13x17": {
     "index_1": [
       1,
       2,
@@ -300,7 +300,7 @@
     "variable_1": "input_net_transition",
     "variable_2": "total_output_net_capacitance"
   },
-  "lu_table_template delay_template13x18": {
+  "lu_table_template,delay_template13x18": {
     "index_1": [
       1,
       2,
@@ -339,7 +339,7 @@
     "variable_1": "input_net_transition",
     "variable_2": "total_output_net_capacitance"
   },
-  "lu_table_template delay_template13x19": {
+  "lu_table_template,delay_template13x19": {
     "index_1": [
       1,
       2,
@@ -379,7 +379,7 @@
     "variable_1": "input_net_transition",
     "variable_2": "total_output_net_capacitance"
   },
-  "lu_table_template delay_template13x20": {
+  "lu_table_template,delay_template13x20": {
     "index_1": [
       1,
       2,
@@ -420,7 +420,7 @@
     "variable_1": "input_net_transition",
     "variable_2": "total_output_net_capacitance"
   },
-  "lu_table_template delay_template13x8": {
+  "lu_table_template,delay_template13x8": {
     "index_1": [
       1,
       2,
@@ -449,7 +449,7 @@
     "variable_1": "input_net_transition",
     "variable_2": "total_output_net_capacitance"
   },
-  "lu_table_template delay_template13x9": {
+  "lu_table_template,delay_template13x9": {
     "index_1": [
       1,
       2,
@@ -479,7 +479,7 @@
     "variable_1": "input_net_transition",
     "variable_2": "total_output_net_capacitance"
   },
-  "lu_table_template driver_waveform_template": {
+  "lu_table_template,driver_waveform_template": {
     "index_1": [
       1,
       2
@@ -491,7 +491,7 @@
     "variable_1": "input_net_transition",
     "variable_2": "normalized_voltage"
   },
-  "lu_table_template rr_template10x10": {
+  "lu_table_template,rr_template10x10": {
     "index_1": [
       1,
       2,
@@ -519,7 +519,7 @@
     "variable_1": "constrained_pin_transition",
     "variable_2": "related_pin_transition"
   },
-  "lu_table_template sethold_template_fall10x10": {
+  "lu_table_template,sethold_template_fall10x10": {
     "index_1": [
       1,
       2,
@@ -547,7 +547,7 @@
     "variable_1": "constrained_pin_transition",
     "variable_2": "related_pin_transition"
   },
-  "lu_table_template sethold_template_rise10x10": {
+  "lu_table_template,sethold_template_rise10x10": {
     "index_1": [
       1,
       2,
@@ -575,7 +575,7 @@
     "variable_1": "constrained_pin_transition",
     "variable_2": "related_pin_transition"
   },
-  "lu_table_template vio_10_10_1": {
+  "lu_table_template,vio_10_10_1": {
     "index_1": [
       1,
       2,
@@ -606,7 +606,7 @@
   "nom_process": 1.0,
   "output_threshold_pct_fall": 50.0,
   "output_threshold_pct_rise": 50.0,
-  "power_lut_template hidden_pwr_template13": {
+  "power_lut_template,hidden_pwr_template13": {
     "index_1": [
       1,
       2,
@@ -624,7 +624,7 @@
     ],
     "variable_1": "input_transition_time"
   },
-  "power_lut_template pwr_template13x10": {
+  "power_lut_template,pwr_template13x10": {
     "index_1": [
       1,
       2,
@@ -655,7 +655,7 @@
     "variable_1": "input_transition_time",
     "variable_2": "total_output_net_capacitance"
   },
-  "power_lut_template pwr_template13x11": {
+  "power_lut_template,pwr_template13x11": {
     "index_1": [
       1,
       2,
@@ -687,7 +687,7 @@
     "variable_1": "input_transition_time",
     "variable_2": "total_output_net_capacitance"
   },
-  "power_lut_template pwr_template13x12": {
+  "power_lut_template,pwr_template13x12": {
     "index_1": [
       1,
       2,
@@ -720,7 +720,7 @@
     "variable_1": "input_transition_time",
     "variable_2": "total_output_net_capacitance"
   },
-  "power_lut_template pwr_template13x13": {
+  "power_lut_template,pwr_template13x13": {
     "index_1": [
       1,
       2,
@@ -754,7 +754,7 @@
     "variable_1": "input_transition_time",
     "variable_2": "total_output_net_capacitance"
   },
-  "power_lut_template pwr_template13x14": {
+  "power_lut_template,pwr_template13x14": {
     "index_1": [
       1,
       2,
@@ -789,7 +789,7 @@
     "variable_1": "input_transition_time",
     "variable_2": "total_output_net_capacitance"
   },
-  "power_lut_template pwr_template13x15": {
+  "power_lut_template,pwr_template13x15": {
     "index_1": [
       1,
       2,
@@ -825,7 +825,7 @@
     "variable_1": "input_transition_time",
     "variable_2": "total_output_net_capacitance"
   },
-  "power_lut_template pwr_template13x16": {
+  "power_lut_template,pwr_template13x16": {
     "index_1": [
       1,
       2,
@@ -862,7 +862,7 @@
     "variable_1": "input_transition_time",
     "variable_2": "total_output_net_capacitance"
   },
-  "power_lut_template pwr_template13x17": {
+  "power_lut_template,pwr_template13x17": {
     "index_1": [
       1,
       2,
@@ -900,7 +900,7 @@
     "variable_1": "input_transition_time",
     "variable_2": "total_output_net_capacitance"
   },
-  "power_lut_template pwr_template13x18": {
+  "power_lut_template,pwr_template13x18": {
     "index_1": [
       1,
       2,
@@ -939,7 +939,7 @@
     "variable_1": "input_transition_time",
     "variable_2": "total_output_net_capacitance"
   },
-  "power_lut_template pwr_template13x19": {
+  "power_lut_template,pwr_template13x19": {
     "index_1": [
       1,
       2,
@@ -979,7 +979,7 @@
     "variable_1": "input_transition_time",
     "variable_2": "total_output_net_capacitance"
   },
-  "power_lut_template pwr_template13x20": {
+  "power_lut_template,pwr_template13x20": {
     "index_1": [
       1,
       2,
@@ -1020,7 +1020,7 @@
     "variable_1": "input_transition_time",
     "variable_2": "total_output_net_capacitance"
   },
-  "power_lut_template pwr_template13x8": {
+  "power_lut_template,pwr_template13x8": {
     "index_1": [
       1,
       2,
@@ -1049,7 +1049,7 @@
     "variable_1": "input_transition_time",
     "variable_2": "total_output_net_capacitance"
   },
-  "power_lut_template pwr_template13x9": {
+  "power_lut_template,pwr_template13x9": {
     "index_1": [
       1,
       2,

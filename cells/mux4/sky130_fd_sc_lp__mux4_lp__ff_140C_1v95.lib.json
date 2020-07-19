@@ -1,29 +1,29 @@
 {
   "area": 33.5664,
-  "cell_footprint": "mux4",
+  "cell_footprint": "sky130_fd_sc_lp__mux4",
   "cell_leakage_power": 0.0,
-  "pg_pin VGND": {
+  "pg_pin,VGND": {
     "pg_type": "primary_ground",
     "voltage_name": "VGND"
   },
-  "pg_pin VNB": {
+  "pg_pin,VNB": {
     "pg_type": "primary_ground",
     "voltage_name": "VNB"
   },
-  "pg_pin VPB": {
+  "pg_pin,VPB": {
     "pg_type": "primary_power",
     "voltage_name": "VPB"
   },
-  "pg_pin VPWR": {
+  "pg_pin,VPWR": {
     "pg_type": "primary_power",
     "voltage_name": "VPWR"
   },
-  "pin A0": {
+  "pin,A0": {
     "capacitance": 0.00298,
     "clock": "false",
     "direction": "input",
     "internal_power": {
-      "fall_power hidden_pwr_template13": {
+      "fall_power,hidden_pwr_template13": {
         "index_1": [
           0.001,
           0.00617,
@@ -55,7 +55,7 @@
           0.09025
         ]
       },
-      "rise_power hidden_pwr_template13": {
+      "rise_power,hidden_pwr_template13": {
         "index_1": [
           0.001,
           0.00617,
@@ -92,12 +92,12 @@
     "related_ground_pin": "VGND",
     "related_power_pin": "VPWR"
   },
-  "pin A1": {
+  "pin,A1": {
     "capacitance": 0.00297,
     "clock": "false",
     "direction": "input",
     "internal_power": {
-      "fall_power hidden_pwr_template13": {
+      "fall_power,hidden_pwr_template13": {
         "index_1": [
           0.001,
           0.00617,
@@ -129,7 +129,7 @@
           0.08923
         ]
       },
-      "rise_power hidden_pwr_template13": {
+      "rise_power,hidden_pwr_template13": {
         "index_1": [
           0.001,
           0.00617,
@@ -166,12 +166,12 @@
     "related_ground_pin": "VGND",
     "related_power_pin": "VPWR"
   },
-  "pin A2": {
+  "pin,A2": {
     "capacitance": 0.00284,
     "clock": "false",
     "direction": "input",
     "internal_power": {
-      "fall_power hidden_pwr_template13": {
+      "fall_power,hidden_pwr_template13": {
         "index_1": [
           0.001,
           0.00617,
@@ -203,7 +203,7 @@
           0.06923
         ]
       },
-      "rise_power hidden_pwr_template13": {
+      "rise_power,hidden_pwr_template13": {
         "index_1": [
           0.001,
           0.00617,
@@ -240,12 +240,12 @@
     "related_ground_pin": "VGND",
     "related_power_pin": "VPWR"
   },
-  "pin A3": {
+  "pin,A3": {
     "capacitance": 0.00291,
     "clock": "false",
     "direction": "input",
     "internal_power": {
-      "fall_power hidden_pwr_template13": {
+      "fall_power,hidden_pwr_template13": {
         "index_1": [
           0.001,
           0.00617,
@@ -277,7 +277,7 @@
           0.08367
         ]
       },
-      "rise_power hidden_pwr_template13": {
+      "rise_power,hidden_pwr_template13": {
         "index_1": [
           0.001,
           0.00617,
@@ -314,12 +314,12 @@
     "related_ground_pin": "VGND",
     "related_power_pin": "VPWR"
   },
-  "pin S0": {
+  "pin,S0": {
     "capacitance": 0.01114,
     "clock": "false",
     "direction": "input",
     "internal_power": {
-      "fall_power hidden_pwr_template13": {
+      "fall_power,hidden_pwr_template13": {
         "index_1": [
           0.001,
           0.00617,
@@ -351,7 +351,7 @@
           0.08844
         ]
       },
-      "rise_power hidden_pwr_template13": {
+      "rise_power,hidden_pwr_template13": {
         "index_1": [
           0.001,
           0.00617,
@@ -388,12 +388,12 @@
     "related_ground_pin": "VGND",
     "related_power_pin": "VPWR"
   },
-  "pin S1": {
+  "pin,S1": {
     "capacitance": 0.00742,
     "clock": "false",
     "direction": "input",
     "internal_power": {
-      "fall_power hidden_pwr_template13": {
+      "fall_power,hidden_pwr_template13": {
         "index_1": [
           0.001,
           0.00617,
@@ -425,7 +425,7 @@
           0.09621
         ]
       },
-      "rise_power hidden_pwr_template13": {
+      "rise_power,hidden_pwr_template13": {
         "index_1": [
           0.001,
           0.00617,
@@ -462,12 +462,12 @@
     "related_ground_pin": "VGND",
     "related_power_pin": "VPWR"
   },
-  "pin X": {
+  "pin,X": {
     "direction": "output",
     "function": "(A0&!S0&!S1) | (A1&S0&!S1) | (A2&!S0&S1) | (A3&S0&S1)",
     "internal_power": [
       {
-        "fall_power pwr_template13x17": {
+        "fall_power,pwr_template13x17": {
           "index_1": [
             0.001,
             0.00617,
@@ -753,7 +753,7 @@
           ]
         },
         "related_pin": "A0",
-        "rise_power pwr_template13x17": {
+        "rise_power,pwr_template13x17": {
           "index_1": [
             0.001,
             0.00617,
@@ -1041,7 +1041,7 @@
         "when": "(!S0&!S1)"
       },
       {
-        "fall_power pwr_template13x17": {
+        "fall_power,pwr_template13x17": {
           "index_1": [
             0.001,
             0.00617,
@@ -1327,7 +1327,7 @@
           ]
         },
         "related_pin": "A1",
-        "rise_power pwr_template13x17": {
+        "rise_power,pwr_template13x17": {
           "index_1": [
             0.001,
             0.00617,
@@ -1615,7 +1615,7 @@
         "when": "(S0&!S1)"
       },
       {
-        "fall_power pwr_template13x17": {
+        "fall_power,pwr_template13x17": {
           "index_1": [
             0.001,
             0.00617,
@@ -1901,7 +1901,7 @@
           ]
         },
         "related_pin": "A2",
-        "rise_power pwr_template13x17": {
+        "rise_power,pwr_template13x17": {
           "index_1": [
             0.001,
             0.00617,
@@ -2189,7 +2189,7 @@
         "when": "(!S0&S1)"
       },
       {
-        "fall_power pwr_template13x17": {
+        "fall_power,pwr_template13x17": {
           "index_1": [
             0.001,
             0.00617,
@@ -2475,7 +2475,7 @@
           ]
         },
         "related_pin": "A3",
-        "rise_power pwr_template13x17": {
+        "rise_power,pwr_template13x17": {
           "index_1": [
             0.001,
             0.00617,
@@ -2763,7 +2763,7 @@
         "when": "(S0&S1)"
       },
       {
-        "fall_power pwr_template13x17": {
+        "fall_power,pwr_template13x17": {
           "index_1": [
             0.001,
             0.00617,
@@ -3049,7 +3049,7 @@
           ]
         },
         "related_pin": "S0",
-        "rise_power pwr_template13x17": {
+        "rise_power,pwr_template13x17": {
           "index_1": [
             0.001,
             0.00617,
@@ -3337,7 +3337,7 @@
         "when": "(!A0&A1&!S1) | (!A2&A3&S1)"
       },
       {
-        "fall_power pwr_template13x17": {
+        "fall_power,pwr_template13x17": {
           "index_1": [
             0.001,
             0.00617,
@@ -3623,7 +3623,7 @@
           ]
         },
         "related_pin": "S0",
-        "rise_power pwr_template13x17": {
+        "rise_power,pwr_template13x17": {
           "index_1": [
             0.001,
             0.00617,
@@ -3911,7 +3911,7 @@
         "when": "(A0&!A1&!S1) | (A2&!A3&S1)"
       },
       {
-        "fall_power pwr_template13x17": {
+        "fall_power,pwr_template13x17": {
           "index_1": [
             0.001,
             0.00617,
@@ -4197,7 +4197,7 @@
           ]
         },
         "related_pin": "S1",
-        "rise_power pwr_template13x17": {
+        "rise_power,pwr_template13x17": {
           "index_1": [
             0.001,
             0.00617,
@@ -4485,7 +4485,7 @@
         "when": "(!A0&A2&!S0) | (!A1&A3&S0)"
       },
       {
-        "fall_power pwr_template13x17": {
+        "fall_power,pwr_template13x17": {
           "index_1": [
             0.001,
             0.00617,
@@ -4771,7 +4771,7 @@
           ]
         },
         "related_pin": "S1",
-        "rise_power pwr_template13x17": {
+        "rise_power,pwr_template13x17": {
           "index_1": [
             0.001,
             0.00617,
@@ -5065,7 +5065,7 @@
     "related_power_pin": "VPWR",
     "timing": [
       {
-        "cell_fall delay_template13x17": {
+        "cell_fall,delay_template13x17": {
           "index_1": [
             0.001,
             0.00617,
@@ -5350,7 +5350,7 @@
             ]
           ]
         },
-        "cell_rise delay_template13x17": {
+        "cell_rise,delay_template13x17": {
           "index_1": [
             0.001,
             0.00617,
@@ -5635,7 +5635,7 @@
             ]
           ]
         },
-        "fall_transition delay_template13x17": {
+        "fall_transition,delay_template13x17": {
           "index_1": [
             0.001,
             0.00617,
@@ -5921,7 +5921,7 @@
           ]
         },
         "related_pin": "A0",
-        "rise_transition delay_template13x17": {
+        "rise_transition,delay_template13x17": {
           "index_1": [
             0.001,
             0.00617,
@@ -6211,7 +6211,7 @@
         "when": "(!A1&!A2&!A3&!S0&!S1)"
       },
       {
-        "cell_fall delay_template13x17": {
+        "cell_fall,delay_template13x17": {
           "index_1": [
             0.001,
             0.00617,
@@ -6496,7 +6496,7 @@
             ]
           ]
         },
-        "cell_rise delay_template13x17": {
+        "cell_rise,delay_template13x17": {
           "index_1": [
             0.001,
             0.00617,
@@ -6781,7 +6781,7 @@
             ]
           ]
         },
-        "fall_transition delay_template13x17": {
+        "fall_transition,delay_template13x17": {
           "index_1": [
             0.001,
             0.00617,
@@ -7067,7 +7067,7 @@
           ]
         },
         "related_pin": "A0",
-        "rise_transition delay_template13x17": {
+        "rise_transition,delay_template13x17": {
           "index_1": [
             0.001,
             0.00617,
@@ -7357,7 +7357,7 @@
         "when": "(!A1&!A2&A3&!S0&!S1)"
       },
       {
-        "cell_fall delay_template13x17": {
+        "cell_fall,delay_template13x17": {
           "index_1": [
             0.001,
             0.00617,
@@ -7642,7 +7642,7 @@
             ]
           ]
         },
-        "cell_rise delay_template13x17": {
+        "cell_rise,delay_template13x17": {
           "index_1": [
             0.001,
             0.00617,
@@ -7927,7 +7927,7 @@
             ]
           ]
         },
-        "fall_transition delay_template13x17": {
+        "fall_transition,delay_template13x17": {
           "index_1": [
             0.001,
             0.00617,
@@ -8213,7 +8213,7 @@
           ]
         },
         "related_pin": "A0",
-        "rise_transition delay_template13x17": {
+        "rise_transition,delay_template13x17": {
           "index_1": [
             0.001,
             0.00617,
@@ -8503,7 +8503,7 @@
         "when": "(!A1&A2&!A3&!S0&!S1)"
       },
       {
-        "cell_fall delay_template13x17": {
+        "cell_fall,delay_template13x17": {
           "index_1": [
             0.001,
             0.00617,
@@ -8788,7 +8788,7 @@
             ]
           ]
         },
-        "cell_rise delay_template13x17": {
+        "cell_rise,delay_template13x17": {
           "index_1": [
             0.001,
             0.00617,
@@ -9073,7 +9073,7 @@
             ]
           ]
         },
-        "fall_transition delay_template13x17": {
+        "fall_transition,delay_template13x17": {
           "index_1": [
             0.001,
             0.00617,
@@ -9359,7 +9359,7 @@
           ]
         },
         "related_pin": "A0",
-        "rise_transition delay_template13x17": {
+        "rise_transition,delay_template13x17": {
           "index_1": [
             0.001,
             0.00617,
@@ -9649,7 +9649,7 @@
         "when": "(!A1&A2&A3&!S0&!S1)"
       },
       {
-        "cell_fall delay_template13x17": {
+        "cell_fall,delay_template13x17": {
           "index_1": [
             0.001,
             0.00617,
@@ -9934,7 +9934,7 @@
             ]
           ]
         },
-        "cell_rise delay_template13x17": {
+        "cell_rise,delay_template13x17": {
           "index_1": [
             0.001,
             0.00617,
@@ -10219,7 +10219,7 @@
             ]
           ]
         },
-        "fall_transition delay_template13x17": {
+        "fall_transition,delay_template13x17": {
           "index_1": [
             0.001,
             0.00617,
@@ -10505,7 +10505,7 @@
           ]
         },
         "related_pin": "A0",
-        "rise_transition delay_template13x17": {
+        "rise_transition,delay_template13x17": {
           "index_1": [
             0.001,
             0.00617,
@@ -10795,7 +10795,7 @@
         "when": "(A1&!A2&!A3&!S0&!S1)"
       },
       {
-        "cell_fall delay_template13x17": {
+        "cell_fall,delay_template13x17": {
           "index_1": [
             0.001,
             0.00617,
@@ -11080,7 +11080,7 @@
             ]
           ]
         },
-        "cell_rise delay_template13x17": {
+        "cell_rise,delay_template13x17": {
           "index_1": [
             0.001,
             0.00617,
@@ -11365,7 +11365,7 @@
             ]
           ]
         },
-        "fall_transition delay_template13x17": {
+        "fall_transition,delay_template13x17": {
           "index_1": [
             0.001,
             0.00617,
@@ -11651,7 +11651,7 @@
           ]
         },
         "related_pin": "A0",
-        "rise_transition delay_template13x17": {
+        "rise_transition,delay_template13x17": {
           "index_1": [
             0.001,
             0.00617,
@@ -11941,7 +11941,7 @@
         "when": "(A1&!A2&A3&!S0&!S1)"
       },
       {
-        "cell_fall delay_template13x17": {
+        "cell_fall,delay_template13x17": {
           "index_1": [
             0.001,
             0.00617,
@@ -12226,7 +12226,7 @@
             ]
           ]
         },
-        "cell_rise delay_template13x17": {
+        "cell_rise,delay_template13x17": {
           "index_1": [
             0.001,
             0.00617,
@@ -12511,7 +12511,7 @@
             ]
           ]
         },
-        "fall_transition delay_template13x17": {
+        "fall_transition,delay_template13x17": {
           "index_1": [
             0.001,
             0.00617,
@@ -12797,7 +12797,7 @@
           ]
         },
         "related_pin": "A0",
-        "rise_transition delay_template13x17": {
+        "rise_transition,delay_template13x17": {
           "index_1": [
             0.001,
             0.00617,
@@ -13087,7 +13087,7 @@
         "when": "(A1&A2&!A3&!S0&!S1)"
       },
       {
-        "cell_fall delay_template13x17": {
+        "cell_fall,delay_template13x17": {
           "index_1": [
             0.001,
             0.00617,
@@ -13372,7 +13372,7 @@
             ]
           ]
         },
-        "cell_rise delay_template13x17": {
+        "cell_rise,delay_template13x17": {
           "index_1": [
             0.001,
             0.00617,
@@ -13657,7 +13657,7 @@
             ]
           ]
         },
-        "fall_transition delay_template13x17": {
+        "fall_transition,delay_template13x17": {
           "index_1": [
             0.001,
             0.00617,
@@ -13943,7 +13943,7 @@
           ]
         },
         "related_pin": "A0",
-        "rise_transition delay_template13x17": {
+        "rise_transition,delay_template13x17": {
           "index_1": [
             0.001,
             0.00617,
@@ -14233,7 +14233,7 @@
         "when": "(A1&A2&A3&!S0&!S1)"
       },
       {
-        "cell_fall delay_template13x17": {
+        "cell_fall,delay_template13x17": {
           "index_1": [
             0.001,
             0.00617,
@@ -14518,7 +14518,7 @@
             ]
           ]
         },
-        "cell_rise delay_template13x17": {
+        "cell_rise,delay_template13x17": {
           "index_1": [
             0.001,
             0.00617,
@@ -14803,7 +14803,7 @@
             ]
           ]
         },
-        "fall_transition delay_template13x17": {
+        "fall_transition,delay_template13x17": {
           "index_1": [
             0.001,
             0.00617,
@@ -15089,7 +15089,7 @@
           ]
         },
         "related_pin": "A1",
-        "rise_transition delay_template13x17": {
+        "rise_transition,delay_template13x17": {
           "index_1": [
             0.001,
             0.00617,
@@ -15379,7 +15379,7 @@
         "when": "(!A0&!A2&!A3&S0&!S1)"
       },
       {
-        "cell_fall delay_template13x17": {
+        "cell_fall,delay_template13x17": {
           "index_1": [
             0.001,
             0.00617,
@@ -15664,7 +15664,7 @@
             ]
           ]
         },
-        "cell_rise delay_template13x17": {
+        "cell_rise,delay_template13x17": {
           "index_1": [
             0.001,
             0.00617,
@@ -15949,7 +15949,7 @@
             ]
           ]
         },
-        "fall_transition delay_template13x17": {
+        "fall_transition,delay_template13x17": {
           "index_1": [
             0.001,
             0.00617,
@@ -16235,7 +16235,7 @@
           ]
         },
         "related_pin": "A1",
-        "rise_transition delay_template13x17": {
+        "rise_transition,delay_template13x17": {
           "index_1": [
             0.001,
             0.00617,
@@ -16525,7 +16525,7 @@
         "when": "(!A0&!A2&A3&S0&!S1)"
       },
       {
-        "cell_fall delay_template13x17": {
+        "cell_fall,delay_template13x17": {
           "index_1": [
             0.001,
             0.00617,
@@ -16810,7 +16810,7 @@
             ]
           ]
         },
-        "cell_rise delay_template13x17": {
+        "cell_rise,delay_template13x17": {
           "index_1": [
             0.001,
             0.00617,
@@ -17095,7 +17095,7 @@
             ]
           ]
         },
-        "fall_transition delay_template13x17": {
+        "fall_transition,delay_template13x17": {
           "index_1": [
             0.001,
             0.00617,
@@ -17381,7 +17381,7 @@
           ]
         },
         "related_pin": "A1",
-        "rise_transition delay_template13x17": {
+        "rise_transition,delay_template13x17": {
           "index_1": [
             0.001,
             0.00617,
@@ -17671,7 +17671,7 @@
         "when": "(!A0&A2&!A3&S0&!S1)"
       },
       {
-        "cell_fall delay_template13x17": {
+        "cell_fall,delay_template13x17": {
           "index_1": [
             0.001,
             0.00617,
@@ -17956,7 +17956,7 @@
             ]
           ]
         },
-        "cell_rise delay_template13x17": {
+        "cell_rise,delay_template13x17": {
           "index_1": [
             0.001,
             0.00617,
@@ -18241,7 +18241,7 @@
             ]
           ]
         },
-        "fall_transition delay_template13x17": {
+        "fall_transition,delay_template13x17": {
           "index_1": [
             0.001,
             0.00617,
@@ -18527,7 +18527,7 @@
           ]
         },
         "related_pin": "A1",
-        "rise_transition delay_template13x17": {
+        "rise_transition,delay_template13x17": {
           "index_1": [
             0.001,
             0.00617,
@@ -18817,7 +18817,7 @@
         "when": "(!A0&A2&A3&S0&!S1)"
       },
       {
-        "cell_fall delay_template13x17": {
+        "cell_fall,delay_template13x17": {
           "index_1": [
             0.001,
             0.00617,
@@ -19102,7 +19102,7 @@
             ]
           ]
         },
-        "cell_rise delay_template13x17": {
+        "cell_rise,delay_template13x17": {
           "index_1": [
             0.001,
             0.00617,
@@ -19387,7 +19387,7 @@
             ]
           ]
         },
-        "fall_transition delay_template13x17": {
+        "fall_transition,delay_template13x17": {
           "index_1": [
             0.001,
             0.00617,
@@ -19673,7 +19673,7 @@
           ]
         },
         "related_pin": "A1",
-        "rise_transition delay_template13x17": {
+        "rise_transition,delay_template13x17": {
           "index_1": [
             0.001,
             0.00617,
@@ -19963,7 +19963,7 @@
         "when": "(A0&!A2&!A3&S0&!S1)"
       },
       {
-        "cell_fall delay_template13x17": {
+        "cell_fall,delay_template13x17": {
           "index_1": [
             0.001,
             0.00617,
@@ -20248,7 +20248,7 @@
             ]
           ]
         },
-        "cell_rise delay_template13x17": {
+        "cell_rise,delay_template13x17": {
           "index_1": [
             0.001,
             0.00617,
@@ -20533,7 +20533,7 @@
             ]
           ]
         },
-        "fall_transition delay_template13x17": {
+        "fall_transition,delay_template13x17": {
           "index_1": [
             0.001,
             0.00617,
@@ -20819,7 +20819,7 @@
           ]
         },
         "related_pin": "A1",
-        "rise_transition delay_template13x17": {
+        "rise_transition,delay_template13x17": {
           "index_1": [
             0.001,
             0.00617,
@@ -21109,7 +21109,7 @@
         "when": "(A0&!A2&A3&S0&!S1)"
       },
       {
-        "cell_fall delay_template13x17": {
+        "cell_fall,delay_template13x17": {
           "index_1": [
             0.001,
             0.00617,
@@ -21394,7 +21394,7 @@
             ]
           ]
         },
-        "cell_rise delay_template13x17": {
+        "cell_rise,delay_template13x17": {
           "index_1": [
             0.001,
             0.00617,
@@ -21679,7 +21679,7 @@
             ]
           ]
         },
-        "fall_transition delay_template13x17": {
+        "fall_transition,delay_template13x17": {
           "index_1": [
             0.001,
             0.00617,
@@ -21965,7 +21965,7 @@
           ]
         },
         "related_pin": "A1",
-        "rise_transition delay_template13x17": {
+        "rise_transition,delay_template13x17": {
           "index_1": [
             0.001,
             0.00617,
@@ -22255,7 +22255,7 @@
         "when": "(A0&A2&!A3&S0&!S1)"
       },
       {
-        "cell_fall delay_template13x17": {
+        "cell_fall,delay_template13x17": {
           "index_1": [
             0.001,
             0.00617,
@@ -22540,7 +22540,7 @@
             ]
           ]
         },
-        "cell_rise delay_template13x17": {
+        "cell_rise,delay_template13x17": {
           "index_1": [
             0.001,
             0.00617,
@@ -22825,7 +22825,7 @@
             ]
           ]
         },
-        "fall_transition delay_template13x17": {
+        "fall_transition,delay_template13x17": {
           "index_1": [
             0.001,
             0.00617,
@@ -23111,7 +23111,7 @@
           ]
         },
         "related_pin": "A1",
-        "rise_transition delay_template13x17": {
+        "rise_transition,delay_template13x17": {
           "index_1": [
             0.001,
             0.00617,
@@ -23401,7 +23401,7 @@
         "when": "(A0&A2&A3&S0&!S1)"
       },
       {
-        "cell_fall delay_template13x17": {
+        "cell_fall,delay_template13x17": {
           "index_1": [
             0.001,
             0.00617,
@@ -23686,7 +23686,7 @@
             ]
           ]
         },
-        "cell_rise delay_template13x17": {
+        "cell_rise,delay_template13x17": {
           "index_1": [
             0.001,
             0.00617,
@@ -23971,7 +23971,7 @@
             ]
           ]
         },
-        "fall_transition delay_template13x17": {
+        "fall_transition,delay_template13x17": {
           "index_1": [
             0.001,
             0.00617,
@@ -24257,7 +24257,7 @@
           ]
         },
         "related_pin": "A2",
-        "rise_transition delay_template13x17": {
+        "rise_transition,delay_template13x17": {
           "index_1": [
             0.001,
             0.00617,
@@ -24547,7 +24547,7 @@
         "when": "(!A0&!A1&!A3&!S0&S1)"
       },
       {
-        "cell_fall delay_template13x17": {
+        "cell_fall,delay_template13x17": {
           "index_1": [
             0.001,
             0.00617,
@@ -24832,7 +24832,7 @@
             ]
           ]
         },
-        "cell_rise delay_template13x17": {
+        "cell_rise,delay_template13x17": {
           "index_1": [
             0.001,
             0.00617,
@@ -25117,7 +25117,7 @@
             ]
           ]
         },
-        "fall_transition delay_template13x17": {
+        "fall_transition,delay_template13x17": {
           "index_1": [
             0.001,
             0.00617,
@@ -25403,7 +25403,7 @@
           ]
         },
         "related_pin": "A2",
-        "rise_transition delay_template13x17": {
+        "rise_transition,delay_template13x17": {
           "index_1": [
             0.001,
             0.00617,
@@ -25693,7 +25693,7 @@
         "when": "(!A0&!A1&A3&!S0&S1)"
       },
       {
-        "cell_fall delay_template13x17": {
+        "cell_fall,delay_template13x17": {
           "index_1": [
             0.001,
             0.00617,
@@ -25978,7 +25978,7 @@
             ]
           ]
         },
-        "cell_rise delay_template13x17": {
+        "cell_rise,delay_template13x17": {
           "index_1": [
             0.001,
             0.00617,
@@ -26263,7 +26263,7 @@
             ]
           ]
         },
-        "fall_transition delay_template13x17": {
+        "fall_transition,delay_template13x17": {
           "index_1": [
             0.001,
             0.00617,
@@ -26549,7 +26549,7 @@
           ]
         },
         "related_pin": "A2",
-        "rise_transition delay_template13x17": {
+        "rise_transition,delay_template13x17": {
           "index_1": [
             0.001,
             0.00617,
@@ -26839,7 +26839,7 @@
         "when": "(!A0&A1&!A3&!S0&S1)"
       },
       {
-        "cell_fall delay_template13x17": {
+        "cell_fall,delay_template13x17": {
           "index_1": [
             0.001,
             0.00617,
@@ -27124,7 +27124,7 @@
             ]
           ]
         },
-        "cell_rise delay_template13x17": {
+        "cell_rise,delay_template13x17": {
           "index_1": [
             0.001,
             0.00617,
@@ -27409,7 +27409,7 @@
             ]
           ]
         },
-        "fall_transition delay_template13x17": {
+        "fall_transition,delay_template13x17": {
           "index_1": [
             0.001,
             0.00617,
@@ -27695,7 +27695,7 @@
           ]
         },
         "related_pin": "A2",
-        "rise_transition delay_template13x17": {
+        "rise_transition,delay_template13x17": {
           "index_1": [
             0.001,
             0.00617,
@@ -27985,7 +27985,7 @@
         "when": "(!A0&A1&A3&!S0&S1)"
       },
       {
-        "cell_fall delay_template13x17": {
+        "cell_fall,delay_template13x17": {
           "index_1": [
             0.001,
             0.00617,
@@ -28270,7 +28270,7 @@
             ]
           ]
         },
-        "cell_rise delay_template13x17": {
+        "cell_rise,delay_template13x17": {
           "index_1": [
             0.001,
             0.00617,
@@ -28555,7 +28555,7 @@
             ]
           ]
         },
-        "fall_transition delay_template13x17": {
+        "fall_transition,delay_template13x17": {
           "index_1": [
             0.001,
             0.00617,
@@ -28841,7 +28841,7 @@
           ]
         },
         "related_pin": "A2",
-        "rise_transition delay_template13x17": {
+        "rise_transition,delay_template13x17": {
           "index_1": [
             0.001,
             0.00617,
@@ -29131,7 +29131,7 @@
         "when": "(A0&!A1&!A3&!S0&S1)"
       },
       {
-        "cell_fall delay_template13x17": {
+        "cell_fall,delay_template13x17": {
           "index_1": [
             0.001,
             0.00617,
@@ -29416,7 +29416,7 @@
             ]
           ]
         },
-        "cell_rise delay_template13x17": {
+        "cell_rise,delay_template13x17": {
           "index_1": [
             0.001,
             0.00617,
@@ -29701,7 +29701,7 @@
             ]
           ]
         },
-        "fall_transition delay_template13x17": {
+        "fall_transition,delay_template13x17": {
           "index_1": [
             0.001,
             0.00617,
@@ -29987,7 +29987,7 @@
           ]
         },
         "related_pin": "A2",
-        "rise_transition delay_template13x17": {
+        "rise_transition,delay_template13x17": {
           "index_1": [
             0.001,
             0.00617,
@@ -30277,7 +30277,7 @@
         "when": "(A0&!A1&A3&!S0&S1)"
       },
       {
-        "cell_fall delay_template13x17": {
+        "cell_fall,delay_template13x17": {
           "index_1": [
             0.001,
             0.00617,
@@ -30562,7 +30562,7 @@
             ]
           ]
         },
-        "cell_rise delay_template13x17": {
+        "cell_rise,delay_template13x17": {
           "index_1": [
             0.001,
             0.00617,
@@ -30847,7 +30847,7 @@
             ]
           ]
         },
-        "fall_transition delay_template13x17": {
+        "fall_transition,delay_template13x17": {
           "index_1": [
             0.001,
             0.00617,
@@ -31133,7 +31133,7 @@
           ]
         },
         "related_pin": "A2",
-        "rise_transition delay_template13x17": {
+        "rise_transition,delay_template13x17": {
           "index_1": [
             0.001,
             0.00617,
@@ -31423,7 +31423,7 @@
         "when": "(A0&A1&!A3&!S0&S1)"
       },
       {
-        "cell_fall delay_template13x17": {
+        "cell_fall,delay_template13x17": {
           "index_1": [
             0.001,
             0.00617,
@@ -31708,7 +31708,7 @@
             ]
           ]
         },
-        "cell_rise delay_template13x17": {
+        "cell_rise,delay_template13x17": {
           "index_1": [
             0.001,
             0.00617,
@@ -31993,7 +31993,7 @@
             ]
           ]
         },
-        "fall_transition delay_template13x17": {
+        "fall_transition,delay_template13x17": {
           "index_1": [
             0.001,
             0.00617,
@@ -32279,7 +32279,7 @@
           ]
         },
         "related_pin": "A2",
-        "rise_transition delay_template13x17": {
+        "rise_transition,delay_template13x17": {
           "index_1": [
             0.001,
             0.00617,
@@ -32569,7 +32569,7 @@
         "when": "(A0&A1&A3&!S0&S1)"
       },
       {
-        "cell_fall delay_template13x17": {
+        "cell_fall,delay_template13x17": {
           "index_1": [
             0.001,
             0.00617,
@@ -32854,7 +32854,7 @@
             ]
           ]
         },
-        "cell_rise delay_template13x17": {
+        "cell_rise,delay_template13x17": {
           "index_1": [
             0.001,
             0.00617,
@@ -33139,7 +33139,7 @@
             ]
           ]
         },
-        "fall_transition delay_template13x17": {
+        "fall_transition,delay_template13x17": {
           "index_1": [
             0.001,
             0.00617,
@@ -33425,7 +33425,7 @@
           ]
         },
         "related_pin": "A3",
-        "rise_transition delay_template13x17": {
+        "rise_transition,delay_template13x17": {
           "index_1": [
             0.001,
             0.00617,
@@ -33715,7 +33715,7 @@
         "when": "(!A0&!A1&!A2&S0&S1)"
       },
       {
-        "cell_fall delay_template13x17": {
+        "cell_fall,delay_template13x17": {
           "index_1": [
             0.001,
             0.00617,
@@ -34000,7 +34000,7 @@
             ]
           ]
         },
-        "cell_rise delay_template13x17": {
+        "cell_rise,delay_template13x17": {
           "index_1": [
             0.001,
             0.00617,
@@ -34285,7 +34285,7 @@
             ]
           ]
         },
-        "fall_transition delay_template13x17": {
+        "fall_transition,delay_template13x17": {
           "index_1": [
             0.001,
             0.00617,
@@ -34571,7 +34571,7 @@
           ]
         },
         "related_pin": "A3",
-        "rise_transition delay_template13x17": {
+        "rise_transition,delay_template13x17": {
           "index_1": [
             0.001,
             0.00617,
@@ -34861,7 +34861,7 @@
         "when": "(!A0&!A1&A2&S0&S1)"
       },
       {
-        "cell_fall delay_template13x17": {
+        "cell_fall,delay_template13x17": {
           "index_1": [
             0.001,
             0.00617,
@@ -35146,7 +35146,7 @@
             ]
           ]
         },
-        "cell_rise delay_template13x17": {
+        "cell_rise,delay_template13x17": {
           "index_1": [
             0.001,
             0.00617,
@@ -35431,7 +35431,7 @@
             ]
           ]
         },
-        "fall_transition delay_template13x17": {
+        "fall_transition,delay_template13x17": {
           "index_1": [
             0.001,
             0.00617,
@@ -35717,7 +35717,7 @@
           ]
         },
         "related_pin": "A3",
-        "rise_transition delay_template13x17": {
+        "rise_transition,delay_template13x17": {
           "index_1": [
             0.001,
             0.00617,
@@ -36007,7 +36007,7 @@
         "when": "(!A0&A1&!A2&S0&S1)"
       },
       {
-        "cell_fall delay_template13x17": {
+        "cell_fall,delay_template13x17": {
           "index_1": [
             0.001,
             0.00617,
@@ -36292,7 +36292,7 @@
             ]
           ]
         },
-        "cell_rise delay_template13x17": {
+        "cell_rise,delay_template13x17": {
           "index_1": [
             0.001,
             0.00617,
@@ -36577,7 +36577,7 @@
             ]
           ]
         },
-        "fall_transition delay_template13x17": {
+        "fall_transition,delay_template13x17": {
           "index_1": [
             0.001,
             0.00617,
@@ -36863,7 +36863,7 @@
           ]
         },
         "related_pin": "A3",
-        "rise_transition delay_template13x17": {
+        "rise_transition,delay_template13x17": {
           "index_1": [
             0.001,
             0.00617,
@@ -37153,7 +37153,7 @@
         "when": "(!A0&A1&A2&S0&S1)"
       },
       {
-        "cell_fall delay_template13x17": {
+        "cell_fall,delay_template13x17": {
           "index_1": [
             0.001,
             0.00617,
@@ -37438,7 +37438,7 @@
             ]
           ]
         },
-        "cell_rise delay_template13x17": {
+        "cell_rise,delay_template13x17": {
           "index_1": [
             0.001,
             0.00617,
@@ -37723,7 +37723,7 @@
             ]
           ]
         },
-        "fall_transition delay_template13x17": {
+        "fall_transition,delay_template13x17": {
           "index_1": [
             0.001,
             0.00617,
@@ -38009,7 +38009,7 @@
           ]
         },
         "related_pin": "A3",
-        "rise_transition delay_template13x17": {
+        "rise_transition,delay_template13x17": {
           "index_1": [
             0.001,
             0.00617,
@@ -38299,7 +38299,7 @@
         "when": "(A0&!A1&!A2&S0&S1)"
       },
       {
-        "cell_fall delay_template13x17": {
+        "cell_fall,delay_template13x17": {
           "index_1": [
             0.001,
             0.00617,
@@ -38584,7 +38584,7 @@
             ]
           ]
         },
-        "cell_rise delay_template13x17": {
+        "cell_rise,delay_template13x17": {
           "index_1": [
             0.001,
             0.00617,
@@ -38869,7 +38869,7 @@
             ]
           ]
         },
-        "fall_transition delay_template13x17": {
+        "fall_transition,delay_template13x17": {
           "index_1": [
             0.001,
             0.00617,
@@ -39155,7 +39155,7 @@
           ]
         },
         "related_pin": "A3",
-        "rise_transition delay_template13x17": {
+        "rise_transition,delay_template13x17": {
           "index_1": [
             0.001,
             0.00617,
@@ -39445,7 +39445,7 @@
         "when": "(A0&!A1&A2&S0&S1)"
       },
       {
-        "cell_fall delay_template13x17": {
+        "cell_fall,delay_template13x17": {
           "index_1": [
             0.001,
             0.00617,
@@ -39730,7 +39730,7 @@
             ]
           ]
         },
-        "cell_rise delay_template13x17": {
+        "cell_rise,delay_template13x17": {
           "index_1": [
             0.001,
             0.00617,
@@ -40015,7 +40015,7 @@
             ]
           ]
         },
-        "fall_transition delay_template13x17": {
+        "fall_transition,delay_template13x17": {
           "index_1": [
             0.001,
             0.00617,
@@ -40301,7 +40301,7 @@
           ]
         },
         "related_pin": "A3",
-        "rise_transition delay_template13x17": {
+        "rise_transition,delay_template13x17": {
           "index_1": [
             0.001,
             0.00617,
@@ -40591,7 +40591,7 @@
         "when": "(A0&A1&!A2&S0&S1)"
       },
       {
-        "cell_fall delay_template13x17": {
+        "cell_fall,delay_template13x17": {
           "index_1": [
             0.001,
             0.00617,
@@ -40876,7 +40876,7 @@
             ]
           ]
         },
-        "cell_rise delay_template13x17": {
+        "cell_rise,delay_template13x17": {
           "index_1": [
             0.001,
             0.00617,
@@ -41161,7 +41161,7 @@
             ]
           ]
         },
-        "fall_transition delay_template13x17": {
+        "fall_transition,delay_template13x17": {
           "index_1": [
             0.001,
             0.00617,
@@ -41447,7 +41447,7 @@
           ]
         },
         "related_pin": "A3",
-        "rise_transition delay_template13x17": {
+        "rise_transition,delay_template13x17": {
           "index_1": [
             0.001,
             0.00617,
@@ -41737,7 +41737,7 @@
         "when": "(A0&A1&A2&S0&S1)"
       },
       {
-        "cell_fall delay_template13x17": {
+        "cell_fall,delay_template13x17": {
           "index_1": [
             0.001,
             0.00617,
@@ -42022,7 +42022,7 @@
             ]
           ]
         },
-        "cell_rise delay_template13x17": {
+        "cell_rise,delay_template13x17": {
           "index_1": [
             0.001,
             0.00617,
@@ -42307,7 +42307,7 @@
             ]
           ]
         },
-        "fall_transition delay_template13x17": {
+        "fall_transition,delay_template13x17": {
           "index_1": [
             0.001,
             0.00617,
@@ -42593,7 +42593,7 @@
           ]
         },
         "related_pin": "S0",
-        "rise_transition delay_template13x17": {
+        "rise_transition,delay_template13x17": {
           "index_1": [
             0.001,
             0.00617,
@@ -42883,7 +42883,7 @@
         "when": "(!A0&!A1&!A2&A3&S1)"
       },
       {
-        "cell_fall delay_template13x17": {
+        "cell_fall,delay_template13x17": {
           "index_1": [
             0.001,
             0.00617,
@@ -43168,7 +43168,7 @@
             ]
           ]
         },
-        "cell_rise delay_template13x17": {
+        "cell_rise,delay_template13x17": {
           "index_1": [
             0.001,
             0.00617,
@@ -43453,7 +43453,7 @@
             ]
           ]
         },
-        "fall_transition delay_template13x17": {
+        "fall_transition,delay_template13x17": {
           "index_1": [
             0.001,
             0.00617,
@@ -43739,7 +43739,7 @@
           ]
         },
         "related_pin": "S0",
-        "rise_transition delay_template13x17": {
+        "rise_transition,delay_template13x17": {
           "index_1": [
             0.001,
             0.00617,
@@ -44029,7 +44029,7 @@
         "when": "(!A0&!A1&A2&!A3&S1)"
       },
       {
-        "cell_fall delay_template13x17": {
+        "cell_fall,delay_template13x17": {
           "index_1": [
             0.001,
             0.00617,
@@ -44314,7 +44314,7 @@
             ]
           ]
         },
-        "cell_rise delay_template13x17": {
+        "cell_rise,delay_template13x17": {
           "index_1": [
             0.001,
             0.00617,
@@ -44599,7 +44599,7 @@
             ]
           ]
         },
-        "fall_transition delay_template13x17": {
+        "fall_transition,delay_template13x17": {
           "index_1": [
             0.001,
             0.00617,
@@ -44885,7 +44885,7 @@
           ]
         },
         "related_pin": "S0",
-        "rise_transition delay_template13x17": {
+        "rise_transition,delay_template13x17": {
           "index_1": [
             0.001,
             0.00617,
@@ -45175,7 +45175,7 @@
         "when": "(!A0&A1&!A2&!A3&!S1)"
       },
       {
-        "cell_fall delay_template13x17": {
+        "cell_fall,delay_template13x17": {
           "index_1": [
             0.001,
             0.00617,
@@ -45460,7 +45460,7 @@
             ]
           ]
         },
-        "cell_rise delay_template13x17": {
+        "cell_rise,delay_template13x17": {
           "index_1": [
             0.001,
             0.00617,
@@ -45745,7 +45745,7 @@
             ]
           ]
         },
-        "fall_transition delay_template13x17": {
+        "fall_transition,delay_template13x17": {
           "index_1": [
             0.001,
             0.00617,
@@ -46031,7 +46031,7 @@
           ]
         },
         "related_pin": "S0",
-        "rise_transition delay_template13x17": {
+        "rise_transition,delay_template13x17": {
           "index_1": [
             0.001,
             0.00617,
@@ -46321,7 +46321,7 @@
         "when": "(!A0&A1&!A2&A3&!S1)"
       },
       {
-        "cell_fall delay_template13x17": {
+        "cell_fall,delay_template13x17": {
           "index_1": [
             0.001,
             0.00617,
@@ -46606,7 +46606,7 @@
             ]
           ]
         },
-        "cell_rise delay_template13x17": {
+        "cell_rise,delay_template13x17": {
           "index_1": [
             0.001,
             0.00617,
@@ -46891,7 +46891,7 @@
             ]
           ]
         },
-        "fall_transition delay_template13x17": {
+        "fall_transition,delay_template13x17": {
           "index_1": [
             0.001,
             0.00617,
@@ -47177,7 +47177,7 @@
           ]
         },
         "related_pin": "S0",
-        "rise_transition delay_template13x17": {
+        "rise_transition,delay_template13x17": {
           "index_1": [
             0.001,
             0.00617,
@@ -47467,7 +47467,7 @@
         "when": "(!A0&A1&!A2&A3&S1)"
       },
       {
-        "cell_fall delay_template13x17": {
+        "cell_fall,delay_template13x17": {
           "index_1": [
             0.001,
             0.00617,
@@ -47752,7 +47752,7 @@
             ]
           ]
         },
-        "cell_rise delay_template13x17": {
+        "cell_rise,delay_template13x17": {
           "index_1": [
             0.001,
             0.00617,
@@ -48037,7 +48037,7 @@
             ]
           ]
         },
-        "fall_transition delay_template13x17": {
+        "fall_transition,delay_template13x17": {
           "index_1": [
             0.001,
             0.00617,
@@ -48323,7 +48323,7 @@
           ]
         },
         "related_pin": "S0",
-        "rise_transition delay_template13x17": {
+        "rise_transition,delay_template13x17": {
           "index_1": [
             0.001,
             0.00617,
@@ -48613,7 +48613,7 @@
         "when": "(!A0&A1&A2&!A3&!S1)"
       },
       {
-        "cell_fall delay_template13x17": {
+        "cell_fall,delay_template13x17": {
           "index_1": [
             0.001,
             0.00617,
@@ -48898,7 +48898,7 @@
             ]
           ]
         },
-        "cell_rise delay_template13x17": {
+        "cell_rise,delay_template13x17": {
           "index_1": [
             0.001,
             0.00617,
@@ -49183,7 +49183,7 @@
             ]
           ]
         },
-        "fall_transition delay_template13x17": {
+        "fall_transition,delay_template13x17": {
           "index_1": [
             0.001,
             0.00617,
@@ -49469,7 +49469,7 @@
           ]
         },
         "related_pin": "S0",
-        "rise_transition delay_template13x17": {
+        "rise_transition,delay_template13x17": {
           "index_1": [
             0.001,
             0.00617,
@@ -49759,7 +49759,7 @@
         "when": "(!A0&A1&A2&!A3&S1)"
       },
       {
-        "cell_fall delay_template13x17": {
+        "cell_fall,delay_template13x17": {
           "index_1": [
             0.001,
             0.00617,
@@ -50044,7 +50044,7 @@
             ]
           ]
         },
-        "cell_rise delay_template13x17": {
+        "cell_rise,delay_template13x17": {
           "index_1": [
             0.001,
             0.00617,
@@ -50329,7 +50329,7 @@
             ]
           ]
         },
-        "fall_transition delay_template13x17": {
+        "fall_transition,delay_template13x17": {
           "index_1": [
             0.001,
             0.00617,
@@ -50615,7 +50615,7 @@
           ]
         },
         "related_pin": "S0",
-        "rise_transition delay_template13x17": {
+        "rise_transition,delay_template13x17": {
           "index_1": [
             0.001,
             0.00617,
@@ -50905,7 +50905,7 @@
         "when": "(!A0&A1&A2&A3&!S1)"
       },
       {
-        "cell_fall delay_template13x17": {
+        "cell_fall,delay_template13x17": {
           "index_1": [
             0.001,
             0.00617,
@@ -51190,7 +51190,7 @@
             ]
           ]
         },
-        "cell_rise delay_template13x17": {
+        "cell_rise,delay_template13x17": {
           "index_1": [
             0.001,
             0.00617,
@@ -51475,7 +51475,7 @@
             ]
           ]
         },
-        "fall_transition delay_template13x17": {
+        "fall_transition,delay_template13x17": {
           "index_1": [
             0.001,
             0.00617,
@@ -51761,7 +51761,7 @@
           ]
         },
         "related_pin": "S0",
-        "rise_transition delay_template13x17": {
+        "rise_transition,delay_template13x17": {
           "index_1": [
             0.001,
             0.00617,
@@ -52051,7 +52051,7 @@
         "when": "(A0&!A1&!A2&!A3&!S1)"
       },
       {
-        "cell_fall delay_template13x17": {
+        "cell_fall,delay_template13x17": {
           "index_1": [
             0.001,
             0.00617,
@@ -52336,7 +52336,7 @@
             ]
           ]
         },
-        "cell_rise delay_template13x17": {
+        "cell_rise,delay_template13x17": {
           "index_1": [
             0.001,
             0.00617,
@@ -52621,7 +52621,7 @@
             ]
           ]
         },
-        "fall_transition delay_template13x17": {
+        "fall_transition,delay_template13x17": {
           "index_1": [
             0.001,
             0.00617,
@@ -52907,7 +52907,7 @@
           ]
         },
         "related_pin": "S0",
-        "rise_transition delay_template13x17": {
+        "rise_transition,delay_template13x17": {
           "index_1": [
             0.001,
             0.00617,
@@ -53197,7 +53197,7 @@
         "when": "(A0&!A1&!A2&A3&!S1)"
       },
       {
-        "cell_fall delay_template13x17": {
+        "cell_fall,delay_template13x17": {
           "index_1": [
             0.001,
             0.00617,
@@ -53482,7 +53482,7 @@
             ]
           ]
         },
-        "cell_rise delay_template13x17": {
+        "cell_rise,delay_template13x17": {
           "index_1": [
             0.001,
             0.00617,
@@ -53767,7 +53767,7 @@
             ]
           ]
         },
-        "fall_transition delay_template13x17": {
+        "fall_transition,delay_template13x17": {
           "index_1": [
             0.001,
             0.00617,
@@ -54053,7 +54053,7 @@
           ]
         },
         "related_pin": "S0",
-        "rise_transition delay_template13x17": {
+        "rise_transition,delay_template13x17": {
           "index_1": [
             0.001,
             0.00617,
@@ -54343,7 +54343,7 @@
         "when": "(A0&!A1&!A2&A3&S1)"
       },
       {
-        "cell_fall delay_template13x17": {
+        "cell_fall,delay_template13x17": {
           "index_1": [
             0.001,
             0.00617,
@@ -54628,7 +54628,7 @@
             ]
           ]
         },
-        "cell_rise delay_template13x17": {
+        "cell_rise,delay_template13x17": {
           "index_1": [
             0.001,
             0.00617,
@@ -54913,7 +54913,7 @@
             ]
           ]
         },
-        "fall_transition delay_template13x17": {
+        "fall_transition,delay_template13x17": {
           "index_1": [
             0.001,
             0.00617,
@@ -55199,7 +55199,7 @@
           ]
         },
         "related_pin": "S0",
-        "rise_transition delay_template13x17": {
+        "rise_transition,delay_template13x17": {
           "index_1": [
             0.001,
             0.00617,
@@ -55489,7 +55489,7 @@
         "when": "(A0&!A1&A2&!A3&!S1)"
       },
       {
-        "cell_fall delay_template13x17": {
+        "cell_fall,delay_template13x17": {
           "index_1": [
             0.001,
             0.00617,
@@ -55774,7 +55774,7 @@
             ]
           ]
         },
-        "cell_rise delay_template13x17": {
+        "cell_rise,delay_template13x17": {
           "index_1": [
             0.001,
             0.00617,
@@ -56059,7 +56059,7 @@
             ]
           ]
         },
-        "fall_transition delay_template13x17": {
+        "fall_transition,delay_template13x17": {
           "index_1": [
             0.001,
             0.00617,
@@ -56345,7 +56345,7 @@
           ]
         },
         "related_pin": "S0",
-        "rise_transition delay_template13x17": {
+        "rise_transition,delay_template13x17": {
           "index_1": [
             0.001,
             0.00617,
@@ -56635,7 +56635,7 @@
         "when": "(A0&!A1&A2&!A3&S1)"
       },
       {
-        "cell_fall delay_template13x17": {
+        "cell_fall,delay_template13x17": {
           "index_1": [
             0.001,
             0.00617,
@@ -56920,7 +56920,7 @@
             ]
           ]
         },
-        "cell_rise delay_template13x17": {
+        "cell_rise,delay_template13x17": {
           "index_1": [
             0.001,
             0.00617,
@@ -57205,7 +57205,7 @@
             ]
           ]
         },
-        "fall_transition delay_template13x17": {
+        "fall_transition,delay_template13x17": {
           "index_1": [
             0.001,
             0.00617,
@@ -57491,7 +57491,7 @@
           ]
         },
         "related_pin": "S0",
-        "rise_transition delay_template13x17": {
+        "rise_transition,delay_template13x17": {
           "index_1": [
             0.001,
             0.00617,
@@ -57781,7 +57781,7 @@
         "when": "(A0&!A1&A2&A3&!S1)"
       },
       {
-        "cell_fall delay_template13x17": {
+        "cell_fall,delay_template13x17": {
           "index_1": [
             0.001,
             0.00617,
@@ -58066,7 +58066,7 @@
             ]
           ]
         },
-        "cell_rise delay_template13x17": {
+        "cell_rise,delay_template13x17": {
           "index_1": [
             0.001,
             0.00617,
@@ -58351,7 +58351,7 @@
             ]
           ]
         },
-        "fall_transition delay_template13x17": {
+        "fall_transition,delay_template13x17": {
           "index_1": [
             0.001,
             0.00617,
@@ -58637,7 +58637,7 @@
           ]
         },
         "related_pin": "S0",
-        "rise_transition delay_template13x17": {
+        "rise_transition,delay_template13x17": {
           "index_1": [
             0.001,
             0.00617,
@@ -58927,7 +58927,7 @@
         "when": "(A0&A1&!A2&A3&S1)"
       },
       {
-        "cell_fall delay_template13x17": {
+        "cell_fall,delay_template13x17": {
           "index_1": [
             0.001,
             0.00617,
@@ -59212,7 +59212,7 @@
             ]
           ]
         },
-        "cell_rise delay_template13x17": {
+        "cell_rise,delay_template13x17": {
           "index_1": [
             0.001,
             0.00617,
@@ -59497,7 +59497,7 @@
             ]
           ]
         },
-        "fall_transition delay_template13x17": {
+        "fall_transition,delay_template13x17": {
           "index_1": [
             0.001,
             0.00617,
@@ -59783,7 +59783,7 @@
           ]
         },
         "related_pin": "S0",
-        "rise_transition delay_template13x17": {
+        "rise_transition,delay_template13x17": {
           "index_1": [
             0.001,
             0.00617,
@@ -60073,7 +60073,7 @@
         "when": "(A0&A1&A2&!A3&S1)"
       },
       {
-        "cell_fall delay_template13x17": {
+        "cell_fall,delay_template13x17": {
           "index_1": [
             0.001,
             0.00617,
@@ -60358,7 +60358,7 @@
             ]
           ]
         },
-        "cell_rise delay_template13x17": {
+        "cell_rise,delay_template13x17": {
           "index_1": [
             0.001,
             0.00617,
@@ -60643,7 +60643,7 @@
             ]
           ]
         },
-        "fall_transition delay_template13x17": {
+        "fall_transition,delay_template13x17": {
           "index_1": [
             0.001,
             0.00617,
@@ -60929,7 +60929,7 @@
           ]
         },
         "related_pin": "S1",
-        "rise_transition delay_template13x17": {
+        "rise_transition,delay_template13x17": {
           "index_1": [
             0.001,
             0.00617,
@@ -61219,7 +61219,7 @@
         "when": "(!A0&!A1&!A2&A3&S0)"
       },
       {
-        "cell_fall delay_template13x17": {
+        "cell_fall,delay_template13x17": {
           "index_1": [
             0.001,
             0.00617,
@@ -61504,7 +61504,7 @@
             ]
           ]
         },
-        "cell_rise delay_template13x17": {
+        "cell_rise,delay_template13x17": {
           "index_1": [
             0.001,
             0.00617,
@@ -61789,7 +61789,7 @@
             ]
           ]
         },
-        "fall_transition delay_template13x17": {
+        "fall_transition,delay_template13x17": {
           "index_1": [
             0.001,
             0.00617,
@@ -62075,7 +62075,7 @@
           ]
         },
         "related_pin": "S1",
-        "rise_transition delay_template13x17": {
+        "rise_transition,delay_template13x17": {
           "index_1": [
             0.001,
             0.00617,
@@ -62365,7 +62365,7 @@
         "when": "(!A0&!A1&A2&!A3&!S0)"
       },
       {
-        "cell_fall delay_template13x17": {
+        "cell_fall,delay_template13x17": {
           "index_1": [
             0.001,
             0.00617,
@@ -62650,7 +62650,7 @@
             ]
           ]
         },
-        "cell_rise delay_template13x17": {
+        "cell_rise,delay_template13x17": {
           "index_1": [
             0.001,
             0.00617,
@@ -62935,7 +62935,7 @@
             ]
           ]
         },
-        "fall_transition delay_template13x17": {
+        "fall_transition,delay_template13x17": {
           "index_1": [
             0.001,
             0.00617,
@@ -63221,7 +63221,7 @@
           ]
         },
         "related_pin": "S1",
-        "rise_transition delay_template13x17": {
+        "rise_transition,delay_template13x17": {
           "index_1": [
             0.001,
             0.00617,
@@ -63511,7 +63511,7 @@
         "when": "(!A0&!A1&A2&A3&!S0)"
       },
       {
-        "cell_fall delay_template13x17": {
+        "cell_fall,delay_template13x17": {
           "index_1": [
             0.001,
             0.00617,
@@ -63796,7 +63796,7 @@
             ]
           ]
         },
-        "cell_rise delay_template13x17": {
+        "cell_rise,delay_template13x17": {
           "index_1": [
             0.001,
             0.00617,
@@ -64081,7 +64081,7 @@
             ]
           ]
         },
-        "fall_transition delay_template13x17": {
+        "fall_transition,delay_template13x17": {
           "index_1": [
             0.001,
             0.00617,
@@ -64367,7 +64367,7 @@
           ]
         },
         "related_pin": "S1",
-        "rise_transition delay_template13x17": {
+        "rise_transition,delay_template13x17": {
           "index_1": [
             0.001,
             0.00617,
@@ -64657,7 +64657,7 @@
         "when": "(!A0&!A1&A2&A3&S0)"
       },
       {
-        "cell_fall delay_template13x17": {
+        "cell_fall,delay_template13x17": {
           "index_1": [
             0.001,
             0.00617,
@@ -64942,7 +64942,7 @@
             ]
           ]
         },
-        "cell_rise delay_template13x17": {
+        "cell_rise,delay_template13x17": {
           "index_1": [
             0.001,
             0.00617,
@@ -65227,7 +65227,7 @@
             ]
           ]
         },
-        "fall_transition delay_template13x17": {
+        "fall_transition,delay_template13x17": {
           "index_1": [
             0.001,
             0.00617,
@@ -65513,7 +65513,7 @@
           ]
         },
         "related_pin": "S1",
-        "rise_transition delay_template13x17": {
+        "rise_transition,delay_template13x17": {
           "index_1": [
             0.001,
             0.00617,
@@ -65803,7 +65803,7 @@
         "when": "(!A0&A1&!A2&!A3&S0)"
       },
       {
-        "cell_fall delay_template13x17": {
+        "cell_fall,delay_template13x17": {
           "index_1": [
             0.001,
             0.00617,
@@ -66088,7 +66088,7 @@
             ]
           ]
         },
-        "cell_rise delay_template13x17": {
+        "cell_rise,delay_template13x17": {
           "index_1": [
             0.001,
             0.00617,
@@ -66373,7 +66373,7 @@
             ]
           ]
         },
-        "fall_transition delay_template13x17": {
+        "fall_transition,delay_template13x17": {
           "index_1": [
             0.001,
             0.00617,
@@ -66659,7 +66659,7 @@
           ]
         },
         "related_pin": "S1",
-        "rise_transition delay_template13x17": {
+        "rise_transition,delay_template13x17": {
           "index_1": [
             0.001,
             0.00617,
@@ -66949,7 +66949,7 @@
         "when": "(!A0&A1&A2&!A3&!S0)"
       },
       {
-        "cell_fall delay_template13x17": {
+        "cell_fall,delay_template13x17": {
           "index_1": [
             0.001,
             0.00617,
@@ -67234,7 +67234,7 @@
             ]
           ]
         },
-        "cell_rise delay_template13x17": {
+        "cell_rise,delay_template13x17": {
           "index_1": [
             0.001,
             0.00617,
@@ -67519,7 +67519,7 @@
             ]
           ]
         },
-        "fall_transition delay_template13x17": {
+        "fall_transition,delay_template13x17": {
           "index_1": [
             0.001,
             0.00617,
@@ -67805,7 +67805,7 @@
           ]
         },
         "related_pin": "S1",
-        "rise_transition delay_template13x17": {
+        "rise_transition,delay_template13x17": {
           "index_1": [
             0.001,
             0.00617,
@@ -68095,7 +68095,7 @@
         "when": "(!A0&A1&A2&!A3&S0)"
       },
       {
-        "cell_fall delay_template13x17": {
+        "cell_fall,delay_template13x17": {
           "index_1": [
             0.001,
             0.00617,
@@ -68380,7 +68380,7 @@
             ]
           ]
         },
-        "cell_rise delay_template13x17": {
+        "cell_rise,delay_template13x17": {
           "index_1": [
             0.001,
             0.00617,
@@ -68665,7 +68665,7 @@
             ]
           ]
         },
-        "fall_transition delay_template13x17": {
+        "fall_transition,delay_template13x17": {
           "index_1": [
             0.001,
             0.00617,
@@ -68951,7 +68951,7 @@
           ]
         },
         "related_pin": "S1",
-        "rise_transition delay_template13x17": {
+        "rise_transition,delay_template13x17": {
           "index_1": [
             0.001,
             0.00617,
@@ -69241,7 +69241,7 @@
         "when": "(!A0&A1&A2&A3&!S0)"
       },
       {
-        "cell_fall delay_template13x17": {
+        "cell_fall,delay_template13x17": {
           "index_1": [
             0.001,
             0.00617,
@@ -69526,7 +69526,7 @@
             ]
           ]
         },
-        "cell_rise delay_template13x17": {
+        "cell_rise,delay_template13x17": {
           "index_1": [
             0.001,
             0.00617,
@@ -69811,7 +69811,7 @@
             ]
           ]
         },
-        "fall_transition delay_template13x17": {
+        "fall_transition,delay_template13x17": {
           "index_1": [
             0.001,
             0.00617,
@@ -70097,7 +70097,7 @@
           ]
         },
         "related_pin": "S1",
-        "rise_transition delay_template13x17": {
+        "rise_transition,delay_template13x17": {
           "index_1": [
             0.001,
             0.00617,
@@ -70387,7 +70387,7 @@
         "when": "(A0&!A1&!A2&!A3&!S0)"
       },
       {
-        "cell_fall delay_template13x17": {
+        "cell_fall,delay_template13x17": {
           "index_1": [
             0.001,
             0.00617,
@@ -70672,7 +70672,7 @@
             ]
           ]
         },
-        "cell_rise delay_template13x17": {
+        "cell_rise,delay_template13x17": {
           "index_1": [
             0.001,
             0.00617,
@@ -70957,7 +70957,7 @@
             ]
           ]
         },
-        "fall_transition delay_template13x17": {
+        "fall_transition,delay_template13x17": {
           "index_1": [
             0.001,
             0.00617,
@@ -71243,7 +71243,7 @@
           ]
         },
         "related_pin": "S1",
-        "rise_transition delay_template13x17": {
+        "rise_transition,delay_template13x17": {
           "index_1": [
             0.001,
             0.00617,
@@ -71533,7 +71533,7 @@
         "when": "(A0&!A1&!A2&A3&!S0)"
       },
       {
-        "cell_fall delay_template13x17": {
+        "cell_fall,delay_template13x17": {
           "index_1": [
             0.001,
             0.00617,
@@ -71818,7 +71818,7 @@
             ]
           ]
         },
-        "cell_rise delay_template13x17": {
+        "cell_rise,delay_template13x17": {
           "index_1": [
             0.001,
             0.00617,
@@ -72103,7 +72103,7 @@
             ]
           ]
         },
-        "fall_transition delay_template13x17": {
+        "fall_transition,delay_template13x17": {
           "index_1": [
             0.001,
             0.00617,
@@ -72389,7 +72389,7 @@
           ]
         },
         "related_pin": "S1",
-        "rise_transition delay_template13x17": {
+        "rise_transition,delay_template13x17": {
           "index_1": [
             0.001,
             0.00617,
@@ -72679,7 +72679,7 @@
         "when": "(A0&!A1&!A2&A3&S0)"
       },
       {
-        "cell_fall delay_template13x17": {
+        "cell_fall,delay_template13x17": {
           "index_1": [
             0.001,
             0.00617,
@@ -72964,7 +72964,7 @@
             ]
           ]
         },
-        "cell_rise delay_template13x17": {
+        "cell_rise,delay_template13x17": {
           "index_1": [
             0.001,
             0.00617,
@@ -73249,7 +73249,7 @@
             ]
           ]
         },
-        "fall_transition delay_template13x17": {
+        "fall_transition,delay_template13x17": {
           "index_1": [
             0.001,
             0.00617,
@@ -73535,7 +73535,7 @@
           ]
         },
         "related_pin": "S1",
-        "rise_transition delay_template13x17": {
+        "rise_transition,delay_template13x17": {
           "index_1": [
             0.001,
             0.00617,
@@ -73825,7 +73825,7 @@
         "when": "(A0&!A1&A2&A3&S0)"
       },
       {
-        "cell_fall delay_template13x17": {
+        "cell_fall,delay_template13x17": {
           "index_1": [
             0.001,
             0.00617,
@@ -74110,7 +74110,7 @@
             ]
           ]
         },
-        "cell_rise delay_template13x17": {
+        "cell_rise,delay_template13x17": {
           "index_1": [
             0.001,
             0.00617,
@@ -74395,7 +74395,7 @@
             ]
           ]
         },
-        "fall_transition delay_template13x17": {
+        "fall_transition,delay_template13x17": {
           "index_1": [
             0.001,
             0.00617,
@@ -74681,7 +74681,7 @@
           ]
         },
         "related_pin": "S1",
-        "rise_transition delay_template13x17": {
+        "rise_transition,delay_template13x17": {
           "index_1": [
             0.001,
             0.00617,
@@ -74971,7 +74971,7 @@
         "when": "(A0&A1&!A2&!A3&!S0)"
       },
       {
-        "cell_fall delay_template13x17": {
+        "cell_fall,delay_template13x17": {
           "index_1": [
             0.001,
             0.00617,
@@ -75256,7 +75256,7 @@
             ]
           ]
         },
-        "cell_rise delay_template13x17": {
+        "cell_rise,delay_template13x17": {
           "index_1": [
             0.001,
             0.00617,
@@ -75541,7 +75541,7 @@
             ]
           ]
         },
-        "fall_transition delay_template13x17": {
+        "fall_transition,delay_template13x17": {
           "index_1": [
             0.001,
             0.00617,
@@ -75827,7 +75827,7 @@
           ]
         },
         "related_pin": "S1",
-        "rise_transition delay_template13x17": {
+        "rise_transition,delay_template13x17": {
           "index_1": [
             0.001,
             0.00617,
@@ -76117,7 +76117,7 @@
         "when": "(A0&A1&!A2&!A3&S0)"
       },
       {
-        "cell_fall delay_template13x17": {
+        "cell_fall,delay_template13x17": {
           "index_1": [
             0.001,
             0.00617,
@@ -76402,7 +76402,7 @@
             ]
           ]
         },
-        "cell_rise delay_template13x17": {
+        "cell_rise,delay_template13x17": {
           "index_1": [
             0.001,
             0.00617,
@@ -76687,7 +76687,7 @@
             ]
           ]
         },
-        "fall_transition delay_template13x17": {
+        "fall_transition,delay_template13x17": {
           "index_1": [
             0.001,
             0.00617,
@@ -76973,7 +76973,7 @@
           ]
         },
         "related_pin": "S1",
-        "rise_transition delay_template13x17": {
+        "rise_transition,delay_template13x17": {
           "index_1": [
             0.001,
             0.00617,
@@ -77263,7 +77263,7 @@
         "when": "(A0&A1&!A2&A3&!S0)"
       },
       {
-        "cell_fall delay_template13x17": {
+        "cell_fall,delay_template13x17": {
           "index_1": [
             0.001,
             0.00617,
@@ -77548,7 +77548,7 @@
             ]
           ]
         },
-        "cell_rise delay_template13x17": {
+        "cell_rise,delay_template13x17": {
           "index_1": [
             0.001,
             0.00617,
@@ -77833,7 +77833,7 @@
             ]
           ]
         },
-        "fall_transition delay_template13x17": {
+        "fall_transition,delay_template13x17": {
           "index_1": [
             0.001,
             0.00617,
@@ -78119,7 +78119,7 @@
           ]
         },
         "related_pin": "S1",
-        "rise_transition delay_template13x17": {
+        "rise_transition,delay_template13x17": {
           "index_1": [
             0.001,
             0.00617,
