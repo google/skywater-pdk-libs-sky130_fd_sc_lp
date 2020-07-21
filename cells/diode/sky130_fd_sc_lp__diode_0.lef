@@ -61,3 +61,4 @@ MACRO sky130_fd_sc_lp__diode_0
       RECT 0.635000  3.245000 0.805000 3.415000 ;
   END
 END sky130_fd_sc_lp__diode_0
+END LIBRARY

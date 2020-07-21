@@ -107,3 +107,4 @@ MACRO sky130_fd_sc_lp__nor2_lp
     END
   END VPWR
 END sky130_fd_sc_lp__nor2_lp
+END LIBRARY

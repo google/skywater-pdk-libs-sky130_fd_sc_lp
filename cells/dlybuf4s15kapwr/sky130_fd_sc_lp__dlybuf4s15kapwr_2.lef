@@ -141,3 +141,4 @@ MACRO sky130_fd_sc_lp__dlybuf4s15kapwr_2
       RECT 3.995000  3.245000 4.165000 3.415000 ;
   END
 END sky130_fd_sc_lp__dlybuf4s15kapwr_2
+END LIBRARY

@@ -236,3 +236,4 @@ MACRO sky130_fd_sc_lp__ha_4
       RECT 9.215000 0.995000 9.505000 1.040000 ;
   END
 END sky130_fd_sc_lp__ha_4
+END LIBRARY

@@ -281,3 +281,4 @@ MACRO sky130_fd_sc_lp__dfbbn_2
       RECT 8.735000 1.735000 9.025000 1.780000 ;
   END
 END sky130_fd_sc_lp__dfbbn_2
+END LIBRARY

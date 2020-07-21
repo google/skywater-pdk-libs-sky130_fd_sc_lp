@@ -196,3 +196,4 @@ MACRO sky130_fd_sc_lp__bufinv_16
       RECT 4.290000 1.550000 10.520000 1.780000 ;
   END
 END sky130_fd_sc_lp__bufinv_16
+END LIBRARY

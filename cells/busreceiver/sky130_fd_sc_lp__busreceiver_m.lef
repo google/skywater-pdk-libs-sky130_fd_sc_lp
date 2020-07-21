@@ -76,3 +76,4 @@ MACRO sky130_fd_sc_lp__busreceiver_m
       RECT 1.115000  3.245000 1.285000 3.415000 ;
   END
 END sky130_fd_sc_lp__busreceiver_m
+END LIBRARY

@@ -135,3 +135,4 @@ MACRO sky130_fd_sc_lp__isobufsrc_4
       RECT 4.475000  3.245000 4.645000 3.415000 ;
   END
 END sky130_fd_sc_lp__isobufsrc_4
+END LIBRARY

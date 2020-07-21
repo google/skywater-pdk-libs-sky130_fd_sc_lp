@@ -255,3 +255,4 @@ MACRO sky130_fd_sc_lp__dfrtp_4
       RECT 6.815000 2.105000 7.105000 2.150000 ;
   END
 END sky130_fd_sc_lp__dfrtp_4
+END LIBRARY

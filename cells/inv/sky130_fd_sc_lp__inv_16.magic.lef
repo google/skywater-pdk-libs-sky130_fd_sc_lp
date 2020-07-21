@@ -156,3 +156,4 @@ MACRO sky130_fd_sc_lp__inv_16
       RECT 7.355000 -0.085000 7.525000 0.085000 ;
   END
 END sky130_fd_sc_lp__inv_16
+END LIBRARY

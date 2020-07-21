@@ -151,3 +151,4 @@ MACRO sky130_fd_sc_lp__ebufn_4
       RECT 5.915000  3.245000 6.085000 3.415000 ;
   END
 END sky130_fd_sc_lp__ebufn_4
+END LIBRARY

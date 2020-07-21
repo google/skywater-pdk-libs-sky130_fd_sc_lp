@@ -230,3 +230,4 @@ MACRO sky130_fd_sc_lp__xor3_lp
       RECT 7.775000 2.475000 8.065000 2.520000 ;
   END
 END sky130_fd_sc_lp__xor3_lp
+END LIBRARY

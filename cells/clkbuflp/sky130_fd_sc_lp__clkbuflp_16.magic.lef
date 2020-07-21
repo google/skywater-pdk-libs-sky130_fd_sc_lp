@@ -195,3 +195,4 @@ MACRO sky130_fd_sc_lp__clkbuflp_16
       RECT 2.975000 1.180000 11.905000 1.410000 ;
   END
 END sky130_fd_sc_lp__clkbuflp_16
+END LIBRARY
