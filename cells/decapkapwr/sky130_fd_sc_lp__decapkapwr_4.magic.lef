@@ -83,3 +83,4 @@ MACRO sky130_fd_sc_lp__decapkapwr_4
       RECT 1.620000  2.725000 1.790000 2.895000 ;
   END
 END sky130_fd_sc_lp__decapkapwr_4
+END LIBRARY

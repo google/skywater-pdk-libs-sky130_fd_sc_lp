@@ -255,3 +255,4 @@ MACRO sky130_fd_sc_lp__dfsbp_1
       RECT 12.155000  3.245000 12.325000 3.415000 ;
   END
 END sky130_fd_sc_lp__dfsbp_1
+END LIBRARY

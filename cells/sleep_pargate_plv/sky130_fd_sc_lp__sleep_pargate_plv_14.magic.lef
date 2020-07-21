@@ -123,3 +123,4 @@ MACRO sky130_fd_sc_lp__sleep_pargate_plv_14
       RECT 7.645000 2.410000 7.905000 2.670000 ;
   END
 END sky130_fd_sc_lp__sleep_pargate_plv_14
+END LIBRARY

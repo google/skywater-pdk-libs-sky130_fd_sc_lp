@@ -291,3 +291,4 @@ MACRO sky130_fd_sc_lp__busdriver2_20
       RECT 24.635000  3.245000 24.805000 3.415000 ;
   END
 END sky130_fd_sc_lp__busdriver2_20
+END LIBRARY

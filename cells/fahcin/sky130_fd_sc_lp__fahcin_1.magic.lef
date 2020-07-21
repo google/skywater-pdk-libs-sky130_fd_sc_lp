@@ -259,3 +259,4 @@ MACRO sky130_fd_sc_lp__fahcin_1
       RECT 10.175000 1.735000 10.465000 1.780000 ;
   END
 END sky130_fd_sc_lp__fahcin_1
+END LIBRARY

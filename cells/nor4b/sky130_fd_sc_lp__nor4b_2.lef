@@ -169,3 +169,4 @@ MACRO sky130_fd_sc_lp__nor4b_2
       RECT 4.955000  3.245000 5.125000 3.415000 ;
   END
 END sky130_fd_sc_lp__nor4b_2
+END LIBRARY

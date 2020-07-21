@@ -100,3 +100,4 @@ MACRO sky130_fd_sc_lp__clkinv_4
       RECT 3.035000  3.245000 3.205000 3.415000 ;
   END
 END sky130_fd_sc_lp__clkinv_4
+END LIBRARY

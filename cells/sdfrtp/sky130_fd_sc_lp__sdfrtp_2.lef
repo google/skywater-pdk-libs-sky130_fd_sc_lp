@@ -282,3 +282,4 @@ MACRO sky130_fd_sc_lp__sdfrtp_2
       RECT 10.175000 1.365000 10.465000 1.410000 ;
   END
 END sky130_fd_sc_lp__sdfrtp_2
+END LIBRARY

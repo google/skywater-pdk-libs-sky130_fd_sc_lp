@@ -169,3 +169,4 @@ MACRO sky130_fd_sc_lp__inputisolatch_lp
       RECT 6.875000  3.245000 7.045000 3.415000 ;
   END
 END sky130_fd_sc_lp__inputisolatch_lp
+END LIBRARY
