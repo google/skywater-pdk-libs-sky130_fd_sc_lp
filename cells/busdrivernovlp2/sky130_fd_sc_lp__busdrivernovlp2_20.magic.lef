@@ -24,7 +24,6 @@ UNITS
 END UNITS
 MACRO sky130_fd_sc_lp__busdrivernovlp2_20
   CLASS CORE ;
-  SOURCE USER ;
   FOREIGN sky130_fd_sc_lp__busdrivernovlp2_20 ;
   ORIGIN  0.000000  0.000000 ;
   SIZE  17.76000 BY  3.330000 ;

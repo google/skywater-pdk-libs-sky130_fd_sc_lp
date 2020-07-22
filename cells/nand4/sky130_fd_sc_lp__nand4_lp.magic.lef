@@ -24,7 +24,6 @@ UNITS
 END UNITS
 MACRO sky130_fd_sc_lp__nand4_lp
   CLASS CORE ;
-  SOURCE USER ;
   FOREIGN sky130_fd_sc_lp__nand4_lp ;
   ORIGIN  0.000000  0.000000 ;
   SIZE  2.880000 BY  3.330000 ;
