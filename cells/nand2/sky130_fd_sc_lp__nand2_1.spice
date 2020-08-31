@@ -1,27 +1,35 @@
-* Copyright 2020 The SkyWater PDK Authors
+* File: sky130_fd_sc_lp__nand2_1.spice
+* Created: Fri Aug 28 10:46:53 2020
+* Program "Calibre xRC"
+* Version "v2018.4_34.26"
+* 
+.include "sky130_fd_sc_lp__nand2_1.pex.spice"
+.subckt sky130_fd_sc_lp__nand2_1  VNB VPB B A VPWR Y VGND
+* 
+* VGND	VGND
+* Y	Y
+* VPWR	VPWR
+* A	A
+* B	B
+* VPB	VPB
+* VNB	VNB
+MM1000 A_112_69# N_B_M1000_g N_VGND_M1000_s VNB NSHORT L=0.15 W=0.84 AD=0.1008
++ AS=0.2226 PD=1.08 PS=2.21 NRD=9.276 NRS=0 M=1 R=5.6 SA=75000.2 SB=75000.6
++ A=0.126 P=1.98 MULT=1
+MM1002 N_Y_M1002_d N_A_M1002_g A_112_69# VNB NSHORT L=0.15 W=0.84 AD=0.2226
++ AS=0.1008 PD=2.21 PS=1.08 NRD=0 NRS=9.276 M=1 R=5.6 SA=75000.6 SB=75000.2
++ A=0.126 P=1.98 MULT=1
+MM1003 N_Y_M1003_d N_B_M1003_g N_VPWR_M1003_s VPB PHIGHVT L=0.15 W=1.26
++ AD=0.1764 AS=0.3339 PD=1.54 PS=3.05 NRD=0 NRS=0 M=1 R=8.4 SA=75000.2
++ SB=75000.6 A=0.189 P=2.82 MULT=1
+MM1001 N_VPWR_M1001_d N_A_M1001_g N_Y_M1003_d VPB PHIGHVT L=0.15 W=1.26
++ AD=0.3339 AS=0.1764 PD=3.05 PS=1.54 NRD=0 NRS=0 M=1 R=8.4 SA=75000.6
++ SB=75000.2 A=0.189 P=2.82 MULT=1
+DX4_noxref VNB VPB NWDIODE A=3.3943 P=7.37
+c_127 A_112_69# 0 2.39113e-20 $X=0.56 $Y=0.345
 *
-* Licensed under the Apache License, Version 2.0 (the "License");
-* you may not use this file except in compliance with the License.
-* You may obtain a copy of the License at
+.include "sky130_fd_sc_lp__nand2_1.pxi.spice"
 *
-*     https://www.apache.org/licenses/LICENSE-2.0
-*
-* Unless required by applicable law or agreed to in writing, software
-* distributed under the License is distributed on an "AS IS" BASIS,
-* WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
-* See the License for the specific language governing permissions and
-* limitations under the License.
-*
-* SPDX-License-Identifier: Apache-2.0
-
-
-.subckt sky130_fd_sc_lp__nand2_1 A B VGND VNB VPB VPWR Y
-M1000 a_112_69# B VGND VNB nshort w=840000u l=150000u
-+  ad=2.016e+11p pd=2.16e+06u as=2.226e+11p ps=2.21e+06u
-M1001 VPWR A Y VPB phighvt w=1.26e+06u l=150000u
-+  ad=6.678e+11p pd=6.1e+06u as=3.528e+11p ps=3.08e+06u
-M1002 Y A a_112_69# VNB nshort w=840000u l=150000u
-+  ad=2.226e+11p pd=2.21e+06u as=0p ps=0u
-M1003 Y B VPWR VPB phighvt w=1.26e+06u l=150000u
-+  ad=0p pd=0u as=0p ps=0u
 .ends
+*
+*

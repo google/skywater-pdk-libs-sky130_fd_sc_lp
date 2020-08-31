@@ -1,39 +1,53 @@
-* Copyright 2020 The SkyWater PDK Authors
+* File: sky130_fd_sc_lp__or3b_m.spice
+* Created: Fri Aug 28 11:24:32 2020
+* Program "Calibre xRC"
+* Version "v2018.4_34.26"
+* 
+.include "sky130_fd_sc_lp__or3b_m.pex.spice"
+.subckt sky130_fd_sc_lp__or3b_m  VNB VPB C_N B A VPWR X VGND
+* 
+* VGND	VGND
+* X	X
+* VPWR	VPWR
+* A	A
+* B	B
+* C_N	C_N
+* VPB	VPB
+* VNB	VNB
+MM1000 N_A_112_55#_M1000_d N_C_N_M1000_g N_VGND_M1000_s VNB NSHORT L=0.15 W=0.42
++ AD=0.1113 AS=0.1113 PD=1.37 PS=1.37 NRD=0 NRS=0 M=1 R=2.8 SA=75000.2
++ SB=75000.2 A=0.063 P=1.14 MULT=1
+MM1008 N_VGND_M1008_d N_A_112_55#_M1008_g N_A_212_418#_M1008_s VNB NSHORT L=0.15
++ W=0.42 AD=0.0588 AS=0.1113 PD=0.7 PS=1.37 NRD=0 NRS=0 M=1 R=2.8 SA=75000.2
++ SB=75001.5 A=0.063 P=1.14 MULT=1
+MM1002 N_A_212_418#_M1002_d N_B_M1002_g N_VGND_M1008_d VNB NSHORT L=0.15 W=0.42
++ AD=0.0588 AS=0.0588 PD=0.7 PS=0.7 NRD=0 NRS=0 M=1 R=2.8 SA=75000.6 SB=75001.1
++ A=0.063 P=1.14 MULT=1
+MM1007 N_VGND_M1007_d N_A_M1007_g N_A_212_418#_M1002_d VNB NSHORT L=0.15 W=0.42
++ AD=0.0588 AS=0.0588 PD=0.7 PS=0.7 NRD=0 NRS=0 M=1 R=2.8 SA=75001.1 SB=75000.6
++ A=0.063 P=1.14 MULT=1
+MM1001 N_X_M1001_d N_A_212_418#_M1001_g N_VGND_M1007_d VNB NSHORT L=0.15 W=0.42
++ AD=0.1113 AS=0.0588 PD=1.37 PS=0.7 NRD=0 NRS=0 M=1 R=2.8 SA=75001.5 SB=75000.2
++ A=0.063 P=1.14 MULT=1
+MM1005 N_A_112_55#_M1005_d N_C_N_M1005_g N_VPWR_M1005_s VPB PHIGHVT L=0.15
++ W=0.42 AD=0.1113 AS=0.1113 PD=1.37 PS=1.37 NRD=0 NRS=0 M=1 R=2.8 SA=75000.2
++ SB=75000.2 A=0.063 P=1.14 MULT=1
+MM1004 A_299_418# N_A_112_55#_M1004_g N_A_212_418#_M1004_s VPB PHIGHVT L=0.15
++ W=0.42 AD=0.0441 AS=0.116025 PD=0.63 PS=1.41 NRD=23.443 NRS=9.3772 M=1 R=2.8
++ SA=75000.2 SB=75001.6 A=0.063 P=1.14 MULT=1
+MM1003 A_371_418# N_B_M1003_g A_299_418# VPB PHIGHVT L=0.15 W=0.42 AD=0.0819
++ AS=0.0441 PD=0.81 PS=0.63 NRD=65.6601 NRS=23.443 M=1 R=2.8 SA=75000.6
++ SB=75001.2 A=0.063 P=1.14 MULT=1
+MM1009 N_VPWR_M1009_d N_A_M1009_g A_371_418# VPB PHIGHVT L=0.15 W=0.42
++ AD=0.06825 AS=0.0819 PD=0.745 PS=0.81 NRD=0 NRS=65.6601 M=1 R=2.8 SA=75001.1
++ SB=75000.7 A=0.063 P=1.14 MULT=1
+MM1006 N_X_M1006_d N_A_212_418#_M1006_g N_VPWR_M1009_d VPB PHIGHVT L=0.15 W=0.42
++ AD=0.1197 AS=0.06825 PD=1.41 PS=0.745 NRD=9.3772 NRS=21.0987 M=1 R=2.8
++ SA=75001.6 SB=75000.2 A=0.063 P=1.14 MULT=1
+DX10_noxref VNB VPB NWDIODE A=6.9751 P=11.21
 *
-* Licensed under the Apache License, Version 2.0 (the "License");
-* you may not use this file except in compliance with the License.
-* You may obtain a copy of the License at
+.include "sky130_fd_sc_lp__or3b_m.pxi.spice"
 *
-*     https://www.apache.org/licenses/LICENSE-2.0
-*
-* Unless required by applicable law or agreed to in writing, software
-* distributed under the License is distributed on an "AS IS" BASIS,
-* WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
-* See the License for the specific language governing permissions and
-* limitations under the License.
-*
-* SPDX-License-Identifier: Apache-2.0
-
-
-.subckt sky130_fd_sc_lp__or3b_m A B C_N VGND VNB VPB VPWR X
-M1000 a_112_55# C_N VGND VNB nshort w=420000u l=150000u
-+  ad=1.113e+11p pd=1.37e+06u as=3.465e+11p ps=4.17e+06u
-M1001 X a_212_418# VGND VNB nshort w=420000u l=150000u
-+  ad=1.113e+11p pd=1.37e+06u as=0p ps=0u
-M1002 a_212_418# B VGND VNB nshort w=420000u l=150000u
-+  ad=2.289e+11p pd=2.77e+06u as=0p ps=0u
-M1003 a_371_418# B a_299_418# VPB phighvt w=420000u l=150000u
-+  ad=1.638e+11p pd=1.62e+06u as=8.82e+10p ps=1.26e+06u
-M1004 a_299_418# a_112_55# a_212_418# VPB phighvt w=420000u l=150000u
-+  ad=0p pd=0u as=1.16025e+11p ps=1.41e+06u
-M1005 a_112_55# C_N VPWR VPB phighvt w=420000u l=150000u
-+  ad=1.113e+11p pd=1.37e+06u as=2.478e+11p ps=2.86e+06u
-M1006 X a_212_418# VPWR VPB phighvt w=420000u l=150000u
-+  ad=1.197e+11p pd=1.41e+06u as=0p ps=0u
-M1007 VGND A a_212_418# VNB nshort w=420000u l=150000u
-+  ad=0p pd=0u as=0p ps=0u
-M1008 VGND a_112_55# a_212_418# VNB nshort w=420000u l=150000u
-+  ad=0p pd=0u as=0p ps=0u
-M1009 VPWR A a_371_418# VPB phighvt w=420000u l=150000u
-+  ad=0p pd=0u as=0p ps=0u
 .ends
+*
+*

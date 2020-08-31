@@ -1,43 +1,61 @@
-* Copyright 2020 The SkyWater PDK Authors
+* File: sky130_fd_sc_lp__o311a_1.spice
+* Created: Fri Aug 28 11:13:30 2020
+* Program "Calibre xRC"
+* Version "v2018.4_34.26"
+* 
+.include "sky130_fd_sc_lp__o311a_1.pex.spice"
+.subckt sky130_fd_sc_lp__o311a_1  VNB VPB A1 A2 A3 B1 C1 X VPWR VGND
+* 
+* VGND	VGND
+* VPWR	VPWR
+* X	X
+* C1	C1
+* B1	B1
+* A3	A3
+* A2	A2
+* A1	A1
+* VPB	VPB
+* VNB	VNB
+MM1003 N_VGND_M1003_d N_A_80_21#_M1003_g N_X_M1003_s VNB NSHORT L=0.15 W=0.84
++ AD=0.2667 AS=0.2226 PD=1.475 PS=2.21 NRD=8.568 NRS=0 M=1 R=5.6 SA=75000.2
++ SB=75003 A=0.126 P=1.98 MULT=1
+MM1011 N_A_267_47#_M1011_d N_A1_M1011_g N_VGND_M1003_d VNB NSHORT L=0.15 W=0.84
++ AD=0.1449 AS=0.2667 PD=1.185 PS=1.475 NRD=9.276 NRS=42.132 M=1 R=5.6 SA=75001
++ SB=75002.2 A=0.126 P=1.98 MULT=1
+MM1001 N_VGND_M1001_d N_A2_M1001_g N_A_267_47#_M1011_d VNB NSHORT L=0.15 W=0.84
++ AD=0.1827 AS=0.1449 PD=1.275 PS=1.185 NRD=11.424 NRS=0 M=1 R=5.6 SA=75001.5
++ SB=75001.7 A=0.126 P=1.98 MULT=1
+MM1005 N_A_267_47#_M1005_d N_A3_M1005_g N_VGND_M1001_d VNB NSHORT L=0.15 W=0.84
++ AD=0.1638 AS=0.1827 PD=1.23 PS=1.275 NRD=8.568 NRS=10.704 M=1 R=5.6 SA=75002.1
++ SB=75001.1 A=0.126 P=1.98 MULT=1
+MM1007 A_591_47# N_B1_M1007_g N_A_267_47#_M1005_d VNB NSHORT L=0.15 W=0.84
++ AD=0.0882 AS=0.1638 PD=1.05 PS=1.23 NRD=7.14 NRS=7.14 M=1 R=5.6 SA=75002.6
++ SB=75000.6 A=0.126 P=1.98 MULT=1
+MM1008 N_A_80_21#_M1008_d N_C1_M1008_g A_591_47# VNB NSHORT L=0.15 W=0.84
++ AD=0.2226 AS=0.0882 PD=2.21 PS=1.05 NRD=0 NRS=7.14 M=1 R=5.6 SA=75003
++ SB=75000.2 A=0.126 P=1.98 MULT=1
+MM1002 N_VPWR_M1002_d N_A_80_21#_M1002_g N_X_M1002_s VPB PHIGHVT L=0.15 W=1.26
++ AD=0.2457 AS=0.3339 PD=1.65 PS=3.05 NRD=10.9335 NRS=0 M=1 R=8.4 SA=75000.2
++ SB=75002.7 A=0.189 P=2.82 MULT=1
+MM1006 A_267_367# N_A1_M1006_g N_VPWR_M1002_d VPB PHIGHVT L=0.15 W=1.26
++ AD=0.18585 AS=0.2457 PD=1.555 PS=1.65 NRD=14.4598 NRS=6.2449 M=1 R=8.4
++ SA=75000.7 SB=75002.2 A=0.189 P=2.82 MULT=1
+MM1010 A_356_367# N_A2_M1010_g A_267_367# VPB PHIGHVT L=0.15 W=1.26 AD=0.19215
++ AS=0.18585 PD=1.565 PS=1.555 NRD=15.2281 NRS=14.4598 M=1 R=8.4 SA=75001.2
++ SB=75001.8 A=0.189 P=2.82 MULT=1
+MM1000 N_A_80_21#_M1000_d N_A3_M1000_g A_356_367# VPB PHIGHVT L=0.15 W=1.26
++ AD=0.2457 AS=0.19215 PD=1.65 PS=1.565 NRD=7.8012 NRS=15.2281 M=1 R=8.4
++ SA=75001.6 SB=75001.3 A=0.189 P=2.82 MULT=1
+MM1004 N_VPWR_M1004_d N_B1_M1004_g N_A_80_21#_M1000_d VPB PHIGHVT L=0.15 W=1.26
++ AD=0.2457 AS=0.2457 PD=1.65 PS=1.65 NRD=7.8012 NRS=9.3772 M=1 R=8.4 SA=75002.2
++ SB=75000.8 A=0.189 P=2.82 MULT=1
+MM1009 N_A_80_21#_M1009_d N_C1_M1009_g N_VPWR_M1004_d VPB PHIGHVT L=0.15 W=1.26
++ AD=0.3717 AS=0.2457 PD=3.11 PS=1.65 NRD=4.6886 NRS=9.3772 M=1 R=8.4 SA=75002.7
++ SB=75000.2 A=0.189 P=2.82 MULT=1
+DX12_noxref VNB VPB NWDIODE A=7.8703 P=12.17
 *
-* Licensed under the Apache License, Version 2.0 (the "License");
-* you may not use this file except in compliance with the License.
-* You may obtain a copy of the License at
+.include "sky130_fd_sc_lp__o311a_1.pxi.spice"
 *
-*     https://www.apache.org/licenses/LICENSE-2.0
-*
-* Unless required by applicable law or agreed to in writing, software
-* distributed under the License is distributed on an "AS IS" BASIS,
-* WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
-* See the License for the specific language governing permissions and
-* limitations under the License.
-*
-* SPDX-License-Identifier: Apache-2.0
-
-
-.subckt sky130_fd_sc_lp__o311a_1 A1 A2 A3 B1 C1 VGND VNB VPB VPWR X
-M1000 a_80_21# A3 a_356_367# VPB phighvt w=1.26e+06u l=150000u
-+  ad=8.631e+11p pd=6.41e+06u as=3.843e+11p ps=3.13e+06u
-M1001 VGND A2 a_267_47# VNB nshort w=840000u l=150000u
-+  ad=8.988e+11p pd=5.5e+06u as=6.174e+11p ps=4.83e+06u
-M1002 VPWR a_80_21# X VPB phighvt w=1.26e+06u l=150000u
-+  ad=9.828e+11p pd=6.6e+06u as=3.339e+11p ps=3.05e+06u
-M1003 VGND a_80_21# X VNB nshort w=840000u l=150000u
-+  ad=0p pd=0u as=2.226e+11p ps=2.21e+06u
-M1004 VPWR B1 a_80_21# VPB phighvt w=1.26e+06u l=150000u
-+  ad=0p pd=0u as=0p ps=0u
-M1005 a_267_47# A3 VGND VNB nshort w=840000u l=150000u
-+  ad=0p pd=0u as=0p ps=0u
-M1006 a_267_367# A1 VPWR VPB phighvt w=1.26e+06u l=150000u
-+  ad=3.717e+11p pd=3.11e+06u as=0p ps=0u
-M1007 a_591_47# B1 a_267_47# VNB nshort w=840000u l=150000u
-+  ad=1.764e+11p pd=2.1e+06u as=0p ps=0u
-M1008 a_80_21# C1 a_591_47# VNB nshort w=840000u l=150000u
-+  ad=2.226e+11p pd=2.21e+06u as=0p ps=0u
-M1009 a_80_21# C1 VPWR VPB phighvt w=1.26e+06u l=150000u
-+  ad=0p pd=0u as=0p ps=0u
-M1010 a_356_367# A2 a_267_367# VPB phighvt w=1.26e+06u l=150000u
-+  ad=0p pd=0u as=0p ps=0u
-M1011 a_267_47# A1 VGND VNB nshort w=840000u l=150000u
-+  ad=0p pd=0u as=0p ps=0u
 .ends
+*
+*
