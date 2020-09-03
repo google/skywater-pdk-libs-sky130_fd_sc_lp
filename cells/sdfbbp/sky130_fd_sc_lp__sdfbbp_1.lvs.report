@@ -1,0 +1,1225 @@
+
+
+
+                  ##################################################
+                  ##                                              ##
+                  ##         C A L I B R E    S Y S T E M         ##
+                  ##                                              ##
+                  ##             L V S   R E P O R T              ##
+                  ##                                              ##
+                  ##################################################
+
+
+
+REPORT FILE NAME:         sky130_fd_sc_lp__sdfbbp_1.lvs.report
+LAYOUT NAME:              svdb/sky130_fd_sc_lp__sdfbbp_1.sp ('sky130_fd_sc_lp__sdfbbp_1')
+SOURCE NAME:              /home/hlusk/repos/SkyWater/osugooglelib/calibre/./../../sky130_fd_sc_lp/cells/sdfbbp/sky130_fd_sc_lp__sdfbbp_1.spice ('sky130_fd_sc_lp__sdfbbp_1')
+RULE FILE:                /home/hlusk/repos/SkyWater/osugooglelib/calibre/./_xrcControlFile_s8_
+CREATION TIME:            Wed Sep  2 10:33:54 2020
+CURRENT DIRECTORY:        /home/hlusk/repos/SkyWater/osugooglelib/calibre
+USER NAME:                hlusk
+CALIBRE VERSION:          v2018.4_34.26    Mon Dec 3 14:40:54 PST 2018
+
+
+
+                               OVERALL COMPARISON RESULTS
+
+
+
+                  #   #         #####################  
+                   # #          #                   #  
+                    #           #     INCORRECT     #  
+                   # #          #                   #  
+                  #   #         #####################  
+
+
+  Error:    Different numbers of ports.
+  Error:    Connectivity errors.
+
+
+**************************************************************************************************************
+                                      CELL  SUMMARY
+**************************************************************************************************************
+
+  Result         Layout                        Source
+  -----------    -----------                   --------------
+  INCORRECT      sky130_fd_sc_lp__sdfbbp_1     sky130_fd_sc_lp__sdfbbp_1
+
+
+
+**************************************************************************************************************
+                                      LVS PARAMETERS
+**************************************************************************************************************
+
+
+o LVS Setup:
+
+   // LVS COMPONENT TYPE PROPERTY
+   // LVS COMPONENT SUBTYPE PROPERTY
+   // LVS PIN NAME PROPERTY
+   // LVS POWER NAME
+   // LVS GROUND NAME
+   LVS CELL SUPPLY                        NO
+   LVS RECOGNIZE GATES                    ALL
+   LVS IGNORE PORTS                       NO
+   LVS CHECK PORT NAMES                   YES
+   LVS IGNORE TRIVIAL NAMED PORTS         NO
+   LVS BUILTIN DEVICE PIN SWAP            YES
+   LVS ALL CAPACITOR PINS SWAPPABLE       NO
+   LVS DISCARD PINS BY DEVICE             YES
+   LVS SOFT SUBSTRATE PINS                NO
+   LVS INJECT LOGIC                       NO
+   LVS EXPAND UNBALANCED CELLS            YES
+   LVS FLATTEN INSIDE CELL                NO
+   LVS EXPAND SEED PROMOTIONS             NO
+   LVS PRESERVE PARAMETERIZED CELLS       NO
+   LVS GLOBALS ARE PORTS                  YES
+   LVS REVERSE WL                         NO
+   LVS SPICE PREFER PINS                  YES
+   LVS SPICE SLASH IS SPACE               NO
+   LVS SPICE ALLOW FLOATING PINS          YES
+   LVS SPICE ALLOW INLINE PARAMETERS      NO
+   LVS SPICE ALLOW UNQUOTED STRINGS       YES
+   LVS SPICE CONDITIONAL LDD              NO
+   LVS SPICE CULL PRIMITIVE SUBCIRCUITS   NO
+   // LVS SPICE EXCLUDE CELL SOURCE
+   // LVS SPICE EXCLUDE CELL LAYOUT
+   LVS SPICE IMPLIED MOS AREA             NO
+   // LVS SPICE MULTIPLIER NAME
+   LVS SPICE OVERRIDE GLOBALS             YES
+   LVS SPICE REDEFINE PARAM               YES
+   LVS SPICE REPLICATE DEVICES            YES
+   LVS SPICE SCALE X PARAMETERS           NO
+   LVS SPICE STRICT WL                    YES
+   // LVS SPICE OPTION
+   LVS STRICT SUBTYPES                    YES
+   LVS EXACT SUBTYPES                     NO
+   LAYOUT CASE                            NO
+   SOURCE CASE                            NO
+   LVS COMPARE CASE                       NO
+   LVS DOWNCASE DEVICE                    NO
+   LVS REPORT MAXIMUM                     50
+   LVS PROPERTY RESOLUTION MAXIMUM        ALL
+   LVS SIGNATURE MAXIMUM                  ALL
+   // LVS FILTER UNUSED OPTION
+   // LVS REPORT OPTION
+   LVS REPORT UNITS                       YES
+   // LVS NON USER NAME PORT
+   LVS NON USER NAME NET                  "^n[0-9]*$" "^net[0-9]*$"
+   // LVS NON USER NAME INSTANCE
+   // LVS IGNORE DEVICE PIN
+   // LVS PREFER NETS FILTER SOURCE
+   // LVS PREFER NETS FILTER LAYOUT
+
+   // Device Type Map
+
+   LVS DEVICE TYPE                        RESISTOR "xhrpoly_0p35" SOURCE LAYOUT
+   LVS DEVICE TYPE                        RESISTOR "xuhrpoly_0p35" SOURCE LAYOUT
+   LVS DEVICE TYPE                        RESISTOR "xhrpoly_0p69" SOURCE LAYOUT
+   LVS DEVICE TYPE                        RESISTOR "xuhrpoly_0p69" SOURCE LAYOUT
+   LVS DEVICE TYPE                        RESISTOR "xhrpoly_1p41" SOURCE LAYOUT
+   LVS DEVICE TYPE                        RESISTOR "xuhrpoly_1p41" SOURCE LAYOUT
+   LVS DEVICE TYPE                        RESISTOR "xhrpoly_2p85" SOURCE LAYOUT
+   LVS DEVICE TYPE                        RESISTOR "xuhrpoly_2p85" SOURCE LAYOUT
+
+   // Reduction
+
+   LVS REDUCE SERIES MOS                  NO
+   LVS REDUCE PARALLEL MOS                NO
+   LVS REDUCE SEMI SERIES MOS             NO
+   LVS REDUCE SPLIT GATES                 YES [ TOLERANCE l 1 w 1 ]
+   LVS REDUCE PARALLEL BIPOLAR            NO
+   LVS REDUCE SERIES CAPACITORS           NO
+   LVS REDUCE PARALLEL CAPACITORS         NO
+   LVS REDUCE SERIES RESISTORS            NO
+   LVS REDUCE PARALLEL RESISTORS          NO
+   LVS REDUCE PARALLEL DIODES             NO
+
+   LVS REDUCE  condiode  PARALLEL
+   LVS REDUCE  condiodeHvPsub  PARALLEL
+   LVS REDUCE  p20vhv1  PARALLEL [ TOLERANCE l 1 w 1 ]
+   LVS REDUCE  n20vhviso1  PARALLEL [ TOLERANCE l 1 w 1 ]
+   LVS REDUCE  nvhv  PARALLEL [ TOLERANCE l 1 w 1 ]
+   LVS REDUCE  pvhv  PARALLEL [ TOLERANCE l 1 w 1 ]
+   LVS REDUCE  MP  PARALLEL [ TOLERANCE l 1 w 1 ]
+   LVS REDUCE  M  PARALLEL [ TOLERANCE l 1 w 1 ]
+   LVS REDUCE  MN  PARALLEL [ TOLERANCE l 1 w 1 ]
+   LVS REDUCE  Q(npnpar1x1)  PARALLEL
+   LVS REDUCE  Q(npnpar1x2)  PARALLEL
+   LVS REDUCE  Q(npn_1x1_2p0_hv)  PARALLEL
+   LVS REDUCE  Q(pnppar)  PARALLEL [ TOLERANCE bArea 1 bPeri 1 eArea 1 ePeri 1 ]
+   LVS REDUCE  Q(pnppar5x)  PARALLEL [ TOLERANCE bArea 1 bPeri 1 eArea 1 ePeri 1 ]
+   LVS REDUCE  D  PARALLEL [ TOLERANCE a 1 p 1 ]
+   LVS REDUCE  D  SERIES POS NEG NO
+   LVS REDUCE  C(xcmimc1)  PARALLEL [ TOLERANCE w 1 l 1 ]
+   LVS REDUCE  C(xcmimc2)  PARALLEL [ TOLERANCE w 1 l 1 ]
+   LVS REDUCE  R(mrp1)  PARALLEL [ TOLERANCE w 1 l 1 ]
+   LVS REDUCE  R  PARALLEL [ TOLERANCE w 1 l 1 ]
+   LVS REDUCE  R  SERIES POS NEG NO
+   LVS REDUCE  R(short)  PARALLEL
+   LVS REDUCE  R(short)  SERIES POS NEG NO
+   LVS REDUCE  R(fuse)  PARALLEL NO
+   LVS REDUCE  R(fuse)  SERIES POS NEG NO
+   LVS REDUCE  R(metop)  PARALLEL [ TOLERANCE metopNumber 0 ]
+   LVS REDUCE  R(metop)  SERIES POS NEG NO
+   LVS REDUCTION PRIORITY                 PARALLEL
+   
+   LVS SHORT EQUIVALENT NODES             NO
+
+   // Filter
+
+   LVS FILTER  R(cds_thru)  SHORT SOURCE
+   LVS FILTER  R(cds_thru)  SHORT LAYOUT
+   LVS FILTER  Dpar  OPEN SOURCE
+   LVS FILTER  Dpar  OPEN LAYOUT
+   LVS FILTER  Probe  OPEN SOURCE
+   LVS FILTER  Probe  OPEN LAYOUT
+   LVS FILTER  icecap  OPEN SOURCE
+   LVS FILTER  s8fmlt_iref_termx  OPEN SOURCE
+   LVS FILTER  s8fmlt_neg_termx  OPEN SOURCE
+   LVS FILTER  s8fmlt_termx  OPEN SOURCE
+   LVS FILTER  s8fmlt_vdac_termx  OPEN SOURCE
+   LVS FILTER  D  OPEN SOURCE
+   LVS FILTER  diff_dev  OPEN SOURCE
+   LVS FILTER  diff_dev  OPEN LAYOUT
+   LVS FILTER  tap_dev  OPEN SOURCE
+   LVS FILTER  tap_dev  OPEN LAYOUT
+   LVS FILTER  cad_dummy_open_device  OPEN SOURCE
+   LVS FILTER  cad_dummy_open_device  OPEN LAYOUT
+
+   // Trace Property
+
+   TRACE PROPERTY  xcnwvc  m m 0
+   TRACE PROPERTY  xcnwvc  w w 0
+   TRACE PROPERTY  xcnwvc  l l 0
+   TRACE PROPERTY  xcnwvc2  m m 0
+   TRACE PROPERTY  xcnwvc2  w w 0
+   TRACE PROPERTY  xcnwvc2  l l 0
+   TRACE PROPERTY  xchvnwc  m m 0
+   TRACE PROPERTY  q(npnpar1x1)  m m 0
+   TRACE PROPERTY  q(npnpar1x2)  m m 0
+   TRACE PROPERTY  q(npn_1x1_2p0_hv)  m m 0
+   TRACE PROPERTY  q(pnppar)  barea barea 0
+   TRACE PROPERTY  q(pnppar)  bperi bperi 0
+   TRACE PROPERTY  q(pnppar)  earea earea 0
+   TRACE PROPERTY  q(pnppar)  eperi eperi 0
+   TRACE PROPERTY  q(pnppar)  m m 0
+   TRACE PROPERTY  q(pnppar5x)  barea barea 0
+   TRACE PROPERTY  q(pnppar5x)  bperi bperi 0
+   TRACE PROPERTY  q(pnppar5x)  earea earea 0
+   TRACE PROPERTY  q(pnppar5x)  eperi eperi 0
+   TRACE PROPERTY  q(pnppar5x)  m m 0
+   TRACE PROPERTY  d(ndiode)  a a 1
+   TRACE PROPERTY  d(ndiode)  p p 1
+   TRACE PROPERTY  d(ndiode)  m m 0
+   TRACE PROPERTY  d(ndiode_h)  a a 1
+   TRACE PROPERTY  d(ndiode_h)  p p 1
+   TRACE PROPERTY  d(ndiode_h)  m m 0
+   TRACE PROPERTY  d(xesd_ndiode_h_100)  a a 1
+   TRACE PROPERTY  d(xesd_ndiode_h_100)  p p 1
+   TRACE PROPERTY  d(xesd_ndiode_h_100)  m m 0
+   TRACE PROPERTY  d(xesd_ndiode_h_200)  a a 1
+   TRACE PROPERTY  d(xesd_ndiode_h_200)  p p 1
+   TRACE PROPERTY  d(xesd_ndiode_h_200)  m m 0
+   TRACE PROPERTY  d(xesd_ndiode_h_300)  a a 1
+   TRACE PROPERTY  d(xesd_ndiode_h_300)  p p 1
+   TRACE PROPERTY  d(xesd_ndiode_h_300)  m m 0
+   TRACE PROPERTY  d(pdiode)  a a 1
+   TRACE PROPERTY  d(pdiode)  p p 1
+   TRACE PROPERTY  d(pdiode)  m m 0
+   TRACE PROPERTY  d(pdiode_h)  a a 1
+   TRACE PROPERTY  d(pdiode_h)  p p 1
+   TRACE PROPERTY  d(pdiode_h)  m m 0
+   TRACE PROPERTY  d(xesd_pdiode_h_100)  a a 1
+   TRACE PROPERTY  d(xesd_pdiode_h_100)  p p 1
+   TRACE PROPERTY  d(xesd_pdiode_h_100)  m m 0
+   TRACE PROPERTY  d(xesd_pdiode_h_200)  a a 1
+   TRACE PROPERTY  d(xesd_pdiode_h_200)  p p 1
+   TRACE PROPERTY  d(xesd_pdiode_h_200)  m m 0
+   TRACE PROPERTY  d(xesd_pdiode_h_300)  a a 1
+   TRACE PROPERTY  d(xesd_pdiode_h_300)  p p 1
+   TRACE PROPERTY  d(xesd_pdiode_h_300)  m m 0
+   TRACE PROPERTY  d(dnwdiode_psub)  a a 1
+   TRACE PROPERTY  d(dnwdiode_psub)  p p 1
+   TRACE PROPERTY  d(dnwdiode_psub)  m m 0
+   TRACE PROPERTY  d(xesd_ndiode_h_dnwl_100)  a a 1
+   TRACE PROPERTY  d(xesd_ndiode_h_dnwl_100)  p p 1
+   TRACE PROPERTY  d(xesd_ndiode_h_dnwl_100)  m m 0
+   TRACE PROPERTY  d(xesd_ndiode_h_dnwl_200)  a a 1
+   TRACE PROPERTY  d(xesd_ndiode_h_dnwl_200)  p p 1
+   TRACE PROPERTY  d(xesd_ndiode_h_dnwl_200)  m m 0
+   TRACE PROPERTY  d(xesd_ndiode_h_dnwl_300)  a a 1
+   TRACE PROPERTY  d(xesd_ndiode_h_dnwl_300)  p p 1
+   TRACE PROPERTY  d(xesd_ndiode_h_dnwl_300)  m m 0
+   TRACE PROPERTY  xcmvpp  m m 0
+   TRACE PROPERTY  xcmvpp_2  m m 0
+   TRACE PROPERTY  xcmvpp2_nhvnative10x4  m m 0
+   TRACE PROPERTY  xcmvpp2_phv5x4  m m 0
+   TRACE PROPERTY  xcmvpp_hd5_atlas_fingercap2_l5  m m 0
+   TRACE PROPERTY  xcmvpp_hd5_atlas_wafflecap2  m m 0
+   TRACE PROPERTY  xcmvpp_hd5_atlas_wafflecap1  m m 0
+   TRACE PROPERTY  xcmvpp_hd5_atlas_fingercap_l40  m m 0
+   TRACE PROPERTY  xcmvpp_hd5_atlas_fingercap_l20  m m 0
+   TRACE PROPERTY  xcmvpp_hd5_atlas_fingercap_l10  m m 0
+   TRACE PROPERTY  xcmvpp_hd5_atlas_fingercap_l5  m m 0
+   TRACE PROPERTY  xcmvpp_hd5_5x2_met5pullin  m m 0
+   TRACE PROPERTY  xcmvpp_hd5_5x2  m m 0
+   TRACE PROPERTY  xcmvpp_hd5_5x1_met5pullin  m m 0
+   TRACE PROPERTY  xcmvpp_hd5_5x1  m m 0
+   TRACE PROPERTY  xcmvpp_hd5_4x2  m m 0
+   TRACE PROPERTY  xcmvpp_hd5_4x1  m m 0
+   TRACE PROPERTY  xcmvpp_hd5_3x2  m m 0
+   TRACE PROPERTY  xcmvpp_hd5_3x1  m m 0
+   TRACE PROPERTY  xcmvpp_hd5_2x2  m m 0
+   TRACE PROPERTY  xcmvpp_hd5_2x1  m m 0
+   TRACE PROPERTY  xcmvpp_hd5_1x2  m m 0
+   TRACE PROPERTY  xcmvpp_hd5_1x1  m m 0
+   TRACE PROPERTY  xcmvppx4_2xnhvnative10x4  m m 0
+   TRACE PROPERTY  xcmvpp11p5x11p7_polym50p4shield  m m 0
+   TRACE PROPERTY  xcmvpp4p4x4p6_m3_lim5shield  m m 0
+   TRACE PROPERTY  xcmvpp11p5x11p7_m3_lim5shield  m m 0
+   TRACE PROPERTY  xcmvpp8p6x7p9_m3_lim5shield  m m 0
+   TRACE PROPERTY  xcmvpp11p5x11p7_lim5shield  m m 0
+   TRACE PROPERTY  xcmvpp11p5x11p7_polym5shield  m m 0
+   TRACE PROPERTY  xcmvpp11p5x11p7_m5shield  m m 0
+   TRACE PROPERTY  xcmvpp6p8x6p1_lim4shield  m m 0
+   TRACE PROPERTY  xcmvpp6p8x6p1_polym4shield  m m 0
+   TRACE PROPERTY  xcmvpp11p5x11p7_polym4shield  m m 0
+   TRACE PROPERTY  xcmvpp11p5x11p7_m4shield  m m 0
+   TRACE PROPERTY  xcmvpp1p8x1p8  m m 0
+   TRACE PROPERTY  xcmvpp4p4x4p6_m3_lishield  m m 0
+   TRACE PROPERTY  xcmvpp8p6x7p9_m3_lishield  m m 0
+   TRACE PROPERTY  xcmvpp11p5x11p7_m3_lishield  m m 0
+   TRACE PROPERTY  xcmvpp11p5x11p7_m3shield  m m 0
+   TRACE PROPERTY  xcmvpp8p6x7p9_m3shield  m m 0
+   TRACE PROPERTY  xcmvpp4p4x4p6_m3shield  m m 0
+   TRACE PROPERTY  xcmvpp1p8x1p8_m3shield  m m 0
+   TRACE PROPERTY  xcmvpp11p5x11p7_m1m4m5shield  m m 0
+   TRACE PROPERTY  xcmvpp11p5x11p7_m1m4  m m 0
+   TRACE PROPERTY  xcmvpp11p5x11p7_m1m2  m m 0
+   TRACE PROPERTY  xcmvpp4p4x4p6_m1m2  m m 0
+   TRACE PROPERTY  xcmvpp5  m m 0
+   TRACE PROPERTY  xcmvpp4  m m 0
+   TRACE PROPERTY  xcmvpp3  m m 0
+   TRACE PROPERTY  r(mrdn)  w w 1
+   TRACE PROPERTY  r(mrdn)  l l 1
+   TRACE PROPERTY  r(mrdn)  m m 0
+   TRACE PROPERTY  r(mrdn_hv)  w w 1
+   TRACE PROPERTY  r(mrdn_hv)  l l 1
+   TRACE PROPERTY  r(mrdn_hv)  m m 0
+   TRACE PROPERTY  r(mrdp)  w w 1
+   TRACE PROPERTY  r(mrdp)  l l 1
+   TRACE PROPERTY  r(mrdp)  m m 0
+   TRACE PROPERTY  r(mrdp_hv)  w w 1
+   TRACE PROPERTY  r(mrdp_hv)  l l 1
+   TRACE PROPERTY  r(mrdp_hv)  m m 0
+   TRACE PROPERTY  r(mrl1)  w w 1
+   TRACE PROPERTY  r(mrl1)  l l 1
+   TRACE PROPERTY  r(mrl1)  m m 0
+   TRACE PROPERTY  r(xpwres)  w w 1
+   TRACE PROPERTY  r(xpwres)  l l 1
+   TRACE PROPERTY  r(xpwres)  m m 0
+   TRACE PROPERTY  r(short)  m m 0
+   TRACE PROPERTY  r(fuse)  w w 1
+   TRACE PROPERTY  r(fuse)  l l 1
+   TRACE PROPERTY  r(fuse)  m m 0
+   TRACE PROPERTY  r(metop)  metopnumber metopnumber 0
+   TRACE PROPERTY  d(dnwdiode_psub_victim)  a a 10
+   TRACE PROPERTY  d(dnwdiode_psub_victim)  p p 10
+   TRACE PROPERTY  d(dnwdiode_psub_victim)  m m 0
+   TRACE PROPERTY  d(nwdiode_victim)  a a 10
+   TRACE PROPERTY  d(nwdiode_victim)  p p 10
+   TRACE PROPERTY  d(nwdiode_victim)  m m 0
+   TRACE PROPERTY  d(dnwdiode_psub_aggressor)  a a 10
+   TRACE PROPERTY  d(dnwdiode_psub_aggressor)  p p 10
+   TRACE PROPERTY  d(dnwdiode_psub_aggressor)  m m 0
+   TRACE PROPERTY  d(nwdiode_aggressor)  a a 10
+   TRACE PROPERTY  d(nwdiode_aggressor)  p p 10
+   TRACE PROPERTY  d(nwdiode_aggressor)  m m 0
+
+   // User Trace Property
+
+   TRACE PROPERTY  mn(nshort)  m mult w l
+   TRACE PROPERTY  mn(npass)  m mult w l
+   TRACE PROPERTY  mn(nlowvt)  m mult w l
+   TRACE PROPERTY  m(sonos_e)  m mult w l
+   TRACE PROPERTY  m  m mult w l
+   TRACE PROPERTY  m(fnpass)  m mult w l
+   TRACE PROPERTY  mn(nhv)  m mult w l
+   TRACE PROPERTY  mn(nhvnative)  m mult w l
+   TRACE PROPERTY  mn(ntvnative)  m mult w l
+   TRACE PROPERTY  mp(pshort)  m mult w l
+   TRACE PROPERTY  mp  m mult w l
+   TRACE PROPERTY  mp(phighvt)  m mult w l
+   TRACE PROPERTY  mp(plowvt)  m mult w l
+   TRACE PROPERTY  mp(phv)  m mult w l
+   TRACE PROPERTY  mn(nshortesd)  m mult w l
+   TRACE PROPERTY  mn(nhvesd)  m mult w l
+   TRACE PROPERTY  mn(nhvnativeesd)  m mult w l
+   TRACE PROPERTY  mp(phvesd)  m mult w l
+   TRACE PROPERTY  nvhv  m mult w l
+   TRACE PROPERTY  n20vhv1  m mult w l
+   TRACE PROPERTY  n20nativevhv1  m mult w l
+   TRACE PROPERTY  n20vhviso1  m mult w l
+   TRACE PROPERTY  n20nativevhviso1  m mult w l
+   TRACE PROPERTY  pvhv  m mult w l
+   TRACE PROPERTY  p20vhv1  m mult w l
+   TRACE PROPERTY  c(xcmimc1)  w l m
+   TRACE PROPERTY  c(xcmimc2)  w l m
+   TRACE PROPERTY  r(mrp1)  m w l
+   TRACE PROPERTY  xhrpoly_0p35  m w l
+   TRACE PROPERTY  xuhrpoly_0p35  m w l
+   TRACE PROPERTY  xhrpoly_0p69  m w l
+   TRACE PROPERTY  xuhrpoly_0p69  m w l
+   TRACE PROPERTY  xhrpoly_1p41  m w l
+   TRACE PROPERTY  xuhrpoly_1p41  m w l
+   TRACE PROPERTY  xhrpoly_2p85  m w l
+   TRACE PROPERTY  xuhrpoly_2p85  m w l
+
+
+
+                   CELL COMPARISON RESULTS ( TOP LEVEL )
+
+
+
+                  #   #         #####################  
+                   # #          #                   #  
+                    #           #     INCORRECT     #  
+                   # #          #                   #  
+                  #   #         #####################  
+
+
+  Error:    Different numbers of ports (see below).
+  Error:    Connectivity errors.
+
+LAYOUT CELL NAME:         sky130_fd_sc_lp__sdfbbp_1
+SOURCE CELL NAME:         sky130_fd_sc_lp__sdfbbp_1
+
+--------------------------------------------------------------------------------------------------------------
+
+INITIAL NUMBERS OF OBJECTS
+--------------------------
+
+                Layout    Source         Component Type
+                ------    ------         --------------
+ Ports:             12        10    *
+
+ Nets:              36        36
+
+ Instances:         24        24         MN (4 pins)
+                    24        24         MP (4 pins)
+                     1         0    *    Dpar (2 pins)
+                ------    ------
+ Total Inst:        49        48
+
+
+NUMBERS OF OBJECTS AFTER TRANSFORMATION
+---------------------------------------
+
+                Layout    Source         Component Type
+                ------    ------         --------------
+ Ports:             12        10    *
+
+ Nets:              22        22
+
+ Instances:          8         8         MN (4 pins)
+                    10        10         MP (4 pins)
+                     5         5         SMN2 (4 pins)
+                     7         7         SMP2 (4 pins)
+                     2         2         SPMN_2_1 (5 pins)
+                ------    ------
+ Total Inst:        32        32
+
+
+       * = Number of objects in layout different from number in source.
+
+
+
+**************************************************************************************************************
+                                 INCORRECT OBJECTS
+**************************************************************************************************************
+
+
+LEGEND:
+-------
+
+  ne  = Naming Error (same layout name found in source
+        circuit, but object was matched otherwise).
+
+
+**************************************************************************************************************
+                                   INCORRECT NETS
+
+DISC#  LAYOUT NAME                                               SOURCE NAME
+**************************************************************************************************************
+
+  1    Net VNB                                                   VNB
+       --- 9 Connections On This Net ---                         --- 15 Connections On This Net ---
+       --------------------------                                --------------------------
+       
+       M23(15.255,0.265):b                                       ** missing connection **
+       M22(14.745,0.685):b                                       ** missing connection **
+       M21(13.755,0.235):b                                       ** missing connection **
+       M20(13.245,0.655):b                                       ** missing connection **
+       M7(6.010,0.235):b                                         ** missing connection **
+       M6(4.750,0.505):b                                         ** missing connection **
+       M5(3.625,0.530):b                                         ** missing connection **
+       M4(2.360,0.595):b                                         ** missing connection **
+       
+       
+       
+       ** missing connection **                                  (SMN2):output
+                                                                   M1003:d
+       
+       
+       ** missing connection **                                  (SMN2):output
+                                                                   M1033:s
+       
+       
+       ** missing connection **                                  (SMN2):output
+                                                                   M1008:s
+       
+       
+       ** missing connection **                                  (SMN2):output
+                                                                   M1009:d
+       
+       
+       ** missing connection **                                  (SPMN_2_1):output
+                                                                   M1011:s
+       
+       
+       ** missing connection **                                  (SMN2):output
+                                                                   M1010:d
+       
+       
+       ** missing connection **                                  (SPMN_2_1):output
+                                                                   M1026:s
+       
+       
+       ** missing connection **                                  M1039:d
+       ** missing connection **                                  M1036:s
+       ** missing connection **                                  M1034:s
+       ** missing connection **                                  M1030:s
+       ** missing connection **                                  M1022:d
+       ** missing connection **                                  M1015:s
+       ** missing connection **                                  M1002:d
+       
+
+--------------------------------------------------------------------------------------------------------------
+
+  2    Net VPB                                                   VPB
+       --- 11 Connections On This Net ---                        --- 17 Connections On This Net ---
+       --------------------------                                --------------------------
+       
+       M47(15.255,1.835):b                                       ** missing connection **
+       M46(14.745,1.835):b                                       ** missing connection **
+       M45(13.755,1.785):b                                       ** missing connection **
+       M44(13.245,1.785):b                                       ** missing connection **
+       M31(5.930,2.285):b                                        ** missing connection **
+       M30(4.840,2.285):b                                        ** missing connection **
+       M29(3.850,2.370):b                                        ** missing connection **
+       M28(2.860,2.405):b                                        ** missing connection **
+       M34(7.340,1.865):b                                        ** missing connection **
+       M41(11.315,2.255):b                                       ** missing connection **
+       
+       
+       
+       ** missing connection **                                  (SMP2):output
+                                                                   M1032:s
+       
+       
+       ** missing connection **                                  (SMP2):output
+                                                                   M1037:d
+       
+       
+       ** missing connection **                                  (SMP2):output
+                                                                   M1017:d
+       
+       
+       ** missing connection **                                  (SMP2):output
+                                                                   M1031:s
+       
+       
+       ** missing connection **                                  (SMP2):output
+                                                                   M1046:d
+       
+       
+       ** missing connection **                                  (SMP2):output
+                                                                   M1014:d
+       
+       
+       ** missing connection **                                  (SMP2):output
+                                                                   M1016:d
+       
+       
+       ** missing connection **                                  M1045:s
+       ** missing connection **                                  M1044:s
+       ** missing connection **                                  M1042:d
+       ** missing connection **                                  M1038:s
+       ** missing connection **                                  M1025:d
+       ** missing connection **                                  M1006:s
+       ** missing connection **                                  M1000:d
+       ** missing connection **                                  M1020:s
+       ** missing connection **                                  M1040:s
+       
+
+--------------------------------------------------------------------------------------------------------------
+
+  3    Net VPWR                                                  ** no similar net **
+
+--------------------------------------------------------------------------------------------------------------
+
+  4    Net VGND                                                  ** no similar net **
+
+--------------------------------------------------------------------------------------------------------------
+
+  5    ** no similar net **                                      w_n38_331#
+
+--------------------------------------------------------------------------------------------------------------
+
+  6    ** no similar net **                                      w_0_0#
+
+
+**************************************************************************************************************
+                                   INCORRECT PORTS
+
+DISC#  LAYOUT NAME                                               SOURCE NAME
+**************************************************************************************************************
+
+  7    VPWR on net: VPWR                                         ** missing port **
+  8    VGND on net: VGND                                         ** missing port **
+
+
+**************************************************************************************************************
+                                 INCORRECT INSTANCES
+
+DISC#  LAYOUT NAME                                               SOURCE NAME
+**************************************************************************************************************
+
+  9    M8(6.440,0.235)  MN(NSHORT)                               M1023  MN(NSHORT)
+         g: 8                                                      g: a_893_101#
+         b: VNB                                                    ** VNB **
+         ** no similar net **                                      b: w_0_0#
+
+--------------------------------------------------------------------------------------------------------------
+
+ 10    M9(6.800,0.235)  MN(NSHORT)                               M1010  MN(NSHORT)
+         g: 9                                                      g: a_1297_290#
+         b: VNB                                                    ** VNB **
+         ** no similar net **                                      b: w_0_0#
+
+--------------------------------------------------------------------------------------------------------------
+
+ 11    M12(8.250,0.235)  MN(NSHORT)                              M1007  MN(NSHORT)
+         g: 12                                                     g: a_1650_21#
+         b: VNB                                                    ** VNB **
+         ** no similar net **                                      b: w_0_0#
+
+--------------------------------------------------------------------------------------------------------------
+
+ 12    M11(7.740,0.235)  MN(NSHORT)                              M1001  MN(NSHORT)
+         g: 11                                                     g: a_1216_457#
+         b: VNB                                                    ** VNB **
+         ** no similar net **                                      b: w_0_0#
+
+--------------------------------------------------------------------------------------------------------------
+
+ 13    M10(7.310,0.235)  MN(NSHORT)                              M1026  MN(NSHORT)
+         g: SET_B                                                  g: SET_B
+         b: VNB                                                    ** VNB **
+         ** no similar net **                                      b: w_0_0#
+
+--------------------------------------------------------------------------------------------------------------
+
+ 14    M19(12.275,0.285)  MN(NSHORT)                             M1047  MN(NSHORT)
+         g: 12                                                     g: a_1650_21#
+         b: VNB                                                    ** VNB **
+         ** no similar net **                                      b: w_0_0#
+
+--------------------------------------------------------------------------------------------------------------
+
+ 15    M18(11.675,0.285)  MN(NSHORT)                             M1028  MN(NSHORT)
+         g: 15                                                     g: a_1861_431#
+         b: VNB                                                    ** VNB **
+         ** no similar net **                                      b: w_0_0#
+
+--------------------------------------------------------------------------------------------------------------
+
+ 16    M17(11.245,0.285)  MN(NSHORT)                             M1011  MN(NSHORT)
+         g: SET_B                                                  g: SET_B
+         b: VNB                                                    ** VNB **
+         ** no similar net **                                      b: w_0_0#
+
+--------------------------------------------------------------------------------------------------------------
+
+ 17    M32(6.360,2.285)  MP(PHIGHVT)                             M1043  MP(PHIGHVT)
+         g: 13                                                     g: a_755_106#
+         b: VPB                                                    ** VPB **
+         ** no similar net **                                      b: w_n38_331#
+
+--------------------------------------------------------------------------------------------------------------
+
+ 18    M33(6.750,2.285)  MP(PHIGHVT)                             M1016  MP(PHIGHVT)
+         g: 9                                                      g: a_1297_290#
+         b: VPB                                                    ** VPB **
+         ** no similar net **                                      b: w_n38_331#
+
+--------------------------------------------------------------------------------------------------------------
+
+ 19    M2(1.300,0.595)  MN(NSHORT)                               M1019  MN(NSHORT)
+         g: D                                                      g: D
+         b: VNB                                                    ** VNB **
+         ** no similar net **                                      b: w_0_0#
+
+--------------------------------------------------------------------------------------------------------------
+
+ 20    M3(1.660,0.595)  MN(NSHORT)                               M1003  MN(NSHORT)
+         g: 5                                                      g: a_332_93#
+         b: VNB                                                    ** VNB **
+         ** no similar net **                                      b: w_0_0#
+
+--------------------------------------------------------------------------------------------------------------
+
+ 21    M0(0.480,0.595)  MN(NSHORT)                               M1033  MN(NSHORT)
+         g: SCD                                                    g: SCD
+         b: VNB                                                    ** VNB **
+         ** no similar net **                                      b: w_0_0#
+
+--------------------------------------------------------------------------------------------------------------
+
+ 22    M1(0.870,0.595)  MN(NSHORT)                               M1013  MN(NSHORT)
+         g: SCE                                                    g: SCE
+         b: VNB                                                    ** VNB **
+         ** no similar net **                                      b: w_0_0#
+
+--------------------------------------------------------------------------------------------------------------
+
+ 23    M15(10.180,0.505)  MN(NSHORT)                             M1027  MN(NSHORT)
+         g: 13                                                     g: a_755_106#
+         b: VNB                                                    ** VNB **
+         ** no similar net **                                      b: w_0_0#
+
+--------------------------------------------------------------------------------------------------------------
+
+ 24    M16(10.570,0.505)  MN(NSHORT)                             M1009  MN(NSHORT)
+         g: 14                                                     g: a_2064_453#
+         b: VNB                                                    ** VNB **
+         ** no similar net **                                      b: w_0_0#
+
+--------------------------------------------------------------------------------------------------------------
+
+ 25    M13(9.250,0.285)  MN(NSHORT)                              M1008  MN(NSHORT)
+         g: 9                                                      g: a_1297_290#
+         b: VNB                                                    ** VNB **
+         ** no similar net **                                      b: w_0_0#
+
+--------------------------------------------------------------------------------------------------------------
+
+ 26    M14(9.670,0.285)  MN(NSHORT)                              M1018  MN(NSHORT)
+         g: 8                                                      g: a_893_101#
+         b: VNB                                                    ** VNB **
+         ** no similar net **                                      b: w_0_0#
+
+--------------------------------------------------------------------------------------------------------------
+
+ 27    M25(0.970,2.405)  MP(PHIGHVT)                             M1032  MP(PHIGHVT)
+         g: SCE                                                    g: SCE
+         b: VPB                                                    ** VPB **
+         ** no similar net **                                      b: w_n38_331#
+
+--------------------------------------------------------------------------------------------------------------
+
+ 28    M26(1.360,2.405)  MP(PHIGHVT)                             M1005  MP(PHIGHVT)
+         g: D                                                      g: D
+         b: VPB                                                    ** VPB **
+         ** no similar net **                                      b: w_n38_331#
+
+--------------------------------------------------------------------------------------------------------------
+
+ 29    M27(1.790,2.405)  MP(PHIGHVT)                             M1041  MP(PHIGHVT)
+         g: 5                                                      g: a_332_93#
+         b: VPB                                                    ** VPB **
+         ** no similar net **                                      b: w_n38_331#
+
+--------------------------------------------------------------------------------------------------------------
+
+ 30    M24(0.420,2.405)  MP(PHIGHVT)                             M1037  MP(PHIGHVT)
+         g: SCD                                                    g: SCD
+         b: VPB                                                    ** VPB **
+         ** no similar net **                                      b: w_n38_331#
+
+--------------------------------------------------------------------------------------------------------------
+
+ 31    M35(7.770,1.865)  MP(PHIGHVT)                             M1024  MP(PHIGHVT)
+         g: 11                                                     g: a_1216_457#
+         b: VPB                                                    ** VPB **
+         ** no similar net **                                      b: w_n38_331#
+
+--------------------------------------------------------------------------------------------------------------
+
+ 32    M36(8.250,1.865)  MP(PHIGHVT)                             M1046  MP(PHIGHVT)
+         g: 12                                                     g: a_1650_21#
+         b: VPB                                                    ** VPB **
+         ** no similar net **                                      b: w_n38_331#
+
+--------------------------------------------------------------------------------------------------------------
+
+ 33    M39(9.665,2.575)  MP(PHIGHVT)                             M1029  MP(PHIGHVT)
+         g: 8                                                      g: a_893_101#
+         b: VPB                                                    ** VPB **
+         ** no similar net **                                      b: w_n38_331#
+
+--------------------------------------------------------------------------------------------------------------
+
+ 34    M40(10.320,2.575)  MP(PHIGHVT)                            M1017  MP(PHIGHVT)
+         g: 14                                                     g: a_2064_453#
+         b: VPB                                                    ** VPB **
+         ** no similar net **                                      b: w_n38_331#
+
+--------------------------------------------------------------------------------------------------------------
+
+ 35    M37(8.680,1.865)  MP(PHIGHVT)                             M1031  MP(PHIGHVT)
+         g: 9                                                      g: a_1297_290#
+         b: VPB                                                    ** VPB **
+         ** no similar net **                                      b: w_n38_331#
+
+--------------------------------------------------------------------------------------------------------------
+
+ 36    M38(9.155,2.155)  MP(PHIGHVT)                             M1035  MP(PHIGHVT)
+         g: 13                                                     g: a_755_106#
+         b: VPB                                                    ** VPB **
+         ** no similar net **                                      b: w_n38_331#
+
+--------------------------------------------------------------------------------------------------------------
+
+ 37    M42(11.825,2.255)  MP(PHIGHVT)                            M1021  MP(PHIGHVT)
+         g: 15                                                     g: a_1861_431#
+         b: VPB                                                    ** VPB **
+         ** no similar net **                                      b: w_n38_331#
+
+--------------------------------------------------------------------------------------------------------------
+
+ 38    M43(12.245,2.255)  MP(PHIGHVT)                            M1014  MP(PHIGHVT)
+         g: 12                                                     g: a_1650_21#
+         b: VPB                                                    ** VPB **
+         ** no similar net **                                      b: w_n38_331#
+
+
+
+**************************************************************************************************************
+                               INFORMATION AND WARNINGS
+**************************************************************************************************************
+
+
+                  Matched    Matched    Unmatched    Unmatched    Component
+                   Layout     Source       Layout       Source    Type
+                  -------    -------    ---------    ---------    ---------
+   Ports:              10         10            2            0
+
+   Nets:               20         20            2            2
+
+   Instances:           8          8            0            0    MN(NSHORT)
+                       10         10            0            0    MP(PHIGHVT)
+                        5          5            0            0    SMN2
+                        7          7            0            0    SMP2
+                        2          2            0            0    SPMN_2_1
+                  -------    -------    ---------    ---------
+   Total Inst:         32         32            0            0
+
+
+o Statistics:
+
+   1 layout instance was filtered and its pins removed from adjoining nets.
+
+
+o Layout Names That Are Missing In The Source:
+
+   Ports:        VPWR VGND
+   Nets:         VPWR VGND
+
+
+o Initial Correspondence Points:
+
+   Ports:        VNB VPB SCD D SCE CLK SET_B RESET_B Q_N Q
+
+
+**************************************************************************************************************
+                             DETAILED INSTANCE CONNECTIONS
+
+       LAYOUT NAME                                               SOURCE NAME
+**************************************************************************************************************
+
+          (This section contains detailed information about connections of
+           matched instances that are involved in net discrepancies).
+
+--------------------------------------------------------------------------------------------------------------
+
+       M41(11.315,2.255)  MP(PHIGHVT)                            M1020  MP(PHIGHVT)
+         g: SET_B                                                  g: SET_B
+         d: 14                                                     d: a_2064_453#
+         s: VPWR                                                   ** no similar net **
+         b: VPB                                                    ** VPB **
+         ** VPB **                                                 s: VPB
+         ** no similar net **                                      b: w_n38_331#
+
+--------------------------------------------------------------------------------------------------------------
+
+       M34(7.340,1.865)  MP(PHIGHVT)                             M1040  MP(PHIGHVT)
+         g: SET_B                                                  g: SET_B
+         d: 9                                                      d: a_1297_290#
+         s: VPWR                                                   ** no similar net **
+         b: VPB                                                    ** VPB **
+         ** VPB **                                                 s: VPB
+         ** no similar net **                                      b: w_n38_331#
+
+--------------------------------------------------------------------------------------------------------------
+
+       M4(2.360,0.595)  MN(NSHORT)                               M1034  MN(NSHORT)
+         g: SCE                                                    g: SCE
+         d: 5                                                      d: a_332_93#
+         s: VGND                                                   ** no similar net **
+         b: VNB                                                    ** VNB **
+         ** VNB **                                                 s: VNB
+         ** no similar net **                                      b: w_0_0#
+
+--------------------------------------------------------------------------------------------------------------
+
+       M5(3.625,0.530)  MN(NSHORT)                               M1015  MN(NSHORT)
+         g: CLK                                                    g: CLK
+         d: 13                                                     d: a_755_106#
+         s: VGND                                                   ** no similar net **
+         b: VNB                                                    ** VNB **
+         ** VNB **                                                 s: VNB
+         ** no similar net **                                      b: w_0_0#
+
+--------------------------------------------------------------------------------------------------------------
+
+       M6(4.750,0.505)  MN(NSHORT)                               M1022  MN(NSHORT)
+         g: 13                                                     g: a_755_106#
+         s: 8                                                      s: a_893_101#
+         d: VGND                                                   ** no similar net **
+         b: VNB                                                    ** VNB **
+         ** VNB **                                                 d: VNB
+         ** no similar net **                                      b: w_0_0#
+
+--------------------------------------------------------------------------------------------------------------
+
+       M7(6.010,0.235)  MN(NSHORT)                               M1004  MN(NSHORT)
+         g: 13                                                     g: a_755_106#
+         s: 21                                                     s: a_204_119#
+         d: 11                                                     d: a_1216_457#
+         b: VNB                                                    ** VNB **
+         ** no similar net **                                      b: w_0_0#
+
+--------------------------------------------------------------------------------------------------------------
+
+       M20(13.245,0.655)  MN(NSHORT)                             M1002  MN(NSHORT)
+         g: RESET_B                                                g: RESET_B
+         s: 12                                                     s: a_1650_21#
+         d: VGND                                                   ** no similar net **
+         b: VNB                                                    ** VNB **
+         ** VNB **                                                 d: VNB
+         ** no similar net **                                      b: w_0_0#
+
+--------------------------------------------------------------------------------------------------------------
+
+       M21(13.755,0.235)  MN(NSHORT)                             M1036  MN(NSHORT)
+         g: 14                                                     g: a_2064_453#
+         d: Q_N                                                    d: Q_N
+         s: VGND                                                   ** no similar net **
+         b: VNB                                                    ** VNB **
+         ** VNB **                                                 s: VNB
+         ** no similar net **                                      b: w_0_0#
+
+--------------------------------------------------------------------------------------------------------------
+
+       M22(14.745,0.685)  MN(NSHORT)                             M1039  MN(NSHORT)
+         g: 14                                                     g: a_2064_453#
+         s: 17                                                     s: a_2892_137#
+         d: VGND                                                   ** no similar net **
+         b: VNB                                                    ** VNB **
+         ** VNB **                                                 d: VNB
+         ** no similar net **                                      b: w_0_0#
+
+--------------------------------------------------------------------------------------------------------------
+
+       M23(15.255,0.265)  MN(NSHORT)                             M1030  MN(NSHORT)
+         g: 17                                                     g: a_2892_137#
+         d: Q                                                      d: Q
+         s: VGND                                                   ** no similar net **
+         b: VNB                                                    ** VNB **
+         ** VNB **                                                 s: VNB
+         ** no similar net **                                      b: w_0_0#
+
+--------------------------------------------------------------------------------------------------------------
+
+       M28(2.860,2.405)  MP(PHIGHVT)                             M1038  MP(PHIGHVT)
+         g: SCE                                                    g: SCE
+         d: 5                                                      d: a_332_93#
+         s: VPWR                                                   ** no similar net **
+         b: VPB                                                    ** VPB **
+         ** VPB **                                                 s: VPB
+         ** no similar net **                                      b: w_n38_331#
+
+--------------------------------------------------------------------------------------------------------------
+
+       M29(3.850,2.370)  MP(PHIGHVT)                             M1006  MP(PHIGHVT)
+         g: CLK                                                    g: CLK
+         d: 13                                                     d: a_755_106#
+         s: VPWR                                                   ** no similar net **
+         b: VPB                                                    ** VPB **
+         ** VPB **                                                 s: VPB
+         ** no similar net **                                      b: w_n38_331#
+
+--------------------------------------------------------------------------------------------------------------
+
+       M30(4.840,2.285)  MP(PHIGHVT)                             M1042  MP(PHIGHVT)
+         g: 13                                                     g: a_755_106#
+         s: 8                                                      s: a_893_101#
+         d: VPWR                                                   ** no similar net **
+         b: VPB                                                    ** VPB **
+         ** VPB **                                                 d: VPB
+         ** no similar net **                                      b: w_n38_331#
+
+--------------------------------------------------------------------------------------------------------------
+
+       M31(5.930,2.285)  MP(PHIGHVT)                             M1012  MP(PHIGHVT)
+         g: 8                                                      g: a_893_101#
+         s: 21                                                     s: a_204_119#
+         d: 11                                                     d: a_1216_457#
+         b: VPB                                                    ** VPB **
+         ** no similar net **                                      b: w_n38_331#
+
+--------------------------------------------------------------------------------------------------------------
+
+       M44(13.245,1.785)  MP(PHIGHVT)                            M1000  MP(PHIGHVT)
+         g: RESET_B                                                g: RESET_B
+         s: 12                                                     s: a_1650_21#
+         d: VPWR                                                   ** no similar net **
+         b: VPB                                                    ** VPB **
+         ** VPB **                                                 d: VPB
+         ** no similar net **                                      b: w_n38_331#
+
+--------------------------------------------------------------------------------------------------------------
+
+       M45(13.755,1.785)  MP(PHIGHVT)                            M1045  MP(PHIGHVT)
+         g: 14                                                     g: a_2064_453#
+         d: Q_N                                                    d: Q_N
+         s: VPWR                                                   ** no similar net **
+         b: VPB                                                    ** VPB **
+         ** VPB **                                                 s: VPB
+         ** no similar net **                                      b: w_n38_331#
+
+--------------------------------------------------------------------------------------------------------------
+
+       M46(14.745,1.835)  MP(PHIGHVT)                            M1025  MP(PHIGHVT)
+         g: 14                                                     g: a_2064_453#
+         s: 17                                                     s: a_2892_137#
+         d: VPWR                                                   ** no similar net **
+         b: VPB                                                    ** VPB **
+         ** VPB **                                                 d: VPB
+         ** no similar net **                                      b: w_n38_331#
+
+--------------------------------------------------------------------------------------------------------------
+
+       M47(15.255,1.835)  MP(PHIGHVT)                            M1044  MP(PHIGHVT)
+         g: 17                                                     g: a_2892_137#
+         d: Q                                                      d: Q
+         s: VPWR                                                   ** no similar net **
+         b: VPB                                                    ** VPB **
+         ** VPB **                                                 s: VPB
+         ** no similar net **                                      b: w_n38_331#
+
+--------------------------------------------------------------------------------------------------------------
+
+       (SMN2)                                                    (SMN2)
+         output: 11                                                output: a_1216_457#
+         input: 8                                                  input: a_893_101#
+         input: 9                                                  input: a_1297_290#
+         output: VGND                                              ** no similar net **
+         ** VNB **                                                 output: VNB
+
+       Transistors:
+         M8(6.440,0.235)  MN(NSHORT)                               M1023  MN(NSHORT)
+         M9(6.800,0.235)  MN(NSHORT)                               M1010  MN(NSHORT)
+
+--------------------------------------------------------------------------------------------------------------
+
+       (SPMN_2_1)                                                (SPMN_2_1)
+         output: 9                                                 output: a_1297_290#
+         input: 12                                                 input: a_1650_21#
+         input: 11                                                 input: a_1216_457#
+         input: SET_B                                              input: SET_B
+         output: VGND                                              ** no similar net **
+         ** VNB **                                                 output: VNB
+
+       Transistors:
+         M12(8.250,0.235)  MN(NSHORT)                              M1007  MN(NSHORT)
+         M11(7.740,0.235)  MN(NSHORT)                              M1001  MN(NSHORT)
+         M10(7.310,0.235)  MN(NSHORT)                              M1026  MN(NSHORT)
+
+--------------------------------------------------------------------------------------------------------------
+
+       (SPMN_2_1)                                                (SPMN_2_1)
+         output: 14                                                output: a_2064_453#
+         input: 12                                                 input: a_1650_21#
+         input: 15                                                 input: a_1861_431#
+         input: SET_B                                              input: SET_B
+         output: VGND                                              ** no similar net **
+         ** VNB **                                                 output: VNB
+
+       Transistors:
+         M19(12.275,0.285)  MN(NSHORT)                             M1047  MN(NSHORT)
+         M18(11.675,0.285)  MN(NSHORT)                             M1028  MN(NSHORT)
+         M17(11.245,0.285)  MN(NSHORT)                             M1011  MN(NSHORT)
+
+--------------------------------------------------------------------------------------------------------------
+
+       (SMP2)                                                    (SMP2)
+         output: 11                                                output: a_1216_457#
+         input: 13                                                 input: a_755_106#
+         input: 9                                                  input: a_1297_290#
+         output: VPWR                                              ** no similar net **
+         ** VPB **                                                 output: VPB
+
+       Transistors:
+         M32(6.360,2.285)  MP(PHIGHVT)                             M1043  MP(PHIGHVT)
+         M33(6.750,2.285)  MP(PHIGHVT)                             M1016  MP(PHIGHVT)
+
+--------------------------------------------------------------------------------------------------------------
+
+       (SMN2)                                                    (SMN2)
+         output: 21                                                output: a_204_119#
+         input: D                                                  input: D
+         input: 5                                                  input: a_332_93#
+         output: VGND                                              ** no similar net **
+         ** VNB **                                                 output: VNB
+
+       Transistors:
+         M2(1.300,0.595)  MN(NSHORT)                               M1019  MN(NSHORT)
+         M3(1.660,0.595)  MN(NSHORT)                               M1003  MN(NSHORT)
+
+--------------------------------------------------------------------------------------------------------------
+
+       (SMN2)                                                    (SMN2)
+         output: 21                                                output: a_204_119#
+         input: SCD                                                input: SCD
+         input: SCE                                                input: SCE
+         output: VGND                                              ** no similar net **
+         ** VNB **                                                 output: VNB
+
+       Transistors:
+         M0(0.480,0.595)  MN(NSHORT)                               M1033  MN(NSHORT)
+         M1(0.870,0.595)  MN(NSHORT)                               M1013  MN(NSHORT)
+
+--------------------------------------------------------------------------------------------------------------
+
+       (SMN2)                                                    (SMN2)
+         output: 15                                                output: a_1861_431#
+         input: 13                                                 input: a_755_106#
+         input: 14                                                 input: a_2064_453#
+         output: VGND                                              ** no similar net **
+         ** VNB **                                                 output: VNB
+
+       Transistors:
+         M15(10.180,0.505)  MN(NSHORT)                             M1027  MN(NSHORT)
+         M16(10.570,0.505)  MN(NSHORT)                             M1009  MN(NSHORT)
+
+--------------------------------------------------------------------------------------------------------------
+
+       (SMN2)                                                    (SMN2)
+         output: 15                                                output: a_1861_431#
+         input: 9                                                  input: a_1297_290#
+         input: 8                                                  input: a_893_101#
+         output: VGND                                              ** no similar net **
+         ** VNB **                                                 output: VNB
+
+       Transistors:
+         M13(9.250,0.285)  MN(NSHORT)                              M1008  MN(NSHORT)
+         M14(9.670,0.285)  MN(NSHORT)                              M1018  MN(NSHORT)
+
+--------------------------------------------------------------------------------------------------------------
+
+       (SMP2)                                                    (SMP2)
+         output: 21                                                output: a_204_119#
+         input: SCE                                                input: SCE
+         input: D                                                  input: D
+         output: VPWR                                              ** no similar net **
+         ** VPB **                                                 output: VPB
+
+       Transistors:
+         M25(0.970,2.405)  MP(PHIGHVT)                             M1032  MP(PHIGHVT)
+         M26(1.360,2.405)  MP(PHIGHVT)                             M1005  MP(PHIGHVT)
+
+--------------------------------------------------------------------------------------------------------------
+
+       (SMP2)                                                    (SMP2)
+         output: 21                                                output: a_204_119#
+         input: 5                                                  input: a_332_93#
+         input: SCD                                                input: SCD
+         output: VPWR                                              ** no similar net **
+         ** VPB **                                                 output: VPB
+
+       Transistors:
+         M27(1.790,2.405)  MP(PHIGHVT)                             M1041  MP(PHIGHVT)
+         M24(0.420,2.405)  MP(PHIGHVT)                             M1037  MP(PHIGHVT)
+
+--------------------------------------------------------------------------------------------------------------
+
+       (SMP2)                                                    (SMP2)
+         output: 9                                                 output: a_1297_290#
+         input: 11                                                 input: a_1216_457#
+         input: 12                                                 input: a_1650_21#
+         output: VPWR                                              ** no similar net **
+         ** VPB **                                                 output: VPB
+
+       Transistors:
+         M35(7.770,1.865)  MP(PHIGHVT)                             M1024  MP(PHIGHVT)
+         M36(8.250,1.865)  MP(PHIGHVT)                             M1046  MP(PHIGHVT)
+
+--------------------------------------------------------------------------------------------------------------
+
+       (SMP2)                                                    (SMP2)
+         output: 15                                                output: a_1861_431#
+         input: 8                                                  input: a_893_101#
+         input: 14                                                 input: a_2064_453#
+         output: VPWR                                              ** no similar net **
+         ** VPB **                                                 output: VPB
+
+       Transistors:
+         M39(9.665,2.575)  MP(PHIGHVT)                             M1029  MP(PHIGHVT)
+         M40(10.320,2.575)  MP(PHIGHVT)                            M1017  MP(PHIGHVT)
+
+--------------------------------------------------------------------------------------------------------------
+
+       (SMP2)                                                    (SMP2)
+         output: 15                                                output: a_1861_431#
+         input: 9                                                  input: a_1297_290#
+         input: 13                                                 input: a_755_106#
+         output: VPWR                                              ** no similar net **
+         ** VPB **                                                 output: VPB
+
+       Transistors:
+         M37(8.680,1.865)  MP(PHIGHVT)                             M1031  MP(PHIGHVT)
+         M38(9.155,2.155)  MP(PHIGHVT)                             M1035  MP(PHIGHVT)
+
+--------------------------------------------------------------------------------------------------------------
+
+       (SMP2)                                                    (SMP2)
+         output: 14                                                output: a_2064_453#
+         input: 15                                                 input: a_1861_431#
+         input: 12                                                 input: a_1650_21#
+         output: VPWR                                              ** no similar net **
+         ** VPB **                                                 output: VPB
+
+       Transistors:
+         M42(11.825,2.255)  MP(PHIGHVT)                            M1021  MP(PHIGHVT)
+         M43(12.245,2.255)  MP(PHIGHVT)                            M1014  MP(PHIGHVT)
+
+
+**************************************************************************************************************
+                                         SUMMARY
+**************************************************************************************************************
+
+Total CPU Time:      0 sec
+Total Elapsed Time:  0 sec

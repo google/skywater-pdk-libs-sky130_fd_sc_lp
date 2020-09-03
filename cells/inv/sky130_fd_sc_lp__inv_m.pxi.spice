@@ -1,5 +1,5 @@
 * File: sky130_fd_sc_lp__inv_m.pxi.spice
-* Created: Fri Aug 28 10:38:51 2020
+* Created: Wed Sep  2 09:56:19 2020
 * 
 x_PM_SKY130_FD_SC_LP__INV_M%A N_A_M1000_g N_A_M1001_g A A A A N_A_c_21_n
 + N_A_c_22_n N_A_c_23_n PM_SKY130_FD_SC_LP__INV_M%A

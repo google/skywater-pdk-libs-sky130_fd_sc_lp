@@ -1,5 +1,5 @@
 * File: sky130_fd_sc_lp__mux2_4.pxi.spice
-* Created: Fri Aug 28 10:44:04 2020
+* Created: Wed Sep  2 10:00:19 2020
 * 
 x_PM_SKY130_FD_SC_LP__MUX2_4%S N_S_c_101_n N_S_M1013_g N_S_c_102_n N_S_M1007_g
 + N_S_c_103_n N_S_M1004_g N_S_M1009_g N_S_c_110_n N_S_c_111_n N_S_c_112_n S S

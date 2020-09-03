@@ -1,5 +1,5 @@
 * File: sky130_fd_sc_lp__decap_6.pxi.spice
-* Created: Fri Aug 28 10:20:04 2020
+* Created: Wed Sep  2 09:42:06 2020
 * 
 x_PM_SKY130_FD_SC_LP__DECAP_6%VGND N_VGND_M1001_s N_VGND_c_24_n N_VGND_c_25_n
 + N_VGND_c_26_n N_VGND_c_27_n N_VGND_c_28_n N_VGND_c_29_n N_VGND_c_30_n VGND

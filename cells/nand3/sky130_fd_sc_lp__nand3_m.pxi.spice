@@ -1,5 +1,5 @@
 * File: sky130_fd_sc_lp__nand3_m.pxi.spice
-* Created: Fri Aug 28 10:49:36 2020
+* Created: Wed Sep  2 10:04:37 2020
 * 
 x_PM_SKY130_FD_SC_LP__NAND3_M%C N_C_c_44_n N_C_M1001_g N_C_M1000_g N_C_c_46_n
 + N_C_c_47_n N_C_c_52_n C C C C N_C_c_49_n PM_SKY130_FD_SC_LP__NAND3_M%C

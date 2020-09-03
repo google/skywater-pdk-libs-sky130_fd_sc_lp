@@ -1,5 +1,5 @@
 * File: sky130_fd_sc_lp__inputiso1n_lp.pxi.spice
-* Created: Fri Aug 28 10:37:17 2020
+* Created: Wed Sep  2 09:55:11 2020
 * 
 x_PM_SKY130_FD_SC_LP__INPUTISO1N_LP%SLEEP_B N_SLEEP_B_M1006_g N_SLEEP_B_M1004_g
 + N_SLEEP_B_M1001_g N_SLEEP_B_M1009_g SLEEP_B SLEEP_B N_SLEEP_B_c_65_n

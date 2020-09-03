@@ -1,5 +1,5 @@
 * File: sky130_fd_sc_lp__dlrtp_lp.pxi.spice
-* Created: Fri Aug 28 10:27:37 2020
+* Created: Wed Sep  2 09:47:44 2020
 * 
 x_PM_SKY130_FD_SC_LP__DLRTP_LP%GATE N_GATE_M1010_g N_GATE_M1022_g N_GATE_M1001_g
 + N_GATE_M1018_g GATE GATE GATE N_GATE_c_169_n PM_SKY130_FD_SC_LP__DLRTP_LP%GATE
