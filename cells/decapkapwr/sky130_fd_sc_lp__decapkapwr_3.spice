@@ -16,8 +16,6 @@
 
 
 .subckt sky130_fd_sc_lp__decapkapwr_3 KAPWR VGND VNB VPB VPWR
-M1000 KAPWR VGND KAPWR VPB phighvt w=1e+06u l=500000u
-+  ad=5.6e+11p pd=5.12e+06u as=0p ps=0u
-M1001 VGND KAPWR VGND VNB nshort w=550000u l=500000u
-+  ad=3.025e+11p pd=3.3e+06u as=0p ps=0u
+X0 VGND KAPWR VGND VNB sky130_fd_pr__nfet_01v8 w=550000u l=500000u
+X1 KAPWR VGND KAPWR VPB sky130_fd_pr__pfet_01v8_hvt w=1e+06u l=500000u
 .ends

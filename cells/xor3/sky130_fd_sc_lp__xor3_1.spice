@@ -16,48 +16,26 @@
 
 
 .subckt sky130_fd_sc_lp__xor3_1 A B C VGND VNB VPB VPWR X
-M1000 VPWR a_86_305# a_42_411# VPB phighvt w=1e+06u l=150000u
-+  ad=1.8618e+12p pd=1.038e+07u as=4.642e+11p ps=4.41e+06u
-M1001 a_1363_127# a_1263_295# a_402_411# VNB nshort w=640000u l=150000u
-+  ad=1.792e+11p pd=1.84e+06u as=6.932e+11p ps=4.77e+06u
-M1002 a_402_411# B a_86_305# VPB phighvt w=840000u l=150000u
-+  ad=5.198e+11p pd=4.65e+06u as=9.696e+11p ps=5.88e+06u
-M1003 a_42_411# a_474_313# a_402_411# VPB phighvt w=640000u l=150000u
-+  ad=0p pd=0u as=0p ps=0u
-M1004 a_86_305# A VGND VNB nshort w=640000u l=150000u
-+  ad=6.848e+11p pd=4.7e+06u as=1.2925e+12p ps=8.65e+06u
-M1005 VGND B a_474_313# VNB nshort w=840000u l=150000u
-+  ad=0p pd=0u as=2.394e+11p ps=2.25e+06u
-M1006 VPWR B a_474_313# VPB phighvt w=1.26e+06u l=150000u
-+  ad=0p pd=0u as=3.591e+11p ps=3.09e+06u
-M1007 VGND a_86_305# a_42_411# VNB nshort w=640000u l=150000u
-+  ad=0p pd=0u as=5.102e+11p ps=4.23e+06u
-M1008 VPWR C a_1263_295# VPB phighvt w=640000u l=150000u
-+  ad=0p pd=0u as=1.824e+11p ps=1.85e+06u
-M1009 X a_1363_127# VPWR VPB phighvt w=1.26e+06u l=150000u
-+  ad=3.591e+11p pd=3.09e+06u as=0p ps=0u
-M1010 a_402_411# B a_42_411# VNB nshort w=640000u l=150000u
-+  ad=0p pd=0u as=0p ps=0u
-M1011 a_402_411# C a_1363_127# VPB phighvt w=840000u l=150000u
-+  ad=0p pd=0u as=2.352e+11p ps=2.24e+06u
-M1012 X a_1363_127# VGND VNB nshort w=840000u l=150000u
-+  ad=2.394e+11p pd=2.25e+06u as=0p ps=0u
-M1013 a_425_117# B a_42_411# VPB phighvt w=640000u l=150000u
-+  ad=9.7655e+11p pd=5.74e+06u as=0p ps=0u
-M1014 a_425_117# C a_1363_127# VNB nshort w=640000u l=150000u
-+  ad=4.11e+11p pd=3.92e+06u as=0p ps=0u
-M1015 VGND C a_1263_295# VNB nshort w=420000u l=150000u
-+  ad=0p pd=0u as=1.197e+11p ps=1.41e+06u
-M1016 a_86_305# A VPWR VPB phighvt w=1e+06u l=150000u
-+  ad=0p pd=0u as=0p ps=0u
-M1017 a_1363_127# a_1263_295# a_425_117# VPB phighvt w=840000u l=150000u
-+  ad=0p pd=0u as=0p ps=0u
-M1018 a_425_117# B a_86_305# VNB nshort w=640000u l=150000u
-+  ad=0p pd=0u as=0p ps=0u
-M1019 a_86_305# a_474_313# a_425_117# VPB phighvt w=840000u l=150000u
-+  ad=0p pd=0u as=0p ps=0u
-M1020 a_42_411# a_474_313# a_425_117# VNB nshort w=420000u l=150000u
-+  ad=0p pd=0u as=0p ps=0u
-M1021 a_86_305# a_474_313# a_402_411# VNB nshort w=640000u l=150000u
-+  ad=0p pd=0u as=0p ps=0u
+X0 a_1263_295# C VGND VNB sky130_fd_pr__nfet_01v8 w=420000u l=150000u
+X1 a_425_117# a_474_313# a_86_305# VPB sky130_fd_pr__pfet_01v8_hvt w=840000u l=150000u
+X2 a_86_305# B a_402_411# VPB sky130_fd_pr__pfet_01v8_hvt w=840000u l=150000u
+X3 a_474_313# B VPWR VPB sky130_fd_pr__pfet_01v8_hvt w=1.26e+06u l=150000u
+X4 a_1263_295# C VPWR VPB sky130_fd_pr__pfet_01v8_hvt w=640000u l=150000u
+X5 a_402_411# a_1263_295# a_1363_127# VNB sky130_fd_pr__nfet_01v8 w=640000u l=150000u
+X6 VPWR A a_86_305# VPB sky130_fd_pr__pfet_01v8_hvt w=1e+06u l=150000u
+X7 VGND a_1363_127# X VNB sky130_fd_pr__nfet_01v8 w=840000u l=150000u
+X8 a_42_411# a_86_305# VGND VNB sky130_fd_pr__nfet_01v8 w=640000u l=150000u
+X9 a_86_305# B a_425_117# VNB sky130_fd_pr__nfet_01v8 w=640000u l=150000u
+X10 a_42_411# a_86_305# VPWR VPB sky130_fd_pr__pfet_01v8_hvt w=1e+06u l=150000u
+X11 a_402_411# a_474_313# a_42_411# VPB sky130_fd_pr__pfet_01v8_hvt w=640000u l=150000u
+X12 a_1363_127# C a_402_411# VPB sky130_fd_pr__pfet_01v8_hvt w=840000u l=150000u
+X13 a_425_117# a_1263_295# a_1363_127# VPB sky130_fd_pr__pfet_01v8_hvt w=840000u l=150000u
+X14 VGND A a_86_305# VNB sky130_fd_pr__nfet_01v8 w=640000u l=150000u
+X15 a_402_411# a_474_313# a_86_305# VNB sky130_fd_pr__nfet_01v8 w=640000u l=150000u
+X16 a_42_411# B a_425_117# VPB sky130_fd_pr__pfet_01v8_hvt w=640000u l=150000u
+X17 a_425_117# a_474_313# a_42_411# VNB sky130_fd_pr__nfet_01v8 w=420000u l=150000u
+X18 VPWR a_1363_127# X VPB sky130_fd_pr__pfet_01v8_hvt w=1.26e+06u l=150000u
+X19 a_474_313# B VGND VNB sky130_fd_pr__nfet_01v8 w=840000u l=150000u
+X20 a_42_411# B a_402_411# VNB sky130_fd_pr__nfet_01v8 w=640000u l=150000u
+X21 a_1363_127# C a_425_117# VNB sky130_fd_pr__nfet_01v8 w=640000u l=150000u
 .ends

@@ -16,16 +16,10 @@
 
 
 .subckt sky130_fd_sc_lp__bushold_1 RESET VGND VNB VPB VPWR X
-M1000 VGND RESET a_89_535# VNB nshort w=420000u l=150000u
-+  ad=2.289e+11p pd=2.77e+06u as=1.176e+11p ps=1.4e+06u
-M1001 X a_89_535# VPWR VPB phighvt w=420000u l=500000u
-+  ad=1.113e+11p pd=1.37e+06u as=1.176e+11p ps=1.4e+06u
-M1002 a_172_535# X a_89_535# VPB phighvt w=420000u l=150000u
-+  ad=8.82e+10p pd=1.26e+06u as=1.113e+11p ps=1.37e+06u
-M1003 X a_89_535# VGND VNB nshort w=420000u l=500000u
-+  ad=1.113e+11p pd=1.37e+06u as=0p ps=0u
-M1004 VPWR RESET a_172_535# VPB phighvt w=420000u l=150000u
-+  ad=0p pd=0u as=0p ps=0u
-M1005 a_89_535# X VGND VNB nshort w=420000u l=150000u
-+  ad=0p pd=0u as=0p ps=0u
+X0 a_89_535# RESET VGND VNB sky130_fd_pr__nfet_01v8 w=420000u l=150000u
+X1 VGND a_89_535# X VNB sky130_fd_pr__nfet_01v8 w=420000u l=500000u
+X2 a_89_535# X a_172_535# VPB sky130_fd_pr__pfet_01v8_hvt w=420000u l=150000u
+X3 a_172_535# RESET VPWR VPB sky130_fd_pr__pfet_01v8_hvt w=420000u l=150000u
+X4 VPWR a_89_535# X VPB sky130_fd_pr__pfet_01v8_hvt w=420000u l=500000u
+X5 VGND X a_89_535# VNB sky130_fd_pr__nfet_01v8 w=420000u l=150000u
 .ends

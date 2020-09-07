@@ -1,10 +1,10 @@
 sky130_fd_sc_lp__dlygate4s50_1	A:I VGND:I VNB:I VPB:I VPWR:I X:O
 Name	Formula	nd	ng	ns	nb	mname	m	w	l	mult	sa	sb	sd	topography	area	perim
-MMIN1	MOSFET	Ab	net24	VGND	VNB	nshort	1	0.42	0.5	1	0.265	0.265	0.28	normal	0.063	1.14
-MMIN2	MOSFET	X	Ab	VGND	VNB	nshort	1	0.84	0.15	1	0.265	0.265	0.28	normal	0.063	1.14
-MI6	MOSFET	net24	net20	VGND	VNB	nshort	1	0.42	0.5	1	0.265	0.265	0.28	normal	0.063	1.14
-MI9	MOSFET	net20	A	VGND	VNB	nshort	1	0.42	0.15	1	0.265	0.265	0.28	normal	0.063	1.14
-MMIP1	MOSFET	Ab	net24	VPWR	VPB	phighvt	1	0.42	0.5	1	0.265	0.265	0.28	normal	0.063	1.14
-MMIP2	MOSFET	X	Ab	VPWR	VPB	phighvt	1	1.26	0.15	1	0.265	0.265	0.28	normal	0.063	1.14
-MI7	MOSFET	net24	net20	VPWR	VPB	phighvt	1	0.42	0.5	1	0.265	0.265	0.28	normal	0.063	1.14
-MI8	MOSFET	net20	A	VPWR	VPB	phighvt	1	0.42	0.15	1	0.265	0.265	0.28	normal	0.063	1.14
+MMIN1	MOSFET	Ab	net24	VGND	VNB	nfet_01v8	1	0.42	0.5	1	0.265	0.265	0.28	normal	0.063	1.14
+MMIN2	MOSFET	X	Ab	VGND	VNB	nfet_01v8	1	0.84	0.15	1	0.265	0.265	0.28	normal	0.063	1.14
+MI6	MOSFET	net24	net20	VGND	VNB	nfet_01v8	1	0.42	0.5	1	0.265	0.265	0.28	normal	0.063	1.14
+MI9	MOSFET	net20	A	VGND	VNB	nfet_01v8	1	0.42	0.15	1	0.265	0.265	0.28	normal	0.063	1.14
+MMIP1	MOSFET	Ab	net24	VPWR	VPB	pfet_01v8_hvt	1	0.42	0.5	1	0.265	0.265	0.28	normal	0.063	1.14
+MMIP2	MOSFET	X	Ab	VPWR	VPB	pfet_01v8_hvt	1	1.26	0.15	1	0.265	0.265	0.28	normal	0.063	1.14
+MI7	MOSFET	net24	net20	VPWR	VPB	pfet_01v8_hvt	1	0.42	0.5	1	0.265	0.265	0.28	normal	0.063	1.14
+MI8	MOSFET	net20	A	VPWR	VPB	pfet_01v8_hvt	1	0.42	0.15	1	0.265	0.265	0.28	normal	0.063	1.14

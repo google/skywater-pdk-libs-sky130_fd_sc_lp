@@ -17,76 +17,76 @@
 .SUBCKT sky130_fd_sc_lp__srdlrtp_1 D GATE RESET_B SLEEP_B KAPWR VGND VNB VPB VPWR Q
 *.PININFO D:I GATE:I RESET_B:I SLEEP_B:I KAPWR:I VGND:I VNB:I VPB:I
 *.PININFO VPWR:I Q:O
-MI20 net146 db VNB nshort m=1 w=0.42 l=0.15 mult=1 sa=0.265 sb=0.265
+MI20 net146 db VNB nfet_01v8 m=1 w=0.42 l=0.15 mult=1 sa=0.265
++ sb=0.265 sd=0.28 topography=normal area=0.063 perim=1.14
+MI673 net78 net68 VNB nfet_01v8 m=1 w=0.42 l=0.15 mult=1 sa=0.265
++ sb=0.265 sd=0.28 topography=normal area=0.063 perim=1.14
+MI675 sleep SLEEP_B VNB nfet_01v8 m=1 w=0.42 l=0.15 mult=1 sa=0.265
++ sb=0.265 sd=0.28 topography=normal area=0.063 perim=1.14
+MI642 clkneg GATE VNB nfet_01v8 m=1 w=0.42 l=0.15 mult=1 sa=0.265
++ sb=0.265 sd=0.28 topography=normal area=0.063 perim=1.14
+MI636 clkpos clkneg VNB nfet_01v8 m=1 w=0.42 l=0.15 mult=1 sa=0.265
++ sb=0.265 sd=0.28 topography=normal area=0.063 perim=1.14
+MI674 net68 s0 VNB nfet_01v8 m=1 w=0.42 l=0.15 mult=1 sa=0.265
++ sb=0.265 sd=0.28 topography=normal area=0.063 perim=1.14
+MI678 net83 sleep VNB nfet_01v8 m=1 w=0.42 l=0.15 mult=1 sa=0.265
++ sb=0.265 sd=0.28 topography=normal area=0.063 perim=1.14
+MI637 db D VNB nfet_01v8 m=1 w=0.42 l=0.15 mult=1 sa=0.265 sb=0.265
 + sd=0.28 topography=normal area=0.063 perim=1.14
-MI673 net78 net68 VNB nshort m=1 w=0.42 l=0.15 mult=1 sa=0.265
+MI656 net94 s0 VNB nfet_01v8 m=1 w=0.42 l=0.15 mult=1 sa=0.265
 + sb=0.265 sd=0.28 topography=normal area=0.063 perim=1.14
-MI675 sleep SLEEP_B VNB nshort m=1 w=0.42 l=0.15 mult=1 sa=0.265
+MI657 net83 RESET_B VNB nfet_01v8 m=1 w=0.42 l=0.15 mult=1 sa=0.265
 + sb=0.265 sd=0.28 topography=normal area=0.063 perim=1.14
-MI642 clkneg GATE VNB nshort m=1 w=0.42 l=0.15 mult=1 sa=0.265
+MI655 s0 clkneg VNB nfet_01v8 m=1 w=0.42 l=0.15 mult=1 sa=0.265
 + sb=0.265 sd=0.28 topography=normal area=0.063 perim=1.14
-MI636 clkpos clkneg VNB nshort m=1 w=0.42 l=0.15 mult=1 sa=0.265
+MI652 net155 s0 VNB nfet_01v8 m=1 w=0.42 l=0.15 mult=1 sa=0.265
 + sb=0.265 sd=0.28 topography=normal area=0.063 perim=1.14
-MI674 net68 s0 VNB nshort m=1 w=0.42 l=0.15 mult=1 sa=0.265 sb=0.265
-+ sd=0.28 topography=normal area=0.063 perim=1.14
-MI678 net83 sleep VNB nshort m=1 w=0.42 l=0.15 mult=1 sa=0.265
+MI653 Q net155 VNB nfet_01v8 m=1 w=0.84 l=0.15 mult=1 sa=0.265
 + sb=0.265 sd=0.28 topography=normal area=0.063 perim=1.14
-MI637 db D VNB nshort m=1 w=0.42 l=0.15 mult=1 sa=0.265 sb=0.265
-+ sd=0.28 topography=normal area=0.063 perim=1.14
-MI656 net94 s0 VNB nshort m=1 w=0.42 l=0.15 mult=1 sa=0.265 sb=0.265
-+ sd=0.28 topography=normal area=0.063 perim=1.14
-MI657 net83 RESET_B VNB nshort m=1 w=0.42 l=0.15 mult=1 sa=0.265
+MI654 net110 net68 VNB nfet_01v8 m=1 w=0.42 l=0.15 mult=1 sa=0.265
 + sb=0.265 sd=0.28 topography=normal area=0.063 perim=1.14
-MI655 s0 clkneg VNB nshort m=1 w=0.42 l=0.15 mult=1 sa=0.265 sb=0.265
-+ sd=0.28 topography=normal area=0.063 perim=1.14
-MI652 net155 s0 VNB nshort m=1 w=0.42 l=0.15 mult=1 sa=0.265 sb=0.265
-+ sd=0.28 topography=normal area=0.063 perim=1.14
-MI653 Q net155 VNB nshort m=1 w=0.84 l=0.15 mult=1 sa=0.265 sb=0.265
-+ sd=0.28 topography=normal area=0.063 perim=1.14
-MI654 net110 net68 VNB nshort m=1 w=0.42 l=0.15 mult=1 sa=0.265
+MI671 net58 SLEEP_B VNB nfet_01v8 m=1 w=0.42 l=0.15 mult=1 sa=0.265
 + sb=0.265 sd=0.28 topography=normal area=0.063 perim=1.14
-MI671 net58 SLEEP_B VNB nshort m=1 w=0.42 l=0.15 mult=1 sa=0.265
+MI670 net59 SLEEP_B VNB nfet_01v8 m=1 w=0.42 l=0.15 mult=1 sa=0.265
 + sb=0.265 sd=0.28 topography=normal area=0.063 perim=1.14
-MI670 net59 SLEEP_B VNB nshort m=1 w=0.42 l=0.15 mult=1 sa=0.265
+MI676 net106 SLEEP_B VNB nfet_01v8 m=1 w=0.42 l=0.15 mult=1 sa=0.265
 + sb=0.265 sd=0.28 topography=normal area=0.063 perim=1.14
-MI676 net106 SLEEP_B VNB nshort m=1 w=0.42 l=0.15 mult=1 sa=0.265
+MI687 net073 clkpos VNB nfet_01v8 m=1 w=0.42 l=0.15 mult=1 sa=0.265
 + sb=0.265 sd=0.28 topography=normal area=0.063 perim=1.14
-MI687 net073 clkpos VNB nshort m=1 w=0.42 l=0.15 mult=1 sa=0.265
+MI686 net146 clkpos VNB nfet_01v8 m=1 w=0.42 l=0.15 mult=1 sa=0.265
 + sb=0.265 sd=0.28 topography=normal area=0.063 perim=1.14
-MI686 net146 clkpos VNB nshort m=1 w=0.42 l=0.15 mult=1 sa=0.265
+MI683 net47 RESET_B VNB nfet_01v8 m=1 w=0.42 l=0.15 mult=1 sa=0.265
 + sb=0.265 sd=0.28 topography=normal area=0.063 perim=1.14
-MI683 net47 RESET_B VNB nshort m=1 w=0.42 l=0.15 mult=1 sa=0.265
+MI643 clkneg GATE VPB pfet_01v8_hvt m=1 w=0.64 l=0.15 mult=1 sa=0.265
 + sb=0.265 sd=0.28 topography=normal area=0.063 perim=1.14
-MI643 clkneg GATE VPB phighvt m=1 w=0.64 l=0.15 mult=1 sa=0.265
+MI679 net68 RESET_B VPB pfet_01v8_hvt m=1 w=1.0 l=0.25 mult=1 sa=0.265
 + sb=0.265 sd=0.28 topography=normal area=0.063 perim=1.14
-MI679 net68 RESET_B VPB phighvt m=1 w=1.0 l=0.25 mult=1 sa=0.265
+MI635 clkpos clkneg VPB pfet_01v8_hvt m=1 w=0.64 l=0.15 mult=1
++ sa=0.265 sb=0.265 sd=0.28 topography=normal area=0.063 perim=1.14
+MI662 net167 net68 VPB pfet_01v8_hvt m=1 w=1.0 l=0.25 mult=1 sa=0.265
 + sb=0.265 sd=0.28 topography=normal area=0.063 perim=1.14
-MI635 clkpos clkneg VPB phighvt m=1 w=0.64 l=0.15 mult=1 sa=0.265
+MI664 s0 clkpos VPB pfet_01v8_hvt m=1 w=1.0 l=0.25 mult=1 sa=0.265
 + sb=0.265 sd=0.28 topography=normal area=0.063 perim=1.14
-MI662 net167 net68 VPB phighvt m=1 w=1.0 l=0.25 mult=1 sa=0.265
+MI658 net68 s0 VPB pfet_01v8_hvt m=1 w=1.0 l=0.25 mult=1 sa=0.265
 + sb=0.265 sd=0.28 topography=normal area=0.063 perim=1.14
-MI664 s0 clkpos VPB phighvt m=1 w=1.0 l=0.25 mult=1 sa=0.265 sb=0.265
-+ sd=0.28 topography=normal area=0.063 perim=1.14
-MI658 net68 s0 VPB phighvt m=1 w=1.0 l=0.25 mult=1 sa=0.265 sb=0.265
-+ sd=0.28 topography=normal area=0.063 perim=1.14
-MI663 net155 s0 VPB phighvt m=1 w=0.64 l=0.15 mult=1 sa=0.265 sb=0.265
-+ sd=0.28 topography=normal area=0.063 perim=1.14
-MI660 Q net155 VPB phighvt m=1 w=1.26 l=0.15 mult=1 sa=0.265 sb=0.265
-+ sd=0.28 topography=normal area=0.063 perim=1.14
-MI18 net146 db VPB phighvt m=1 w=0.64 l=0.15 mult=1 sa=0.265 sb=0.265
-+ sd=0.28 topography=normal area=0.063 perim=1.14
-MI638 db D VPB phighvt m=1 w=0.64 l=0.15 mult=1 sa=0.265 sb=0.265
-+ sd=0.28 topography=normal area=0.063 perim=1.14
-MI672 clkneg SLEEP_B VPB phighvt m=1 w=0.64 l=0.15 mult=1 sa=0.265
+MI663 net155 s0 VPB pfet_01v8_hvt m=1 w=0.64 l=0.15 mult=1 sa=0.265
 + sb=0.265 sd=0.28 topography=normal area=0.063 perim=1.14
-MI680 net174 sleep VPB phighvt m=1 w=1.0 l=0.25 mult=1 sa=0.265
+MI660 Q net155 VPB pfet_01v8_hvt m=1 w=1.26 l=0.15 mult=1 sa=0.265
 + sb=0.265 sd=0.28 topography=normal area=0.063 perim=1.14
-MI677 sleep SLEEP_B VPB phighvt m=1 w=1.0 l=0.25 mult=1 sa=0.265
+MI18 net146 db VPB pfet_01v8_hvt m=1 w=0.64 l=0.15 mult=1 sa=0.265
 + sb=0.265 sd=0.28 topography=normal area=0.063 perim=1.14
-MI685 net0153 clkneg VPB phighvt m=1 w=0.64 l=0.15 mult=1 sa=0.265
+MI638 db D VPB pfet_01v8_hvt m=1 w=0.64 l=0.15 mult=1 sa=0.265
 + sb=0.265 sd=0.28 topography=normal area=0.063 perim=1.14
-MI684 net146 clkneg VPB phighvt m=1 w=0.64 l=0.15 mult=1 sa=0.265
+MI672 clkneg SLEEP_B VPB pfet_01v8_hvt m=1 w=0.64 l=0.15 mult=1
++ sa=0.265 sb=0.265 sd=0.28 topography=normal area=0.063 perim=1.14
+MI680 net174 sleep VPB pfet_01v8_hvt m=1 w=1.0 l=0.25 mult=1 sa=0.265
 + sb=0.265 sd=0.28 topography=normal area=0.063 perim=1.14
-MI682 db RESET_B VPB phighvt m=1 w=0.64 l=0.15 mult=1 sa=0.265
+MI677 sleep SLEEP_B VPB pfet_01v8_hvt m=1 w=1.0 l=0.25 mult=1 sa=0.265
++ sb=0.265 sd=0.28 topography=normal area=0.063 perim=1.14
+MI685 net0153 clkneg VPB pfet_01v8_hvt m=1 w=0.64 l=0.15 mult=1
++ sa=0.265 sb=0.265 sd=0.28 topography=normal area=0.063 perim=1.14
+MI684 net146 clkneg VPB pfet_01v8_hvt m=1 w=0.64 l=0.15 mult=1
++ sa=0.265 sb=0.265 sd=0.28 topography=normal area=0.063 perim=1.14
+MI682 db RESET_B VPB pfet_01v8_hvt m=1 w=0.64 l=0.15 mult=1 sa=0.265
 + sb=0.265 sd=0.28 topography=normal area=0.063 perim=1.14
 .ENDS sky130_fd_sc_lp__srdlrtp_1
