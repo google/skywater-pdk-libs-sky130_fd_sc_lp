@@ -7,9 +7,9 @@
 <clipPath id="clip2">
   <path d="M 589.5 111.5 L 1337.5 111.5 L 1337.5 539.5 L 589.5 539.5 Z M 589.5 111.5 "/>
 </clipPath>
-<image id="image347" width="32" height="32" xlink:href="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAACAAAAAgCAAAAABWESUoAAAAAmJLR0QA/4ePzL8AAAApSURBVDiNY2Rg+M/AiAczMdAe/P+PH9PBDYyj4cDAwDAaDjAwGg4QAAAzhF/RgilCzQAAAABJRU5ErkJggg=="/>
+<image id="image375" width="32" height="32" xlink:href="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAACAAAAAgCAAAAABWESUoAAAAAmJLR0QA/4ePzL8AAAApSURBVDiNY2Rg+M/AiAczMdAe/P+PH9PBDYyj4cDAwDAaDjAwGg4QAAAzhF/RgilCzQAAAABJRU5ErkJggg=="/>
 <pattern id="pattern0" patternUnits="userSpaceOnUse" width="32" height="32"  patternTransform="matrix(1,0,0,1,0.5,1079.5)">
-  <use xlink:href="#image347"/>
+  <use xlink:href="#image375"/>
 </pattern>
 <mask id="mask0">
 <rect x="0" y="0" width="1898" height="1059" style="fill:url(#pattern0);stroke:none;"/>
@@ -18,7 +18,7 @@
   <path d="M 633.5 862.5 L 1293.5 862.5 L 1293.5 918.5 L 633.5 918.5 Z M 633.5 862.5 "/>
 </clipPath>
 <pattern id="pattern1" patternUnits="userSpaceOnUse" width="32" height="32"  patternTransform="matrix(1,0,0,1,0.5,1079.5)">
-  <use xlink:href="#image347"/>
+  <use xlink:href="#image375"/>
 </pattern>
 <mask id="mask1">
 <rect x="0" y="0" width="1898" height="1059" style="fill:url(#pattern1);stroke:none;"/>
@@ -35,9 +35,9 @@
 <clipPath id="clip7">
   <path d="M 1102.5 647.5 L 1136.5 647.5 L 1136.5 839.5 L 1102.5 839.5 Z M 768.5 647.5 L 803.5 647.5 L 803.5 839.5 L 768.5 839.5 Z M 851.5 647.5 L 885.5 647.5 L 885.5 839.5 L 851.5 839.5 Z M 978.5 647.5 L 1012.5 647.5 L 1012.5 839.5 L 978.5 839.5 Z M 978.5 647.5 "/>
 </clipPath>
-<image id="image348" width="32" height="32" xlink:href="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAACAAAAAgCAAAAABWESUoAAAAAmJLR0QA/4ePzL8AAAAtSURBVDiNY/jPwMDAwMDwHxeNWwZK49E7eFQwwnzDiINmGA0HhtFwGA0HdBoAtQDvIRl1O+YAAAAASUVORK5CYII="/>
+<image id="image376" width="32" height="32" xlink:href="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAACAAAAAgCAAAAABWESUoAAAAAmJLR0QA/4ePzL8AAAAtSURBVDiNY/jPwMDAwMDwHxeNWwZK49E7eFQwwnzDiINmGA0HhtFwGA0HdBoAtQDvIRl1O+YAAAAASUVORK5CYII="/>
 <pattern id="pattern2" patternUnits="userSpaceOnUse" width="32" height="32"  patternTransform="matrix(1,0,0,1,0.5,1079.5)">
-  <use xlink:href="#image348"/>
+  <use xlink:href="#image376"/>
 </pattern>
 <mask id="mask2">
 <rect x="0" y="0" width="1898" height="1059" style="fill:url(#pattern2);stroke:none;"/>
@@ -45,9 +45,9 @@
 <clipPath id="clip8">
   <path d="M 1154.5 209.5 L 1189.5 209.5 L 1189.5 498.5 L 1154.5 498.5 Z M 768.5 209.5 L 803.5 209.5 L 803.5 498.5 L 768.5 498.5 Z M 867.5 209.5 L 901.5 209.5 L 901.5 498.5 L 867.5 498.5 Z M 978.5 209.5 L 1012.5 209.5 L 1012.5 498.5 L 978.5 498.5 Z M 978.5 209.5 "/>
 </clipPath>
-<image id="image349" width="32" height="32" xlink:href="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAACAAAAAgCAAAAABWESUoAAAAAmJLR0QA/4ePzL8AAAAtSURBVDiNY/jPwMDAwMDwHxfNCKUZGHHQBPQPEZphNBxgHsSvbjQcIPQICQcAbQzvIWHO67YAAAAASUVORK5CYII="/>
+<image id="image377" width="32" height="32" xlink:href="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAACAAAAAgCAAAAABWESUoAAAAAmJLR0QA/4ePzL8AAAAtSURBVDiNY/jPwMDAwMDwHxfNCKUZGHHQBPQPEZphNBxgHsSvbjQcIPQICQcAbQzvIWHO67YAAAAASUVORK5CYII="/>
 <pattern id="pattern3" patternUnits="userSpaceOnUse" width="32" height="32"  patternTransform="matrix(1,0,0,1,0.5,1079.5)">
-  <use xlink:href="#image349"/>
+  <use xlink:href="#image377"/>
 </pattern>
 <mask id="mask3">
 <rect x="0" y="0" width="1898" height="1059" style="fill:url(#pattern3);stroke:none;"/>
@@ -61,15 +61,15 @@
 <clipPath id="clip11">
   <path d="M 669.5 136.5 L 708.5 136.5 L 708.5 174.5 L 669.5 174.5 Z M 1219.5 136.5 L 1258.5 136.5 L 1258.5 174.5 L 1219.5 174.5 Z M 1109.5 136.5 L 1148.5 136.5 L 1148.5 174.5 L 1109.5 174.5 Z M 999.5 136.5 L 1038.5 136.5 L 1038.5 174.5 L 999.5 174.5 Z M 889.5 136.5 L 928.5 136.5 L 928.5 174.5 L 889.5 174.5 Z M 779.5 136.5 L 818.5 136.5 L 818.5 174.5 L 779.5 174.5 Z M 669.5 899.5 L 708.5 899.5 L 708.5 938.5 L 669.5 938.5 Z M 1219.5 899.5 L 1258.5 899.5 L 1258.5 938.5 L 1219.5 938.5 Z M 1109.5 899.5 L 1148.5 899.5 L 1148.5 938.5 L 1109.5 938.5 Z M 999.5 899.5 L 1038.5 899.5 L 1038.5 938.5 L 999.5 938.5 Z M 889.5 899.5 L 928.5 899.5 L 928.5 938.5 L 889.5 938.5 Z M 779.5 899.5 L 818.5 899.5 L 818.5 938.5 L 779.5 938.5 Z M 779.5 899.5 "/>
 </clipPath>
-<image id="image350" width="32" height="32" xlink:href="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAACAAAAAgCAAAAABWESUoAAAAAmJLR0QA/4ePzL8AAAA9SURBVDiN7ZAhEgAgDMNS/v/nIsAgtnpuMzG7axsIJ9xTYEDUBJ/nkqGDQ48FulEFQ36uMR7o94+Hl3942JrBc/FcUmODAAAAAElFTkSuQmCC"/>
+<image id="image378" width="32" height="32" xlink:href="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAACAAAAAgCAAAAABWESUoAAAAAmJLR0QA/4ePzL8AAAA9SURBVDiN7ZAhEgAgDMNS/v/nIsAgtnpuMzG7axsIJ9xTYEDUBJ/nkqGDQ48FulEFQ36uMR7o94+Hl3942JrBc/FcUmODAAAAAElFTkSuQmCC"/>
 <pattern id="pattern4" patternUnits="userSpaceOnUse" width="32" height="32"  patternTransform="matrix(1,0,0,1,0.5,1079.5)">
-  <use xlink:href="#image350"/>
+  <use xlink:href="#image378"/>
 </pattern>
 <mask id="mask4">
 <rect x="0" y="0" width="1898" height="1059" style="fill:url(#pattern4);stroke:none;"/>
 </mask>
 </defs>
-<g id="surface344">
+<g id="surface372">
 <g clip-path="url(#clip1)" clip-rule="nonzero">
 
 </g>
@@ -191,6 +191,5 @@
 <path style=" stroke:none;fill-rule:nonzero;comp-op:src;clip-to-self:true;fill:rgb(0%,0%,60.392159%);fill-opacity:0.724409;" d="M 1137.703125 615.332031 L 1138.242188 610.28125 L 1139.652344 606.175781 L 1141.875 602.941406 L 1144.90625 600.652344 L 1148.742188 599.242188 L 1153.457031 598.769531 L 1155.609375 598.902344 L 1157.695312 599.242188 L 1159.648438 599.777344 L 1161.398438 600.585938 L 1163.015625 601.597656 L 1164.5625 602.742188 L 1165.773438 604.15625 L 1166.851562 605.636719 L 1167.660156 607.25 L 1168.265625 608.933594 L 1168.601562 610.820312 L 1168.738281 612.773438 L 1168.46875 615.53125 L 1167.726562 618.089844 L 1166.449219 620.445312 L 1164.699219 622.667969 L 1162.410156 624.753906 L 1159.648438 626.574219 L 1158.640625 627.179688 L 1151.90625 630.8125 L 1150.15625 631.824219 L 1148.609375 632.832031 L 1147.261719 633.84375 L 1146.183594 634.851562 L 1145.242188 635.863281 L 1144.570312 636.875 L 1144.230469 637.480469 L 1143.960938 638.015625 L 1143.761719 638.691406 L 1143.558594 639.296875 L 1143.355469 639.96875 L 1143.289062 640.644531 L 1168.402344 640.644531 L 1168.402344 646.5 L 1136.625 646.5 L 1136.757812 644.144531 L 1137.097656 641.988281 L 1137.5 639.96875 L 1138.039062 638.21875 L 1138.644531 636.535156 L 1139.386719 635.054688 L 1140.191406 633.777344 L 1141.203125 632.496094 L 1142.414062 631.21875 L 1143.761719 630.007812 L 1145.308594 628.792969 L 1147.125 627.582031 L 1147.53125 627.3125 L 1148.003906 627.042969 L 1148.472656 626.707031 L 1148.945312 626.4375 L 1149.484375 626.167969 L 1150.023438 625.832031 L 1156.214844 622.332031 L 1158.167969 621.050781 L 1159.785156 619.640625 L 1161.0625 618.15625 L 1161.9375 616.542969 L 1162.476562 614.792969 L 1162.679688 612.90625 L 1162.542969 611.628906 L 1162.339844 610.347656 L 1161.871094 609.203125 L 1161.332031 608.125 L 1160.523438 607.183594 L 1159.648438 606.242188 L 1158.707031 605.570312 L 1157.765625 604.960938 L 1156.6875 604.558594 L 1155.609375 604.222656 L 1154.464844 604.019531 L 1153.253906 603.953125 L 1150.628906 604.289062 L 1148.40625 605.097656 L 1146.589844 606.511719 L 1145.242188 608.464844 L 1144.300781 611.023438 L 1143.761719 614.050781 L 1143.695312 614.320312 L 1143.695312 614.722656 L 1143.625 614.925781 L 1143.625 615.332031 Z M 1137.703125 615.332031 "/>
 <path style="fill:none;stroke-width:2;stroke-linecap:butt;stroke-linejoin:miter;stroke:rgb(0%,0%,60.392159%);stroke-opacity:0.724409;stroke-miterlimit:10;" d="M 1109 477 L 1148 477 M 1109 438 L 1148 438 M 1109 438 L 1109 477 M 1148 438 L 1148 477 " transform="matrix(1,0,0,-1,0.5,1079.5)"/>
 <path style="fill:none;stroke-width:2;stroke-linecap:butt;stroke-linejoin:miter;stroke:rgb(19.607843%,89.411765%,88.235295%);stroke-opacity:1;stroke-miterlimit:10;" d="M 1109 477 L 1148 477 M 1109 438 L 1148 438 M 1148 477 L 1148 438 M 1109 477 L 1109 438 " transform="matrix(1,0,0,-1,0.5,1079.5)"/>
-<path style="fill:none;stroke-width:2;stroke-linecap:butt;stroke-linejoin:miter;stroke:rgb(100%,100%,100%);stroke-opacity:1;stroke-miterlimit:10;" d="M 633 156 L 633 165 M 628 161 L 637 161 M 632 162 L 634 162 M 632 160 L 634 160 M 632 160 L 632 162 M 634 160 L 634 162 " transform="matrix(1,0,0,-1,0.5,1079.5)"/>
 </g>
 </svg>
