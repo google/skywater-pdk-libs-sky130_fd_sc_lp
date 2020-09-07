@@ -18,9 +18,6 @@ VERSION 5.7 ;
   NOWIREEXTENSIONATPIN ON ;
   DIVIDERCHAR "/" ;
   BUSBITCHARS "[]" ;
-UNITS
-  DATABASE MICRONS 200 ;
-END UNITS
 MACRO sky130_fd_sc_lp__decap_3
   CLASS CORE SPACER ;
   FOREIGN sky130_fd_sc_lp__decap_3 ;
@@ -28,6 +25,18 @@ MACRO sky130_fd_sc_lp__decap_3
   SIZE  1.440000 BY  3.330000 ;
   SYMMETRY X Y R90 ;
   SITE unit ;
+  PIN VNB
+    PORT
+      LAYER pwell ;
+        RECT 0.000000 0.000000 1.440000 0.245000 ;
+    END
+  END VNB
+  PIN VPB
+    PORT
+      LAYER nwell ;
+        RECT -0.190000 1.655000 1.630000 3.520000 ;
+    END
+  END VPB
   PIN VGND
     DIRECTION INOUT ;
     USE GROUND ;

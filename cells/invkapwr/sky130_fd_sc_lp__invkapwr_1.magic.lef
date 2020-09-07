@@ -18,9 +18,6 @@ VERSION 5.7 ;
   NOWIREEXTENSIONATPIN ON ;
   DIVIDERCHAR "/" ;
   BUSBITCHARS "[]" ;
-UNITS
-  DATABASE MICRONS 200 ;
-END UNITS
 MACRO sky130_fd_sc_lp__invkapwr_1
   CLASS CORE ;
   FOREIGN sky130_fd_sc_lp__invkapwr_1 ;
@@ -64,6 +61,22 @@ MACRO sky130_fd_sc_lp__invkapwr_1
         RECT 0.000000 -0.245000 1.440000 0.245000 ;
     END
   END VGND
+  PIN VNB
+    DIRECTION INOUT ;
+    USE GROUND ;
+    PORT
+      LAYER pwell ;
+        RECT 0.000000 0.000000 1.440000 0.245000 ;
+    END
+  END VNB
+  PIN VPB
+    DIRECTION INOUT ;
+    USE POWER ;
+    PORT
+      LAYER nwell ;
+        RECT -0.190000 1.655000 1.630000 3.520000 ;
+    END
+  END VPB
   PIN VPWR
     DIRECTION INOUT ;
     USE POWER ;
