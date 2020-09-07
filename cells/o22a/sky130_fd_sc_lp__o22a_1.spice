@@ -16,24 +16,14 @@
 
 
 .subckt sky130_fd_sc_lp__o22a_1 A1 A2 B1 B2 VGND VNB VPB VPWR X
-M1000 a_80_21# B1 a_265_47# VNB nshort w=840000u l=150000u
-+  ad=2.52e+11p pd=2.28e+06u as=7.686e+11p ps=6.87e+06u
-M1001 a_265_47# B2 a_80_21# VNB nshort w=840000u l=150000u
-+  ad=0p pd=0u as=0p ps=0u
-M1002 a_265_47# A1 VGND VNB nshort w=840000u l=150000u
-+  ad=0p pd=0u as=5.754e+11p ps=4.73e+06u
-M1003 VPWR A1 a_545_367# VPB phighvt w=1.26e+06u l=150000u
-+  ad=1.0647e+12p pd=6.73e+06u as=5.292e+11p ps=3.36e+06u
-M1004 VGND a_80_21# X VNB nshort w=840000u l=150000u
-+  ad=0p pd=0u as=2.226e+11p ps=2.21e+06u
-M1005 a_545_367# A2 a_80_21# VPB phighvt w=1.26e+06u l=150000u
-+  ad=0p pd=0u as=5.607e+11p ps=3.41e+06u
-M1006 VPWR a_80_21# X VPB phighvt w=1.26e+06u l=150000u
-+  ad=0p pd=0u as=3.339e+11p ps=3.05e+06u
-M1007 VGND A2 a_265_47# VNB nshort w=840000u l=150000u
-+  ad=0p pd=0u as=0p ps=0u
-M1008 a_348_367# B1 VPWR VPB phighvt w=1.26e+06u l=150000u
-+  ad=3.024e+11p pd=3e+06u as=0p ps=0u
-M1009 a_80_21# B2 a_348_367# VPB phighvt w=1.26e+06u l=150000u
-+  ad=0p pd=0u as=0p ps=0u
+X0 a_348_367# B2 a_80_21# VPB sky130_fd_pr__pfet_01v8_hvt w=1.26e+06u l=150000u
+X1 VGND A1 a_265_47# VNB sky130_fd_pr__nfet_01v8 w=840000u l=150000u
+X2 a_80_21# A2 a_545_367# VPB sky130_fd_pr__pfet_01v8_hvt w=1.26e+06u l=150000u
+X3 X a_80_21# VGND VNB sky130_fd_pr__nfet_01v8 w=840000u l=150000u
+X4 a_80_21# B2 a_265_47# VNB sky130_fd_pr__nfet_01v8 w=840000u l=150000u
+X5 a_545_367# A1 VPWR VPB sky130_fd_pr__pfet_01v8_hvt w=1.26e+06u l=150000u
+X6 a_265_47# B1 a_80_21# VNB sky130_fd_pr__nfet_01v8 w=840000u l=150000u
+X7 X a_80_21# VPWR VPB sky130_fd_pr__pfet_01v8_hvt w=1.26e+06u l=150000u
+X8 a_265_47# A2 VGND VNB sky130_fd_pr__nfet_01v8 w=840000u l=150000u
+X9 VPWR B1 a_348_367# VPB sky130_fd_pr__pfet_01v8_hvt w=1.26e+06u l=150000u
 .ends

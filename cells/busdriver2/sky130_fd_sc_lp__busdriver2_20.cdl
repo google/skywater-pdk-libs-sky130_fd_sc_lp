@@ -16,24 +16,24 @@
 
 .SUBCKT sky130_fd_sc_lp__busdriver2_20 A TE_B VGND VNB VPB VPWR Z
 *.PININFO A:I TE_B:I VGND:I VNB:I VPB:I VPWR:I Z:O
-MMN0 Z net42 VNB nshort m=14 w=0.64 l=0.15 mult=1 sa=0.265 sb=0.265
+MMN0 Z net42 VNB nfet_01v8 m=14 w=0.64 l=0.15 mult=1 sa=0.265 sb=0.265
 + sd=0.28 topography=normal area=0.063 perim=1.14
-MMN1 sndA net39 VNB nshort m=14 w=0.64 l=0.15 mult=1 sa=0.265 sb=0.265
-+ sd=0.28 topography=normal area=0.063 perim=1.14
-MMIN1 net39 TE_B VNB nshort m=2 w=0.84 l=0.15 mult=1 sa=0.265 sb=0.265
-+ sd=0.28 topography=normal area=0.063 perim=1.14
-MI6 net42 A VNB nshort m=4 w=0.84 l=0.15 mult=1 sa=0.265 sb=0.265
-+ sd=0.28 topography=normal area=0.063 perim=1.14
-MI8 net66 net39 VNB nshort m=2 w=0.84 l=0.15 mult=1 sa=0.265 sb=0.265
-+ sd=0.28 topography=normal area=0.063 perim=1.14
-MMP0 VPWR net66 VPB pshort m=20 w=1.26 l=0.15 mult=1 sa=0.265 sb=0.265
-+ sd=0.28 topography=normal area=0.063 perim=1.14
-MMP1 sndTEB net42 VPB pshort m=20 w=1.26 l=0.15 mult=1 sa=0.265
+MMN1 sndA net39 VNB nfet_01v8 m=14 w=0.64 l=0.15 mult=1 sa=0.265
 + sb=0.265 sd=0.28 topography=normal area=0.063 perim=1.14
-MMIP1 net39 TE_B VPB pshort m=2 w=1.26 l=0.15 mult=1 sa=0.265 sb=0.265
+MMIN1 net39 TE_B VNB nfet_01v8 m=2 w=0.84 l=0.15 mult=1 sa=0.265
++ sb=0.265 sd=0.28 topography=normal area=0.063 perim=1.14
+MI6 net42 A VNB nfet_01v8 m=4 w=0.84 l=0.15 mult=1 sa=0.265 sb=0.265
 + sd=0.28 topography=normal area=0.063 perim=1.14
-MI7 net66 net39 VPB pshort m=4 w=1.26 l=0.15 mult=1 sa=0.265 sb=0.265
-+ sd=0.28 topography=normal area=0.063 perim=1.14
-MI5 net42 A VPB pshort m=8 w=1.26 l=0.15 mult=1 sa=0.265 sb=0.265
+MI8 net66 net39 VNB nfet_01v8 m=2 w=0.84 l=0.15 mult=1 sa=0.265
++ sb=0.265 sd=0.28 topography=normal area=0.063 perim=1.14
+MMP0 VPWR net66 VPB pfet_01v8 m=20 w=1.26 l=0.15 mult=1 sa=0.265
++ sb=0.265 sd=0.28 topography=normal area=0.063 perim=1.14
+MMP1 sndTEB net42 VPB pfet_01v8 m=20 w=1.26 l=0.15 mult=1 sa=0.265
++ sb=0.265 sd=0.28 topography=normal area=0.063 perim=1.14
+MMIP1 net39 TE_B VPB pfet_01v8 m=2 w=1.26 l=0.15 mult=1 sa=0.265
++ sb=0.265 sd=0.28 topography=normal area=0.063 perim=1.14
+MI7 net66 net39 VPB pfet_01v8 m=4 w=1.26 l=0.15 mult=1 sa=0.265
++ sb=0.265 sd=0.28 topography=normal area=0.063 perim=1.14
+MI5 net42 A VPB pfet_01v8 m=8 w=1.26 l=0.15 mult=1 sa=0.265 sb=0.265
 + sd=0.28 topography=normal area=0.063 perim=1.14
 .ENDS sky130_fd_sc_lp__busdriver2_20

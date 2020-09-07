@@ -16,36 +16,36 @@
 
 .SUBCKT sky130_fd_sc_lp__lsbuf_lp A DESTPWR DESTVPB VGND VPB VPWR X
 *.PININFO A:I DESTPWR:I DESTVPB:I VGND:I VPB:I VPWR:I X:O
-MI2 cross2 cross1 DESTVPB phighvt m=1 w=1.0 l=0.15 mult=1 sa=0.265
+MI2 cross2 cross1 DESTVPB pfet_01v8_hvt m=1 w=1.0 l=0.15 mult=1
++ sa=0.265 sb=0.265 sd=0.28 topography=normal area=0.063 perim=1.14
+MI3 cross1 cross2 DESTVPB pfet_01v8_hvt m=1 w=1.0 l=0.15 mult=1
++ sa=0.265 sb=0.265 sd=0.28 topography=normal area=0.063 perim=1.14
+MI18 sndP1a cross1 DESTVPB pfet_01v8_hvt m=1 w=1.0 l=0.15 mult=1
++ sa=0.265 sb=0.265 sd=0.28 topography=normal area=0.063 perim=1.14
+MI20 Ab A VPB pfet_01v8_hvt m=1 w=1.0 l=0.15 mult=1 sa=0.265 sb=0.265
++ sd=0.28 topography=normal area=0.063 perim=1.14
+MI7 net56 A VPB pfet_01v8_hvt m=1 w=1.0 l=0.15 mult=1 sa=0.265
 + sb=0.265 sd=0.28 topography=normal area=0.063 perim=1.14
-MI3 cross1 cross2 DESTVPB phighvt m=1 w=1.0 l=0.15 mult=1 sa=0.265
+MI15 net40 cross2 DESTVPB pfet_01v8_hvt m=1 w=1.0 l=0.15 mult=1
++ sa=0.265 sb=0.265 sd=0.28 topography=normal area=0.063 perim=1.14
+MI19 sndP2a cross2 DESTVPB pfet_01v8_hvt m=1 w=1.0 l=0.15 mult=1
++ sa=0.265 sb=0.265 sd=0.28 topography=normal area=0.063 perim=1.14
+MI24 X cross2 DESTVPB pfet_01v8_hvt m=1 w=1.0 l=0.15 mult=1 sa=0.265
 + sb=0.265 sd=0.28 topography=normal area=0.063 perim=1.14
-MI18 sndP1a cross1 DESTVPB phighvt m=1 w=1.0 l=0.15 mult=1 sa=0.265
+MI5 cross1 Ab VGND nfet_01v8 m=1 w=0.84 l=0.15 mult=1 sa=0.265
 + sb=0.265 sd=0.28 topography=normal area=0.063 perim=1.14
-MI20 Ab A VPB phighvt m=1 w=1.0 l=0.15 mult=1 sa=0.265 sb=0.265
+MI4 cross2 A VGND nfet_01v8 m=1 w=0.84 l=0.15 mult=1 sa=0.265 sb=0.265
 + sd=0.28 topography=normal area=0.063 perim=1.14
-MI7 net56 A VPB phighvt m=1 w=1.0 l=0.15 mult=1 sa=0.265 sb=0.265
+MI8 net93 A VGND nfet_01v8 m=1 w=0.42 l=0.15 mult=1 sa=0.265 sb=0.265
 + sd=0.28 topography=normal area=0.063 perim=1.14
-MI15 net40 cross2 DESTVPB phighvt m=1 w=1.0 l=0.15 mult=1 sa=0.265
+MI16 net72 cross2 VGND nfet_01v8 m=1 w=0.84 l=0.15 mult=1 sa=0.265
 + sb=0.265 sd=0.28 topography=normal area=0.063 perim=1.14
-MI19 sndP2a cross2 DESTVPB phighvt m=1 w=1.0 l=0.15 mult=1 sa=0.265
+MI23 Ab A VGND nfet_01v8 m=1 w=0.42 l=0.15 mult=1 sa=0.265 sb=0.265
++ sd=0.28 topography=normal area=0.063 perim=1.14
+MI21 net81 A VGND nfet_01v8 m=1 w=0.84 l=0.15 mult=1 sa=0.265 sb=0.265
++ sd=0.28 topography=normal area=0.063 perim=1.14
+MI22 net77 Ab VGND nfet_01v8 m=1 w=0.84 l=0.15 mult=1 sa=0.265
 + sb=0.265 sd=0.28 topography=normal area=0.063 perim=1.14
-MI24 X cross2 DESTVPB phighvt m=1 w=1.0 l=0.15 mult=1 sa=0.265
+MI25 X cross2 VGND nfet_01v8 m=1 w=0.84 l=0.15 mult=1 sa=0.265
 + sb=0.265 sd=0.28 topography=normal area=0.063 perim=1.14
-MI5 cross1 Ab VGND nshort m=1 w=0.84 l=0.15 mult=1 sa=0.265 sb=0.265
-+ sd=0.28 topography=normal area=0.063 perim=1.14
-MI4 cross2 A VGND nshort m=1 w=0.84 l=0.15 mult=1 sa=0.265 sb=0.265
-+ sd=0.28 topography=normal area=0.063 perim=1.14
-MI8 net93 A VGND nshort m=1 w=0.42 l=0.15 mult=1 sa=0.265 sb=0.265
-+ sd=0.28 topography=normal area=0.063 perim=1.14
-MI16 net72 cross2 VGND nshort m=1 w=0.84 l=0.15 mult=1 sa=0.265
-+ sb=0.265 sd=0.28 topography=normal area=0.063 perim=1.14
-MI23 Ab A VGND nshort m=1 w=0.42 l=0.15 mult=1 sa=0.265 sb=0.265
-+ sd=0.28 topography=normal area=0.063 perim=1.14
-MI21 net81 A VGND nshort m=1 w=0.84 l=0.15 mult=1 sa=0.265 sb=0.265
-+ sd=0.28 topography=normal area=0.063 perim=1.14
-MI22 net77 Ab VGND nshort m=1 w=0.84 l=0.15 mult=1 sa=0.265 sb=0.265
-+ sd=0.28 topography=normal area=0.063 perim=1.14
-MI25 X cross2 VGND nshort m=1 w=0.84 l=0.15 mult=1 sa=0.265 sb=0.265
-+ sd=0.28 topography=normal area=0.063 perim=1.14
 .ENDS sky130_fd_sc_lp__lsbuf_lp
