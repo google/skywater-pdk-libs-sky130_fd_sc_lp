@@ -61,7 +61,7 @@ module sky130_fd_sc_lp__o41ai_m (
     input  VGND;
     input  VPB ;
     input  VNB ;
-    sky130_fd_sc_lp__o41ai cell (
+    sky130_fd_sc_lp__o41ai base (
         .Y(Y),
         .A1(A1),
         .A2(A2),
@@ -112,7 +112,7 @@ module sky130_fd_sc_lp__o41ai_m (
     supply1 VPB ;
     supply0 VNB ;
 
-    sky130_fd_sc_lp__o41ai cell (
+    sky130_fd_sc_lp__o41ai base (
         .Y(Y),
         .A1(A1),
         .A2(A2),

@@ -51,7 +51,7 @@ module sky130_fd_sc_lp__clkinvlp_8 (
     input  VGND;
     input  VPB ;
     input  VNB ;
-    sky130_fd_sc_lp__clkinvlp cell (
+    sky130_fd_sc_lp__clkinvlp base (
         .Y(Y),
         .A(A),
         .VPWR(VPWR),
@@ -90,7 +90,7 @@ module sky130_fd_sc_lp__clkinvlp_8 (
     supply1 VPB ;
     supply0 VNB ;
 
-    sky130_fd_sc_lp__clkinvlp cell (
+    sky130_fd_sc_lp__clkinvlp base (
         .Y(Y),
         .A(A)
     );

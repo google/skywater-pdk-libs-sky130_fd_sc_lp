@@ -55,7 +55,7 @@ module sky130_fd_sc_lp__isolatch_lp (
     input  VGND   ;
     input  VPB    ;
     input  VNB    ;
-    sky130_fd_sc_lp__isolatch cell (
+    sky130_fd_sc_lp__isolatch base (
         .Q(Q),
         .D(D),
         .SLEEP_B(SLEEP_B),
@@ -101,7 +101,7 @@ module sky130_fd_sc_lp__isolatch_lp (
     supply1 VPB  ;
     supply0 VNB  ;
 
-    sky130_fd_sc_lp__isolatch cell (
+    sky130_fd_sc_lp__isolatch base (
         .Q(Q),
         .D(D),
         .SLEEP_B(SLEEP_B)

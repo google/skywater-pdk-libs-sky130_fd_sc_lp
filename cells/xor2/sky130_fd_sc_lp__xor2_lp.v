@@ -55,7 +55,7 @@ module sky130_fd_sc_lp__xor2_lp (
     input  VGND;
     input  VPB ;
     input  VNB ;
-    sky130_fd_sc_lp__xor2 cell (
+    sky130_fd_sc_lp__xor2 base (
         .X(X),
         .A(A),
         .B(B),
@@ -97,7 +97,7 @@ module sky130_fd_sc_lp__xor2_lp (
     supply1 VPB ;
     supply0 VNB ;
 
-    sky130_fd_sc_lp__xor2 cell (
+    sky130_fd_sc_lp__xor2 base (
         .X(X),
         .A(A),
         .B(B)

@@ -52,7 +52,7 @@ module sky130_fd_sc_lp__bushold_1 (
     input VGND ;
     input VPB  ;
     input VNB  ;
-    sky130_fd_sc_lp__bushold cell (
+    sky130_fd_sc_lp__bushold base (
         .X(X),
         .RESET(RESET),
         .VPWR(VPWR),
@@ -91,7 +91,7 @@ module sky130_fd_sc_lp__bushold_1 (
     supply1 VPB ;
     supply0 VNB ;
 
-    sky130_fd_sc_lp__bushold cell (
+    sky130_fd_sc_lp__bushold base (
         .X(X),
         .RESET(RESET)
     );

@@ -53,7 +53,7 @@ module sky130_fd_sc_lp__bufkapwr_8 (
     input  KAPWR;
     input  VPB  ;
     input  VNB  ;
-    sky130_fd_sc_lp__bufkapwr cell (
+    sky130_fd_sc_lp__bufkapwr base (
         .X(X),
         .A(A),
         .VPWR(VPWR),
@@ -96,7 +96,7 @@ module sky130_fd_sc_lp__bufkapwr_8 (
     supply1 VPB  ;
     supply0 VNB  ;
 
-    sky130_fd_sc_lp__bufkapwr cell (
+    sky130_fd_sc_lp__bufkapwr base (
         .X(X),
         .A(A)
     );

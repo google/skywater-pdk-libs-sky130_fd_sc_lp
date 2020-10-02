@@ -53,7 +53,7 @@ module sky130_fd_sc_lp__iso0n_lp (
     input  KAGND  ;
     input  VPB    ;
     input  VNB    ;
-    sky130_fd_sc_lp__iso0n cell (
+    sky130_fd_sc_lp__iso0n base (
         .X(X),
         .A(A),
         .SLEEP_B(SLEEP_B),
@@ -95,7 +95,7 @@ module sky130_fd_sc_lp__iso0n_lp (
     supply1 VPB  ;
     supply0 VNB  ;
 
-    sky130_fd_sc_lp__iso0n cell (
+    sky130_fd_sc_lp__iso0n base (
         .X(X),
         .A(A),
         .SLEEP_B(SLEEP_B)

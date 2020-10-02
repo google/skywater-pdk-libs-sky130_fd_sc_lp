@@ -57,7 +57,7 @@ module sky130_fd_sc_lp__nor3b_lp (
     input  VGND;
     input  VPB ;
     input  VNB ;
-    sky130_fd_sc_lp__nor3b cell (
+    sky130_fd_sc_lp__nor3b base (
         .Y(Y),
         .A(A),
         .B(B),
@@ -102,7 +102,7 @@ module sky130_fd_sc_lp__nor3b_lp (
     supply1 VPB ;
     supply0 VNB ;
 
-    sky130_fd_sc_lp__nor3b cell (
+    sky130_fd_sc_lp__nor3b base (
         .Y(Y),
         .A(A),
         .B(B),

@@ -49,7 +49,7 @@ module sky130_fd_sc_lp__decapkapwr_3 (
     input VGND ;
     input VPB  ;
     input VNB  ;
-    sky130_fd_sc_lp__decapkapwr cell (
+    sky130_fd_sc_lp__decapkapwr base (
         .KAPWR(KAPWR),
         .VPWR(VPWR),
         .VGND(VGND),
@@ -86,7 +86,7 @@ module sky130_fd_sc_lp__decapkapwr_3 (
     supply1 VPB  ;
     supply0 VNB  ;
 
-    sky130_fd_sc_lp__decapkapwr cell ();
+    sky130_fd_sc_lp__decapkapwr base ();
 
 endmodule
 `endcelldefine

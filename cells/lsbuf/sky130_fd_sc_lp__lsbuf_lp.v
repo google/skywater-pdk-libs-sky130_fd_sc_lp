@@ -55,7 +55,7 @@ module sky130_fd_sc_lp__lsbuf_lp (
     input  DESTVPB;
     input  VPB    ;
     input  VNB    ;
-    sky130_fd_sc_lp__lsbuf cell (
+    sky130_fd_sc_lp__lsbuf base (
         .X(X),
         .A(A),
         .DESTPWR(DESTPWR),
@@ -102,7 +102,7 @@ module sky130_fd_sc_lp__lsbuf_lp (
     supply1 VPB    ;
     supply0 VNB    ;
 
-    sky130_fd_sc_lp__lsbuf cell (
+    sky130_fd_sc_lp__lsbuf base (
         .X(X),
         .A(A)
     );

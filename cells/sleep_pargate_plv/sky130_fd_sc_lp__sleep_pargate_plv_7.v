@@ -50,7 +50,7 @@ module sky130_fd_sc_lp__sleep_pargate_plv_7 (
     input  VPWR   ;
     input  VPB    ;
     input  VNB    ;
-    sky130_fd_sc_lp__sleep_pargate_plv cell (
+    sky130_fd_sc_lp__sleep_pargate_plv base (
         .VIRTPWR(VIRTPWR),
         .SLEEP(SLEEP),
         .VPWR(VPWR),
@@ -85,7 +85,7 @@ module sky130_fd_sc_lp__sleep_pargate_plv_7 (
     supply1 VPB ;
     supply0 VNB ;
 
-    sky130_fd_sc_lp__sleep_pargate_plv cell (
+    sky130_fd_sc_lp__sleep_pargate_plv base (
         .VIRTPWR(VIRTPWR),
         .SLEEP(SLEEP)
     );

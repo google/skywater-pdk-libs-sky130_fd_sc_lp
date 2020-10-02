@@ -55,7 +55,7 @@ module sky130_fd_sc_lp__ha_m (
     input  VGND;
     input  VPB ;
     input  VNB ;
-    sky130_fd_sc_lp__ha cell (
+    sky130_fd_sc_lp__ha base (
         .COUT(COUT),
         .SUM(SUM),
         .A(A),
@@ -100,7 +100,7 @@ module sky130_fd_sc_lp__ha_m (
     supply1 VPB ;
     supply0 VNB ;
 
-    sky130_fd_sc_lp__ha cell (
+    sky130_fd_sc_lp__ha base (
         .COUT(COUT),
         .SUM(SUM),
         .A(A),

@@ -53,7 +53,7 @@ module sky130_fd_sc_lp__invkapwr_1 (
     input  KAPWR;
     input  VPB  ;
     input  VNB  ;
-    sky130_fd_sc_lp__invkapwr cell (
+    sky130_fd_sc_lp__invkapwr base (
         .Y(Y),
         .A(A),
         .VPWR(VPWR),
@@ -96,7 +96,7 @@ module sky130_fd_sc_lp__invkapwr_1 (
     supply1 VPB  ;
     supply0 VNB  ;
 
-    sky130_fd_sc_lp__invkapwr cell (
+    sky130_fd_sc_lp__invkapwr base (
         .Y(Y),
         .A(A)
     );
