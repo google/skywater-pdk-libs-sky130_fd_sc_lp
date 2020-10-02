@@ -55,7 +55,7 @@ module sky130_fd_sc_lp__inputiso1n_lp (
     input  VGND   ;
     input  VPB    ;
     input  VNB    ;
-    sky130_fd_sc_lp__inputiso1n cell (
+    sky130_fd_sc_lp__inputiso1n base (
         .X(X),
         .A(A),
         .SLEEP_B(SLEEP_B),
@@ -97,7 +97,7 @@ module sky130_fd_sc_lp__inputiso1n_lp (
     supply1 VPB ;
     supply0 VNB ;
 
-    sky130_fd_sc_lp__inputiso1n cell (
+    sky130_fd_sc_lp__inputiso1n base (
         .X(X),
         .A(A),
         .SLEEP_B(SLEEP_B)

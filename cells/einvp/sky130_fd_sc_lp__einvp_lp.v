@@ -53,7 +53,7 @@ module sky130_fd_sc_lp__einvp_lp (
     input  VGND;
     input  VPB ;
     input  VNB ;
-    sky130_fd_sc_lp__einvp cell (
+    sky130_fd_sc_lp__einvp base (
         .Z(Z),
         .A(A),
         .TE(TE),
@@ -95,7 +95,7 @@ module sky130_fd_sc_lp__einvp_lp (
     supply1 VPB ;
     supply0 VNB ;
 
-    sky130_fd_sc_lp__einvp cell (
+    sky130_fd_sc_lp__einvp base (
         .Z(Z),
         .A(A),
         .TE(TE)

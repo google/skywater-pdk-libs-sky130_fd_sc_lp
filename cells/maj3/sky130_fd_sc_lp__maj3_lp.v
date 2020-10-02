@@ -55,7 +55,7 @@ module sky130_fd_sc_lp__maj3_lp (
     input  VGND;
     input  VPB ;
     input  VNB ;
-    sky130_fd_sc_lp__maj3 cell (
+    sky130_fd_sc_lp__maj3 base (
         .X(X),
         .A(A),
         .B(B),
@@ -100,7 +100,7 @@ module sky130_fd_sc_lp__maj3_lp (
     supply1 VPB ;
     supply0 VNB ;
 
-    sky130_fd_sc_lp__maj3 cell (
+    sky130_fd_sc_lp__maj3 base (
         .X(X),
         .A(A),
         .B(B),

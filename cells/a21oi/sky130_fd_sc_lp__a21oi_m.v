@@ -57,7 +57,7 @@ module sky130_fd_sc_lp__a21oi_m (
     input  VGND;
     input  VPB ;
     input  VNB ;
-    sky130_fd_sc_lp__a21oi cell (
+    sky130_fd_sc_lp__a21oi base (
         .Y(Y),
         .A1(A1),
         .A2(A2),
@@ -102,7 +102,7 @@ module sky130_fd_sc_lp__a21oi_m (
     supply1 VPB ;
     supply0 VNB ;
 
-    sky130_fd_sc_lp__a21oi cell (
+    sky130_fd_sc_lp__a21oi base (
         .Y(Y),
         .A1(A1),
         .A2(A2),

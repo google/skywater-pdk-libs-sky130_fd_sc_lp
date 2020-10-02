@@ -55,7 +55,7 @@ module sky130_fd_sc_lp__or3_m (
     input  VGND;
     input  VPB ;
     input  VNB ;
-    sky130_fd_sc_lp__or3 cell (
+    sky130_fd_sc_lp__or3 base (
         .X(X),
         .A(A),
         .B(B),
@@ -100,7 +100,7 @@ module sky130_fd_sc_lp__or3_m (
     supply1 VPB ;
     supply0 VNB ;
 
-    sky130_fd_sc_lp__or3 cell (
+    sky130_fd_sc_lp__or3 base (
         .X(X),
         .A(A),
         .B(B),

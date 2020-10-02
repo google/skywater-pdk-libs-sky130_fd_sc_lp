@@ -59,7 +59,7 @@ module sky130_fd_sc_lp__srdlrtp_1 (
     input  VGND   ;
     input  VPB    ;
     input  VNB    ;
-    sky130_fd_sc_lp__srdlrtp cell (
+    sky130_fd_sc_lp__srdlrtp base (
         .Q(Q),
         .RESET_B(RESET_B),
         .D(D),
@@ -111,7 +111,7 @@ module sky130_fd_sc_lp__srdlrtp_1 (
     supply1 VPB  ;
     supply0 VNB  ;
 
-    sky130_fd_sc_lp__srdlrtp cell (
+    sky130_fd_sc_lp__srdlrtp base (
         .Q(Q),
         .RESET_B(RESET_B),
         .D(D),

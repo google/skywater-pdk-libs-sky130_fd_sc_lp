@@ -57,7 +57,7 @@ module sky130_fd_sc_lp__dfsbp_lp (
     input  VGND ;
     input  VPB  ;
     input  VNB  ;
-    sky130_fd_sc_lp__dfsbp cell (
+    sky130_fd_sc_lp__dfsbp base (
         .Q(Q),
         .Q_N(Q_N),
         .CLK(CLK),
@@ -105,7 +105,7 @@ module sky130_fd_sc_lp__dfsbp_lp (
     supply1 VPB ;
     supply0 VNB ;
 
-    sky130_fd_sc_lp__dfsbp cell (
+    sky130_fd_sc_lp__dfsbp base (
         .Q(Q),
         .Q_N(Q_N),
         .CLK(CLK),

@@ -53,7 +53,7 @@ module sky130_fd_sc_lp__ebufn_lp (
     input  VGND;
     input  VPB ;
     input  VNB ;
-    sky130_fd_sc_lp__ebufn cell (
+    sky130_fd_sc_lp__ebufn base (
         .Z(Z),
         .A(A),
         .TE_B(TE_B),
@@ -95,7 +95,7 @@ module sky130_fd_sc_lp__ebufn_lp (
     supply1 VPB ;
     supply0 VNB ;
 
-    sky130_fd_sc_lp__ebufn cell (
+    sky130_fd_sc_lp__ebufn base (
         .Z(Z),
         .A(A),
         .TE_B(TE_B)

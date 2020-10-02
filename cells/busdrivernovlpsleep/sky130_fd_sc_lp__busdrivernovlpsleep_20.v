@@ -58,7 +58,7 @@ module sky130_fd_sc_lp__busdrivernovlpsleep_20 (
     input  KAPWR;
     input  VPB  ;
     input  VNB  ;
-    sky130_fd_sc_lp__busdrivernovlpsleep cell (
+    sky130_fd_sc_lp__busdrivernovlpsleep base (
         .Z(Z),
         .A(A),
         .TE_B(TE_B),
@@ -107,7 +107,7 @@ module sky130_fd_sc_lp__busdrivernovlpsleep_20 (
     supply1 VPB  ;
     supply0 VNB  ;
 
-    sky130_fd_sc_lp__busdrivernovlpsleep cell (
+    sky130_fd_sc_lp__busdrivernovlpsleep base (
         .Z(Z),
         .A(A),
         .TE_B(TE_B),
