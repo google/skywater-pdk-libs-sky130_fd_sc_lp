@@ -33,9 +33,9 @@
 `ifdef USE_POWER_PINS
 
 `ifdef FUNCTIONAL
-`include "sky130_fd_sc_lp__invkapwr.pp.functional.v"
+`include "sky130_fd_sc_lp__invkapwr.functional.pp.v"
 `else  // FUNCTIONAL
-`include "sky130_fd_sc_lp__invkapwr.pp.behavioral.v"
+`include "sky130_fd_sc_lp__invkapwr.behavioral.pp.v"
 `endif // FUNCTIONAL
 
 `else  // USE_POWER_PINS
