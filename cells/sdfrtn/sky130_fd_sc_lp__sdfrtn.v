@@ -34,9 +34,9 @@
 `ifdef USE_POWER_PINS
 
 `ifdef FUNCTIONAL
-`include "sky130_fd_sc_lp__sdfrtn.pp.functional.v"
+`include "sky130_fd_sc_lp__sdfrtn.functional.pp.v"
 `else  // FUNCTIONAL
-`include "sky130_fd_sc_lp__sdfrtn.pp.behavioral.v"
+`include "sky130_fd_sc_lp__sdfrtn.behavioral.pp.v"
 `endif // FUNCTIONAL
 
 `else  // USE_POWER_PINS
