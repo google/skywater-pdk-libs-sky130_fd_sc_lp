@@ -90,11 +90,7 @@ module sky130_fd_sc_lp__sregsbp_1 (
     D    ,
     SCD  ,
     SCE  ,
-    ASYNC,
-    VPWR ,
-    VGND ,
-    VPB  ,
-    VNB
+    ASYNC
 );
 
     output Q    ;
@@ -104,10 +100,6 @@ module sky130_fd_sc_lp__sregsbp_1 (
     input  SCD  ;
     input  SCE  ;
     input  ASYNC;
-    input  VPWR ;
-    input  VGND ;
-    input  VPB  ;
-    input  VNB  ;
 
     // Voltage supply signals
     supply1 VPWR;

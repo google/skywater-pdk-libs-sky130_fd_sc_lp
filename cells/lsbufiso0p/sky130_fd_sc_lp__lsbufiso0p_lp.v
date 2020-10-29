@@ -78,26 +78,14 @@ endmodule
 
 `celldefine
 module sky130_fd_sc_lp__lsbufiso0p_lp (
-    X      ,
-    SLEEP  ,
-    A      ,
-    DESTPWR,
-    VPWR   ,
-    VGND   ,
-    DESTVPB,
-    VPB    ,
-    VNB
+    X    ,
+    SLEEP,
+    A
 );
 
-    output X      ;
-    input  SLEEP  ;
-    input  A      ;
-    input  DESTPWR;
-    input  VPWR   ;
-    input  VGND   ;
-    input  DESTVPB;
-    input  VPB    ;
-    input  VNB    ;
+    output X    ;
+    input  SLEEP;
+    input  A    ;
 
     // Voltage supply signals
     supply1 DESTPWR;

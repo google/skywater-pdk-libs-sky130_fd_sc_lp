@@ -67,17 +67,11 @@ endmodule
 `celldefine
 module sky130_fd_sc_lp__sleep_sergate_plv_14 (
     VIRTPWR,
-    SLEEP  ,
-    VPWR   ,
-    VPB    ,
-    VNB
+    SLEEP
 );
 
     output VIRTPWR;
     input  SLEEP  ;
-    input  VPWR   ;
-    input  VPB    ;
-    input  VNB    ;
 
     // Voltage supply signals
     supply1 VPWR;

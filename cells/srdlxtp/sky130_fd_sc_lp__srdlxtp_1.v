@@ -81,23 +81,13 @@ module sky130_fd_sc_lp__srdlxtp_1 (
     Q      ,
     D      ,
     GATE   ,
-    SLEEP_B,
-    KAPWR  ,
-    VPWR   ,
-    VGND   ,
-    VPB    ,
-    VNB
+    SLEEP_B
 );
 
     output Q      ;
     input  D      ;
     input  GATE   ;
     input  SLEEP_B;
-    input  KAPWR  ;
-    input  VPWR   ;
-    input  VGND   ;
-    input  VPB    ;
-    input  VNB    ;
 
     // Voltage supply signals
     supply1 KAPWR;

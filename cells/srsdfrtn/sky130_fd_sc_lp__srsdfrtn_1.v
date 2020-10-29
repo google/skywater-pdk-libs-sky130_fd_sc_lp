@@ -94,12 +94,7 @@ module sky130_fd_sc_lp__srsdfrtn_1 (
     SCD    ,
     SCE    ,
     RESET_B,
-    SLEEP_B,
-    KAPWR  ,
-    VPWR   ,
-    VGND   ,
-    VPB    ,
-    VNB
+    SLEEP_B
 );
 
     output Q      ;
@@ -109,11 +104,6 @@ module sky130_fd_sc_lp__srsdfrtn_1 (
     input  SCE    ;
     input  RESET_B;
     input  SLEEP_B;
-    input  KAPWR  ;
-    input  VPWR   ;
-    input  VGND   ;
-    input  VPB    ;
-    input  VNB    ;
 
     // Voltage supply signals
     supply1 KAPWR;

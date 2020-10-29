@@ -78,26 +78,18 @@ endmodule
 
 `celldefine
 module sky130_fd_sc_lp__or4bb_m (
-    X   ,
-    A   ,
-    B   ,
-    C_N ,
-    D_N ,
-    VPWR,
-    VGND,
-    VPB ,
-    VNB
+    X  ,
+    A  ,
+    B  ,
+    C_N,
+    D_N
 );
 
-    output X   ;
-    input  A   ;
-    input  B   ;
-    input  C_N ;
-    input  D_N ;
-    input  VPWR;
-    input  VGND;
-    input  VPB ;
-    input  VNB ;
+    output X  ;
+    input  A  ;
+    input  B  ;
+    input  C_N;
+    input  D_N;
 
     // Voltage supply signals
     supply1 VPWR;

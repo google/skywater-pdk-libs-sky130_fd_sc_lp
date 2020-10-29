@@ -71,19 +71,11 @@ endmodule
 `celldefine
 module sky130_fd_sc_lp__bushold0_1 (
     X    ,
-    RESET,
-    VPWR ,
-    VGND ,
-    VPB  ,
-    VNB
+    RESET
 );
 
     inout X    ;
     input RESET;
-    input VPWR ;
-    input VGND ;
-    input VPB  ;
-    input VNB  ;
 
     // Voltage supply signals
     supply1 VPWR;
