@@ -16,26 +16,26 @@
 
 .SUBCKT sky130_fd_sc_lp__and4_lp2 A B C D VGND VNB VPB VPWR X
 *.PININFO A:I B:I C:I D:I VGND:I VNB:I VPB:I VPWR:I X:O
-MMP0 y A VPB pfet_01v8_hvt m=1 w=1 l=0.25 mult=1 sa=0.265 sb=0.265
-+ sd=0.28 topography=normal area=0.063 perim=1.14
-MMP1 y B VPB pfet_01v8_hvt m=1 w=1 l=0.25 mult=1 sa=0.265 sb=0.265
-+ sd=0.28 topography=normal area=0.063 perim=1.14
-MMP2 y C VPB pfet_01v8_hvt m=1 w=1 l=0.25 mult=1 sa=0.265 sb=0.265
-+ sd=0.28 topography=normal area=0.063 perim=1.14
-MMP3 y D VPB pfet_01v8_hvt m=1 w=1 l=0.25 mult=1 sa=0.265 sb=0.265
-+ sd=0.28 topography=normal area=0.063 perim=1.14
-MMIP0 X y VPB pfet_01v8_hvt m=1 w=1 l=0.25 mult=1 sa=0.265 sb=0.265
-+ sd=0.28 topography=normal area=0.063 perim=1.14
-MMN0 y A VNB nfet_01v8 m=1 w=0.42 l=0.15 mult=1 sa=0.265 sb=0.265
-+ sd=0.28 topography=normal area=0.063 perim=1.14
-MMN1 net71 B VNB nfet_01v8 m=1 w=0.42 l=0.15 mult=1 sa=0.265 sb=0.265
-+ sd=0.28 topography=normal area=0.063 perim=1.14
-MMN2 net67 C VNB nfet_01v8 m=1 w=0.42 l=0.15 mult=1 sa=0.265 sb=0.265
-+ sd=0.28 topography=normal area=0.063 perim=1.14
-MMIN0 X y VNB nfet_01v8 m=1 w=0.42 l=0.15 mult=1 sa=0.265 sb=0.265
-+ sd=0.28 topography=normal area=0.063 perim=1.14
-MI11 net62 y VNB nfet_01v8 m=1 w=0.42 l=0.15 mult=1 sa=0.265 sb=0.265
-+ sd=0.28 topography=normal area=0.063 perim=1.14
-MI8 net55 D VNB nfet_01v8 m=1 w=0.42 l=0.15 mult=1 sa=0.265 sb=0.265
-+ sd=0.28 topography=normal area=0.063 perim=1.14
+MMP0 y A VPWR VPB pfet_01v8_hvt m=1 w=1 l=0.25 mult=1 sa=0.265
++ sb=0.265 sd=0.28 topography=normal area=0.063 perim=1.14
+MMP1 y B VPWR VPB pfet_01v8_hvt m=1 w=1 l=0.25 mult=1 sa=0.265
++ sb=0.265 sd=0.28 topography=normal area=0.063 perim=1.14
+MMP2 y C VPWR VPB pfet_01v8_hvt m=1 w=1 l=0.25 mult=1 sa=0.265
++ sb=0.265 sd=0.28 topography=normal area=0.063 perim=1.14
+MMP3 y D VPWR VPB pfet_01v8_hvt m=1 w=1 l=0.25 mult=1 sa=0.265
++ sb=0.265 sd=0.28 topography=normal area=0.063 perim=1.14
+MMIP0 X y VPWR VPB pfet_01v8_hvt m=1 w=1 l=0.25 mult=1 sa=0.265
++ sb=0.265 sd=0.28 topography=normal area=0.063 perim=1.14
+MMN0 y A net71 VNB nfet_01v8 m=1 w=0.42 l=0.15 mult=1 sa=0.265
++ sb=0.265 sd=0.28 topography=normal area=0.063 perim=1.14
+MMN1 net71 B net67 VNB nfet_01v8 m=1 w=0.42 l=0.15 mult=1 sa=0.265
++ sb=0.265 sd=0.28 topography=normal area=0.063 perim=1.14
+MMN2 net67 C net55 VNB nfet_01v8 m=1 w=0.42 l=0.15 mult=1 sa=0.265
++ sb=0.265 sd=0.28 topography=normal area=0.063 perim=1.14
+MMIN0 X y net62 VNB nfet_01v8 m=1 w=0.42 l=0.15 mult=1 sa=0.265
++ sb=0.265 sd=0.28 topography=normal area=0.063 perim=1.14
+MI11 net62 y VGND VNB nfet_01v8 m=1 w=0.42 l=0.15 mult=1 sa=0.265
++ sb=0.265 sd=0.28 topography=normal area=0.063 perim=1.14
+MI8 net55 D VGND VNB nfet_01v8 m=1 w=0.42 l=0.15 mult=1 sa=0.265
++ sb=0.265 sd=0.28 topography=normal area=0.063 perim=1.14
 .ENDS sky130_fd_sc_lp__and4_lp2

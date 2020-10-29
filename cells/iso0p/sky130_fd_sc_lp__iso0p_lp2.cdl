@@ -16,24 +16,24 @@
 
 .SUBCKT sky130_fd_sc_lp__iso0p_lp2 A SLEEP KAPWR VGND VNB VPB VPWR X
 *.PININFO A:I SLEEP:I KAPWR:I VGND:I VNB:I VPB:I VPWR:I X:O
-MI8 y A VPB pfet_01v8_hvt m=1 w=1 l=0.25 mult=1 sa=0.265 sb=0.265
-+ sd=0.28 topography=normal area=0.063 perim=1.14
-MI7 y sleepb VPB pfet_01v8_hvt m=1 w=1 l=0.25 mult=1 sa=0.265 sb=0.265
-+ sd=0.28 topography=normal area=0.063 perim=1.14
-MI20 X y VPB pfet_01v8_hvt m=1 w=1 l=0.25 mult=1 sa=0.265 sb=0.265
-+ sd=0.28 topography=normal area=0.063 perim=1.14
-MI19 sleepb SLEEP VPB pfet_01v8_hvt m=1 w=1 l=0.25 mult=1 sa=0.265
+MI8 y A KAPWR VPB pfet_01v8_hvt m=1 w=1 l=0.25 mult=1 sa=0.265
 + sb=0.265 sd=0.28 topography=normal area=0.063 perim=1.14
-MMIN0 sleepb SLEEP VNB nfet_01v8 m=1 w=0.42 l=0.15 mult=1 sa=0.265
+MI7 y sleepb KAPWR VPB pfet_01v8_hvt m=1 w=1 l=0.25 mult=1 sa=0.265
 + sb=0.265 sd=0.28 topography=normal area=0.063 perim=1.14
-MI10 y A VNB nfet_01v8 m=1 w=0.42 l=0.15 mult=1 sa=0.265 sb=0.265
-+ sd=0.28 topography=normal area=0.063 perim=1.14
-MI21 net64 y VNB nfet_01v8 m=1 w=0.42 l=0.15 mult=1 sa=0.265 sb=0.265
-+ sd=0.28 topography=normal area=0.063 perim=1.14
-MI18 net60 SLEEP VNB nfet_01v8 m=1 w=0.42 l=0.15 mult=1 sa=0.265
+MI20 X y KAPWR VPB pfet_01v8_hvt m=1 w=1 l=0.25 mult=1 sa=0.265
 + sb=0.265 sd=0.28 topography=normal area=0.063 perim=1.14
-MI12 X y VNB nfet_01v8 m=1 w=0.42 l=0.15 mult=1 sa=0.265 sb=0.265
+MI19 sleepb SLEEP KAPWR VPB pfet_01v8_hvt m=1 w=1 l=0.25 mult=1
++ sa=0.265 sb=0.265 sd=0.28 topography=normal area=0.063 perim=1.14
+MMIN0 sleepb SLEEP net60 VNB nfet_01v8 m=1 w=0.42 l=0.15 mult=1
++ sa=0.265 sb=0.265 sd=0.28 topography=normal area=0.063 perim=1.14
+MI10 y A sndA VNB nfet_01v8 m=1 w=0.42 l=0.15 mult=1 sa=0.265 sb=0.265
 + sd=0.28 topography=normal area=0.063 perim=1.14
-MI11 sndA sleepb VNB nfet_01v8 m=1 w=0.42 l=0.15 mult=1 sa=0.265
+MI21 net64 y VGND VNB nfet_01v8 m=1 w=0.42 l=0.15 mult=1 sa=0.265
++ sb=0.265 sd=0.28 topography=normal area=0.063 perim=1.14
+MI18 net60 SLEEP VGND VNB nfet_01v8 m=1 w=0.42 l=0.15 mult=1 sa=0.265
++ sb=0.265 sd=0.28 topography=normal area=0.063 perim=1.14
+MI12 X y net64 VNB nfet_01v8 m=1 w=0.42 l=0.15 mult=1 sa=0.265
++ sb=0.265 sd=0.28 topography=normal area=0.063 perim=1.14
+MI11 sndA sleepb VGND VNB nfet_01v8 m=1 w=0.42 l=0.15 mult=1 sa=0.265
 + sb=0.265 sd=0.28 topography=normal area=0.063 perim=1.14
 .ENDS sky130_fd_sc_lp__iso0p_lp2
