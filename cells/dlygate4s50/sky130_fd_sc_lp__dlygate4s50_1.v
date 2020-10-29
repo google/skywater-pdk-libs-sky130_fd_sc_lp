@@ -69,20 +69,12 @@ endmodule
 
 `celldefine
 module sky130_fd_sc_lp__dlygate4s50_1 (
-    X   ,
-    A   ,
-    VPWR,
-    VGND,
-    VPB ,
-    VNB
+    X,
+    A
 );
 
-    output X   ;
-    input  A   ;
-    input  VPWR;
-    input  VGND;
-    input  VPB ;
-    input  VNB ;
+    output X;
+    input  A;
 
     // Voltage supply signals
     supply1 VPWR;

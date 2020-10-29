@@ -65,20 +65,7 @@ endmodule
 /*********************************************************/
 
 `celldefine
-module sky130_fd_sc_lp__decapkapwr_8 (
-    KAPWR,
-    VPWR ,
-    VGND ,
-    VPB  ,
-    VNB
-);
-
-    input KAPWR;
-    input VPWR ;
-    input VGND ;
-    input VPB  ;
-    input VNB  ;
-
+module sky130_fd_sc_lp__decapkapwr_8 ();
     // Voltage supply signals
     supply1 KAPWR;
     supply1 VPWR ;

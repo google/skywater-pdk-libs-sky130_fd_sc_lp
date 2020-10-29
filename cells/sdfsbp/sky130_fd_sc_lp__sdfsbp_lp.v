@@ -91,11 +91,7 @@ module sky130_fd_sc_lp__sdfsbp_lp (
     D    ,
     SCD  ,
     SCE  ,
-    SET_B,
-    VPWR ,
-    VGND ,
-    VPB  ,
-    VNB
+    SET_B
 );
 
     output Q    ;
@@ -105,10 +101,6 @@ module sky130_fd_sc_lp__sdfsbp_lp (
     input  SCD  ;
     input  SCE  ;
     input  SET_B;
-    input  VPWR ;
-    input  VGND ;
-    input  VPB  ;
-    input  VNB  ;
 
     // Voltage supply signals
     supply1 VPWR;

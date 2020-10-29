@@ -72,22 +72,12 @@ endmodule
 
 `celldefine
 module sky130_fd_sc_lp__invkapwr_1 (
-    Y    ,
-    A    ,
-    VPWR ,
-    VGND ,
-    KAPWR,
-    VPB  ,
-    VNB
+    Y,
+    A
 );
 
-    output Y    ;
-    input  A    ;
-    input  VPWR ;
-    input  VGND ;
-    input  KAPWR;
-    input  VPB  ;
-    input  VNB  ;
+    output Y;
+    input  A;
 
     // Voltage supply signals
     supply1 VPWR ;

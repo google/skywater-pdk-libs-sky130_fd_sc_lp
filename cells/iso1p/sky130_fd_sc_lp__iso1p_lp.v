@@ -74,20 +74,12 @@ endmodule
 module sky130_fd_sc_lp__iso1p_lp (
     X    ,
     A    ,
-    SLEEP,
-    KAPWR,
-    VGND ,
-    VPB  ,
-    VNB
+    SLEEP
 );
 
     output X    ;
     input  A    ;
     input  SLEEP;
-    input  KAPWR;
-    input  VGND ;
-    input  VPB  ;
-    input  VNB  ;
 
     // Voltage supply signals
     supply1 KAPWR;

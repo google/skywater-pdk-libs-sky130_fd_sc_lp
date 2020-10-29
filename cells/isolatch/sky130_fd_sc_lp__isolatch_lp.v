@@ -77,22 +77,12 @@ endmodule
 module sky130_fd_sc_lp__isolatch_lp (
     Q      ,
     D      ,
-    SLEEP_B,
-    KAPWR  ,
-    VPWR   ,
-    VGND   ,
-    VPB    ,
-    VNB
+    SLEEP_B
 );
 
     output Q      ;
     input  D      ;
     input  SLEEP_B;
-    input  KAPWR  ;
-    input  VPWR   ;
-    input  VGND   ;
-    input  VPB    ;
-    input  VNB    ;
 
     // Voltage supply signals
     supply1 KAPWR;
