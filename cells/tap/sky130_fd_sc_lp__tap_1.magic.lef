@@ -39,6 +39,8 @@ MACRO sky130_fd_sc_lp__tap_1
     PORT
       LAYER li1 ;
         RECT 0.090000 0.265000 0.390000 1.440000 ;
+      LAYER pwell ;
+        RECT 0.155000 0.320000 0.325000 1.145000 ;
     END
     PORT
       LAYER pwell ;
@@ -51,6 +53,8 @@ MACRO sky130_fd_sc_lp__tap_1
     PORT
       LAYER li1 ;
         RECT 0.090000 1.890000 0.390000 3.065000 ;
+      LAYER nwell ;
+        RECT -0.190000 1.655000 0.670000 3.520000 ;
     END
   END VPB
   PIN VPWR
@@ -68,8 +72,6 @@ MACRO sky130_fd_sc_lp__tap_1
     LAYER mcon ;
       RECT 0.155000 -0.085000 0.325000 0.085000 ;
       RECT 0.155000  3.245000 0.325000 3.415000 ;
-    LAYER nwell ;
-      RECT -0.190000 1.655000 0.670000 3.520000 ;
   END
 END sky130_fd_sc_lp__tap_1
 END LIBRARY

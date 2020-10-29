@@ -27,6 +27,7 @@ MACRO sky130_fd_sc_lp__busdrivernovlp2_20
   SITE unit ;
   PIN A
     ANTENNAGATEAREA  1.260000 ;
+    DIRECTION INPUT ;
     USE SIGNAL ;
     PORT
       LAYER li1 ;
@@ -36,6 +37,7 @@ MACRO sky130_fd_sc_lp__busdrivernovlp2_20
   END A
   PIN TE_B
     ANTENNAGATEAREA  0.630000 ;
+    DIRECTION INPUT ;
     USE SIGNAL ;
     PORT
       LAYER li1 ;
@@ -53,20 +55,9 @@ MACRO sky130_fd_sc_lp__busdrivernovlp2_20
         RECT 5.815000 0.995000 6.215000 1.325000 ;
     END
   END TE_B
-  PIN VNB
-    PORT
-      LAYER pwell ;
-        RECT 0.000000 0.000000 17.760000 0.245000 ;
-    END
-  END VNB
-  PIN VPB
-    PORT
-      LAYER nwell ;
-        RECT -0.190000 1.655000 17.950000 3.520000 ;
-    END
-  END VPB
   PIN Z
     ANTENNADIFFAREA  4.968000 ;
+    DIRECTION OUTPUT ;
     USE SIGNAL ;
     PORT
       LAYER met1 ;
@@ -81,6 +72,22 @@ MACRO sky130_fd_sc_lp__busdrivernovlp2_20
         RECT 0.000000 -0.245000 17.760000 0.245000 ;
     END
   END VGND
+  PIN VNB
+    DIRECTION INOUT ;
+    USE GROUND ;
+    PORT
+      LAYER pwell ;
+        RECT 0.000000 0.000000 17.760000 0.245000 ;
+    END
+  END VNB
+  PIN VPB
+    DIRECTION INOUT ;
+    USE POWER ;
+    PORT
+      LAYER nwell ;
+        RECT -0.190000 1.655000 17.950000 3.520000 ;
+    END
+  END VPB
   PIN VPWR
     DIRECTION INOUT ;
     USE POWER ;

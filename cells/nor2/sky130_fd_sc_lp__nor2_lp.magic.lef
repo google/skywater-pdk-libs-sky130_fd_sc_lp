@@ -101,5 +101,11 @@ MACRO sky130_fd_sc_lp__nor2_lp
         RECT 2.075000 3.245000 2.245000 3.415000 ;
     END
   END VPWR
+  OBS
+    LAYER nwell ;
+      RECT -0.190000 1.655000 2.590000 3.520000 ;
+    LAYER pwell ;
+      RECT 0.000000 0.000000 2.400000 0.245000 ;
+  END
 END sky130_fd_sc_lp__nor2_lp
 END LIBRARY
