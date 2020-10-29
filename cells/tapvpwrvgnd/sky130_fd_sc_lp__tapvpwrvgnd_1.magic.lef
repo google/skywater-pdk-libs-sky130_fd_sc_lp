@@ -31,6 +31,8 @@ MACRO sky130_fd_sc_lp__tapvpwrvgnd_1
     PORT
       LAYER met1 ;
         RECT 0.000000 -0.245000 0.480000 0.245000 ;
+      LAYER pwell ;
+        RECT 0.155000 0.320000 0.325000 1.145000 ;
     END
   END VGND
   PIN VPWR
@@ -39,6 +41,8 @@ MACRO sky130_fd_sc_lp__tapvpwrvgnd_1
     PORT
       LAYER met1 ;
         RECT 0.000000 3.085000 0.480000 3.575000 ;
+      LAYER nwell ;
+        RECT -0.190000 1.655000 0.670000 3.520000 ;
     END
   END VPWR
   OBS

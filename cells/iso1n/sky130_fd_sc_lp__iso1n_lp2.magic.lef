@@ -55,6 +55,7 @@ MACRO sky130_fd_sc_lp__iso1n_lp2
     END
   END X
   PIN KAGND
+    DIRECTION INPUT ;
     USE GROUND ;
     PORT
       LAYER met1 ;

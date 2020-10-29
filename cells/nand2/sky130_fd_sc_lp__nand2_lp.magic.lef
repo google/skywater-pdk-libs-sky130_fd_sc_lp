@@ -27,6 +27,7 @@ MACRO sky130_fd_sc_lp__nand2_lp
   SITE unit ;
   PIN A
     ANTENNAGATEAREA  0.189000 ;
+    DIRECTION INPUT ;
     USE SIGNAL ;
     PORT
       LAYER li1 ;
@@ -36,26 +37,16 @@ MACRO sky130_fd_sc_lp__nand2_lp
   END A
   PIN B
     ANTENNAGATEAREA  0.189000 ;
+    DIRECTION INPUT ;
     USE SIGNAL ;
     PORT
       LAYER li1 ;
         RECT 0.105000 0.955000 0.400000 2.890000 ;
     END
   END B
-  PIN VNB
-    PORT
-      LAYER pwell ;
-        RECT 0.000000 0.000000 1.440000 0.245000 ;
-    END
-  END VNB
-  PIN VPB
-    PORT
-      LAYER nwell ;
-        RECT -0.190000 1.655000 1.630000 3.520000 ;
-    END
-  END VPB
   PIN Y
     ANTENNADIFFAREA  0.237300 ;
+    DIRECTION OUTPUT ;
     USE SIGNAL ;
     PORT
       LAYER li1 ;
@@ -73,6 +64,22 @@ MACRO sky130_fd_sc_lp__nand2_lp
         RECT 0.000000 -0.245000 1.440000 0.245000 ;
     END
   END VGND
+  PIN VNB
+    DIRECTION INOUT ;
+    USE GROUND ;
+    PORT
+      LAYER pwell ;
+        RECT 0.000000 0.000000 1.440000 0.245000 ;
+    END
+  END VNB
+  PIN VPB
+    DIRECTION INOUT ;
+    USE POWER ;
+    PORT
+      LAYER nwell ;
+        RECT -0.190000 1.655000 1.630000 3.520000 ;
+    END
+  END VPB
   PIN VPWR
     DIRECTION INOUT ;
     USE POWER ;
